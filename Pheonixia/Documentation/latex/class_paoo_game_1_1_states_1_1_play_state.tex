@@ -1,0 +1,139 @@
+\hypertarget{class_paoo_game_1_1_states_1_1_play_state}{}\doxysection{Paoo\+Game.\+States.\+Play\+State Class Reference}
+\label{class_paoo_game_1_1_states_1_1_play_state}\index{PaooGame.States.PlayState@{PaooGame.States.PlayState}}
+
+
+Implementeaza/controleaza nivelul 1 al jocului.  
+
+
+Inheritance diagram for Paoo\+Game.\+States.\+Play\+State\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_states_1_1_play_state}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a346b4c9ebefcd668e290fdba61bdbaa5}{Play\+State}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_ac992edae02e9abb9d1cbcc231251cdae}{handler}})
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a3513e0df6e2261fe01b6272f7eb5a2b4}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza starea curenta a jocului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_aed83eb541b8b4b3eeaeae34f97ae82fe}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Deseneaza (randeaza) pe ecran starea curenta a jocului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a92009b2a9a04bb39fbc75c4b13042e89}{add\+Gun}} (\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet}{Bullet}} gun)
+\begin{DoxyCompactList}\small\item\em Creeaza un nou obiect de tipul gun si decrementeaza contorul care se ocupa cu memorarea numarului de gloante ramase inamicului. Daca s-\/au terminat gloantele si jucatorul inca mai are vieti ramase, aceasta functie il transfera pe jucator in \char`\"{}pagina\char`\"{} in care il informeaza ca a finalizat nivelul cu succes si ii aduce la cunostinta cati bani a strans. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a2ac59868324e0eaa03b00c4c2ed3d7a8}{add\+Money}} (\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money}{Money}} premiu)
+\begin{DoxyCompactList}\small\item\em Creeaza un nou obiect de tipul banut. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Implementeaza/controleaza nivelul 1 al jocului. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a346b4c9ebefcd668e290fdba61bdbaa5}\label{class_paoo_game_1_1_states_1_1_play_state_a346b4c9ebefcd668e290fdba61bdbaa5}} 
+\index{PaooGame.States.PlayState@{PaooGame.States.PlayState}!PlayState@{PlayState}}
+\index{PlayState@{PlayState}!PaooGame.States.PlayState@{PaooGame.States.PlayState}}
+\doxysubsubsection{\texorpdfstring{PlayState()}{PlayState()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+States.\+Play\+State.\+Play\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare al clasei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & o referinta catre un obiect \char`\"{}shortcut\char`\"{}, obiect ce contine o serie de referinte utile in program. \\
+\hline
+\end{DoxyParams}
+Apel al constructorului clasei de baza
+
+Incarca imaginea de fundal a nivelului
+
+Construieste jucatorul/playerul si ii seteaza pozitia pe harta
+
+Adaugare buton care il trimite pe utilizator inapoi catre meniu
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a92009b2a9a04bb39fbc75c4b13042e89}\label{class_paoo_game_1_1_states_1_1_play_state_a92009b2a9a04bb39fbc75c4b13042e89}} 
+\index{PaooGame.States.PlayState@{PaooGame.States.PlayState}!addGun@{addGun}}
+\index{addGun@{addGun}!PaooGame.States.PlayState@{PaooGame.States.PlayState}}
+\doxysubsubsection{\texorpdfstring{addGun()}{addGun()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+States.\+Play\+State.\+add\+Gun (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet}{Bullet}}}]{gun }\end{DoxyParamCaption})}
+
+
+
+Creeaza un nou obiect de tipul gun si decrementeaza contorul care se ocupa cu memorarea numarului de gloante ramase inamicului. Daca s-\/au terminat gloantele si jucatorul inca mai are vieti ramase, aceasta functie il transfera pe jucator in \char`\"{}pagina\char`\"{} in care il informeaza ca a finalizat nivelul cu succes si ii aduce la cunostinta cati bani a strans. 
+
+\textbackslash{} fn public void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a92009b2a9a04bb39fbc75c4b13042e89}{add\+Gun(\+Bullet gun)}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em gun} & referinta catre un obiect de tip glont. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a2ac59868324e0eaa03b00c4c2ed3d7a8}\label{class_paoo_game_1_1_states_1_1_play_state_a2ac59868324e0eaa03b00c4c2ed3d7a8}} 
+\index{PaooGame.States.PlayState@{PaooGame.States.PlayState}!addMoney@{addMoney}}
+\index{addMoney@{addMoney}!PaooGame.States.PlayState@{PaooGame.States.PlayState}}
+\doxysubsubsection{\texorpdfstring{addMoney()}{addMoney()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+States.\+Play\+State.\+add\+Money (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money}{Money}}}]{premiu }\end{DoxyParamCaption})}
+
+
+
+Creeaza un nou obiect de tipul banut. 
+
+\textbackslash{} fn public void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state_a92009b2a9a04bb39fbc75c4b13042e89}{add\+Gun(\+Bullet gun)}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em premiu} & referinta catre un obiect de tip Money. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_aed83eb541b8b4b3eeaeae34f97ae82fe}\label{class_paoo_game_1_1_states_1_1_play_state_aed83eb541b8b4b3eeaeae34f97ae82fe}} 
+\index{PaooGame.States.PlayState@{PaooGame.States.PlayState}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.States.PlayState@{PaooGame.States.PlayState}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Play\+State.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Deseneaza (randeaza) pe ecran starea curenta a jocului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie sa deseneze starea jocului pe ecran. \\
+\hline
+\end{DoxyParams}
+in partea de dreapta sus a ecranului se afiseaza simbolul flacarilor care intruchipeaza \char`\"{}gloantele\char`\"{} insotite de numarul curent de munitie ramas inamicului. In momentul in care numarul flacarilor ajunge la 0 si playerul inca nu si-\/a pierdut toate vietile inseamna ca nivelul 1 a fost dus la capat cu succes
+
+in partea stanga a ecranului
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a1b7ea671618e0aaaf398e5fada65ab57}{Paoo\+Game.\+States.\+State}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_play_state_a3513e0df6e2261fe01b6272f7eb5a2b4}\label{class_paoo_game_1_1_states_1_1_play_state_a3513e0df6e2261fe01b6272f7eb5a2b4}} 
+\index{PaooGame.States.PlayState@{PaooGame.States.PlayState}!Update@{Update}}
+\index{Update@{Update}!PaooGame.States.PlayState@{PaooGame.States.PlayState}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Play\+State.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizeaza starea curenta a jocului. 
+
+\texorpdfstring{$<$}{<} Contor care tine evidenta numarului de ori in care pasarea a fost lovita.
+
+\texorpdfstring{$<$}{<} Contor care tine evidenta numarului de \char`\"{}gloante\char`\"{} ramase inamicului.
+
+\texorpdfstring{$<$}{<} Contor care tine evidenta numarului de ori in care pasarea a fost lovita.
+
+\texorpdfstring{$<$}{<} Contor care tine evidenta numarului de \char`\"{}gloante\char`\"{} ramase inamicului.
+
+\texorpdfstring{$<$}{<} Contor care tine evidenta numarului de banuti colectati pe parcursul primului nivel.
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a358ce2dea3b960c707b1a7ed837e2355}{Paoo\+Game.\+States.\+State}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+States/\mbox{\hyperlink{_play_state_8java}{Play\+State.\+java}}\end{DoxyCompactItemize}

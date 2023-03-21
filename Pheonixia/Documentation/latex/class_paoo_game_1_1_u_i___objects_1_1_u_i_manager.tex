@@ -1,0 +1,130 @@
+\hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager}{}\doxysection{Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager Class Reference}
+\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager}\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+
+
+Clasa responsabila de gestionarea UI.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a4d17e1b33c9334385cae01a21af4640c}{UIManager}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} ref\+Links)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a5c1e7a11f809f8494612f86c36c8a760}{tick}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a5c1e7a11f809f8494612f86c36c8a760}{tick()}} pentru toate obiectele UI ale jocului \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a02b6b154a5b19d611df03047518da37d}{render}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em render pentru toate obiectele UI ale jocului \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_abfb613d33a9a29b0f7858c5fe5b84f81}{on\+Mouse\+Move}} (Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_aa841294921843bf86af9f7fc9d5f7b7d}{on\+Mouse\+Release}} (Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a8eb5330793304a4a7738f7e9ecb97372}{add\+Object}} (\mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_object}{UIObject}} o)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_ae4e3e01b868f0cc6aab4ba67ae942cf8}{remove\+Object}} (\mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_object}{UIObject}} o)
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a1e7e59bd0aaf2c78eb023163f864d043}{get\+Ref\+Links}} ()
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_aba0f8bf769a29cdf92d53cc8acf19d1c}{set\+Ref\+Links}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} ref\+Links)
+\item 
+Array\+List$<$ \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_object}{UIObject}} $>$ \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a7c7cf25bb47d8240d9492cefb0307abf}{get\+Objects}} ()
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_afe8254212573ba528b1602cd51b7783b}{set\+Objects}} (Array\+List$<$ \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_object}{UIObject}} $>$ objects)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a07ba39912a3a2ceed2bf36ee08972522}{Update}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa responsabila de gestionarea UI. 
+
+Aici se retin toate obiectele de tip \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_object}{UIObject}} din joc. Clasa contine metode existente in \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_object}{UIObject}} (Update, Draw, Move\+Mouse, Mouse\+Release) in care se apeleaza pentru toate obiectele retinute aceeasi metoda, plus inca doua metode de intretinere (add\+Obj si delete\+Obj); 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a4d17e1b33c9334385cae01a21af4640c}\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a4d17e1b33c9334385cae01a21af4640c}} 
+\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}!UIManager@{UIManager}}
+\index{UIManager@{UIManager}!PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+\doxysubsubsection{\texorpdfstring{UIManager()}{UIManager()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager.\+UIManager (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{ref\+Links }\end{DoxyParamCaption})}
+
+Constructor ce seteaza atrinutul ref\+Links al clasei si initializeaza lista de obiecte 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a8eb5330793304a4a7738f7e9ecb97372}\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a8eb5330793304a4a7738f7e9ecb97372}} 
+\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}!addObject@{addObject}}
+\index{addObject@{addObject}!PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+\doxysubsubsection{\texorpdfstring{addObject()}{addObject()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager.\+add\+Object (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_object}{UIObject}}}]{o }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a7c7cf25bb47d8240d9492cefb0307abf}\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a7c7cf25bb47d8240d9492cefb0307abf}} 
+\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}!getObjects@{getObjects}}
+\index{getObjects@{getObjects}!PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+\doxysubsubsection{\texorpdfstring{getObjects()}{getObjects()}}
+{\footnotesize\ttfamily Array\+List$<$ \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_object}{UIObject}} $>$ Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager.\+get\+Objects (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a1e7e59bd0aaf2c78eb023163f864d043}\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a1e7e59bd0aaf2c78eb023163f864d043}} 
+\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}!getRefLinks@{getRefLinks}}
+\index{getRefLinks@{getRefLinks}!PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+\doxysubsubsection{\texorpdfstring{getRefLinks()}{getRefLinks()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager.\+get\+Ref\+Links (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_abfb613d33a9a29b0f7858c5fe5b84f81}\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_abfb613d33a9a29b0f7858c5fe5b84f81}} 
+\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}!onMouseMove@{onMouseMove}}
+\index{onMouseMove@{onMouseMove}!PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+\doxysubsubsection{\texorpdfstring{onMouseMove()}{onMouseMove()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager.\+on\+Mouse\+Move (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_aa841294921843bf86af9f7fc9d5f7b7d}\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_aa841294921843bf86af9f7fc9d5f7b7d}} 
+\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}!onMouseRelease@{onMouseRelease}}
+\index{onMouseRelease@{onMouseRelease}!PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+\doxysubsubsection{\texorpdfstring{onMouseRelease()}{onMouseRelease()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager.\+on\+Mouse\+Release (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_ae4e3e01b868f0cc6aab4ba67ae942cf8}\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_ae4e3e01b868f0cc6aab4ba67ae942cf8}} 
+\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}!removeObject@{removeObject}}
+\index{removeObject@{removeObject}!PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+\doxysubsubsection{\texorpdfstring{removeObject()}{removeObject()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager.\+remove\+Object (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_object}{UIObject}}}]{o }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a02b6b154a5b19d611df03047518da37d}\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a02b6b154a5b19d611df03047518da37d}} 
+\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}!render@{render}}
+\index{render@{render}!PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager.\+render (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+render pentru toate obiectele UI ale jocului 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_afe8254212573ba528b1602cd51b7783b}\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_afe8254212573ba528b1602cd51b7783b}} 
+\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}!setObjects@{setObjects}}
+\index{setObjects@{setObjects}!PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+\doxysubsubsection{\texorpdfstring{setObjects()}{setObjects()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager.\+set\+Objects (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_object}{UIObject}} $>$}]{objects }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_aba0f8bf769a29cdf92d53cc8acf19d1c}\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_aba0f8bf769a29cdf92d53cc8acf19d1c}} 
+\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}!setRefLinks@{setRefLinks}}
+\index{setRefLinks@{setRefLinks}!PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+\doxysubsubsection{\texorpdfstring{setRefLinks()}{setRefLinks()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager.\+set\+Ref\+Links (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{ref\+Links }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a5c1e7a11f809f8494612f86c36c8a760}\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a5c1e7a11f809f8494612f86c36c8a760}} 
+\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}!tick@{tick}}
+\index{tick@{tick}!PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+\doxysubsubsection{\texorpdfstring{tick()}{tick()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager.\+tick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a5c1e7a11f809f8494612f86c36c8a760}{tick()}} pentru toate obiectele UI ale jocului 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a07ba39912a3a2ceed2bf36ee08972522}\label{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager_a07ba39912a3a2ceed2bf36ee08972522}} 
+\index{PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}!Update@{Update}}
+\index{Update@{Update}!PaooGame.UI\_Objects.UIManager@{PaooGame.UI\_Objects.UIManager}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+UI\+\_\+\+Objects.\+UIManager.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+UI\+\_\+\+Objects/\mbox{\hyperlink{_u_i_manager_8java}{UIManager.\+java}}\end{DoxyCompactItemize}

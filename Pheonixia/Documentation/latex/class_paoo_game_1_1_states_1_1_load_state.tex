@@ -1,0 +1,99 @@
+\hypertarget{class_paoo_game_1_1_states_1_1_load_state}{}\doxysection{Paoo\+Game.\+States.\+Load\+State Class Reference}
+\label{class_paoo_game_1_1_states_1_1_load_state}\index{PaooGame.States.LoadState@{PaooGame.States.LoadState}}
+
+
+Clasa ce se ocupa de starea programului in care sunt afisate progresele in joc ale utilizatorilor, reprezentand totodata un portal catre momentul de joc la care au ramas in trecut jucatorii.  
+
+
+Inheritance diagram for Paoo\+Game.\+States.\+Load\+State\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_states_1_1_load_state}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_load_state_a3c94dc3ac6f30eb9650c544317bc197e}{Load\+State}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_ac992edae02e9abb9d1cbcc231251cdae}{handler}})
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_load_state_af111ad37de3260cff11dbed6ad26e0a8}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza starea curenta a Load\+Stateului. \end{DoxyCompactList}\item 
+Image \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_load_state_acdf81b4c43bdfb9c3e084e6a26a3503f}{get\+Player\+Img}} ()
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_load_state_a17b44d5e251ad62d88acf3f12d8292e7}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Deseneaza (randeaza) pe ecran starea curenta a Load\+Stateului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Clasa ce se ocupa de starea programului in care sunt afisate progresele in joc ale utilizatorilor, reprezentand totodata un portal catre momentul de joc la care au ramas in trecut jucatorii. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_load_state_a3c94dc3ac6f30eb9650c544317bc197e}\label{class_paoo_game_1_1_states_1_1_load_state_a3c94dc3ac6f30eb9650c544317bc197e}} 
+\index{PaooGame.States.LoadState@{PaooGame.States.LoadState}!LoadState@{LoadState}}
+\index{LoadState@{LoadState}!PaooGame.States.LoadState@{PaooGame.States.LoadState}}
+\doxysubsubsection{\texorpdfstring{LoadState()}{LoadState()}}
+{\footnotesize\ttfamily Paoo\+Game.\+States.\+Load\+State.\+Load\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare al clasei. 
+
+\textbackslash{} fn public \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_load_state_a3c94dc3ac6f30eb9650c544317bc197e}{Load\+State(\+Handler handler)}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & o referinta catre un obiect \char`\"{}shortcut\char`\"{}, obiect ce contine o serie de referinte utile in program. \\
+\hline
+\end{DoxyParams}
+Apel al constructorului clasei de baza.
+
+Buton ce permite intoarcerea utilizatorului la meniul jocului.
+
+Adaugare butoane ce permit \char`\"{}teleportarea\char`\"{} utilizatorilor catre momentul din joc la care a ramas ultima data cand a jucat jocul.
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_load_state_a17b44d5e251ad62d88acf3f12d8292e7}\label{class_paoo_game_1_1_states_1_1_load_state_a17b44d5e251ad62d88acf3f12d8292e7}} 
+\index{PaooGame.States.LoadState@{PaooGame.States.LoadState}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.States.LoadState@{PaooGame.States.LoadState}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Load\+State.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Deseneaza (randeaza) pe ecran starea curenta a Load\+Stateului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie sa deseneze starea jocului pe ecran. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a1b7ea671618e0aaaf398e5fada65ab57}{Paoo\+Game.\+States.\+State}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_load_state_acdf81b4c43bdfb9c3e084e6a26a3503f}\label{class_paoo_game_1_1_states_1_1_load_state_acdf81b4c43bdfb9c3e084e6a26a3503f}} 
+\index{PaooGame.States.LoadState@{PaooGame.States.LoadState}!getPlayerImg@{getPlayerImg}}
+\index{getPlayerImg@{getPlayerImg}!PaooGame.States.LoadState@{PaooGame.States.LoadState}}
+\doxysubsubsection{\texorpdfstring{getPlayerImg()}{getPlayerImg()}}
+{\footnotesize\ttfamily Image Paoo\+Game.\+States.\+Load\+State.\+get\+Player\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_load_state_af111ad37de3260cff11dbed6ad26e0a8}\label{class_paoo_game_1_1_states_1_1_load_state_af111ad37de3260cff11dbed6ad26e0a8}} 
+\index{PaooGame.States.LoadState@{PaooGame.States.LoadState}!Update@{Update}}
+\index{Update@{Update}!PaooGame.States.LoadState@{PaooGame.States.LoadState}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Load\+State.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizeaza starea curenta a Load\+Stateului. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a358ce2dea3b960c707b1a7ed837e2355}{Paoo\+Game.\+States.\+State}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+States/\mbox{\hyperlink{_load_state_8java}{Load\+State.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,180 @@
+\hypertarget{class_paoo_game_1_1_objects_1_1_bullet}{}\doxysection{Paoo\+Game.\+Objects.\+Bullet Class Reference}
+\label{class_paoo_game_1_1_objects_1_1_bullet}\index{PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}}
+
+
+Clasa \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet}{Bullet}} implementeaza notiunea de fireball.  
+
+
+Inheritance diagram for Paoo\+Game.\+Objects.\+Bullet\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_paoo_game_1_1_objects_1_1_bullet}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet_a703cfce3035c0ca5033d3d22ed075e72}{Bullet}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a2dbde2d7516cec70d9a8c11008c633f1}{handler}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab4e989f6f8d4dd8aad80fdb0a5493fe0}{width}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_aea0212934379c2e811f9d17edde0758b}{height}})
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet}{Bullet}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet_aa044b4d4de06c2065544974e8b250aaa}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Se deplaseaza fireball-\/ul pe ecran de la elicopter spre stanga. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet_afa6a8e5afd5b38b463bd2a038f2f4cab}{set\+Hit}} ()
+\begin{DoxyCompactList}\small\item\em Daca se detecteaza o coliziune intre fireball si player, se seteaza flagul lovit. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet_ac2931b7b2dede035c83011356f2ef58b}{To\+Be\+Removed}} ()
+\begin{DoxyCompactList}\small\item\em Se returneaza functia de remove. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet_ac8fd15b9369d9e56626e5c13ca59f99a}{set\+Draw}} (boolean val)
+\begin{DoxyCompactList}\small\item\em Se marcheaza daca trebuie sa se realizeze sau nu desenarea fireball-\/ului. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet_a27ee881f166ded1870a2878af349bb55}{get\+Draw}} ()
+\begin{DoxyCompactList}\small\item\em Se returneaza 1 daca trebuie sa se realizeze desenarea fireball-\/ului, si 0 in caz contrat. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet_a63432debf535981e99c4cecad2cb8101}{setX}} (int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}})
+\begin{DoxyCompactList}\small\item\em Se seteaza pozitia curenta pe axa X a fireball-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet_a2144dbb347a80e85377e05e7a5436f07}{setY}} (int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}})
+\begin{DoxyCompactList}\small\item\em Se seteaza pozitia curenta pe axa Y a fireball-\/ului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet_af16bb3d539344754eb301ef9c7a88e58}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Randeaza/deseneaza fireball-\/ul in noua pozitie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Clasa \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet}{Bullet}} implementeaza notiunea de fireball. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_bullet_a703cfce3035c0ca5033d3d22ed075e72}\label{class_paoo_game_1_1_objects_1_1_bullet_a703cfce3035c0ca5033d3d22ed075e72}} 
+\index{PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}!Bullet@{Bullet}}
+\index{Bullet@{Bullet}!PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}}
+\doxysubsubsection{\texorpdfstring{Bullet()}{Bullet()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Objects.\+Bullet.\+Bullet (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare al clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet}{Bullet}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & Referinta catre obiectul shortcut (obiect ce retine o serie de referinte din program). \\
+\hline
+{\em x} & Pozitia initiala pe axa X a fireball-\/ului. \\
+\hline
+{\em y} & Pozitia initiala pe axa Y a fireball-\/ului. \\
+\hline
+{\em width} & Latimea fireball-\/ului. \\
+\hline
+{\em height} & Lungimea fireball-\/ului. \\
+\hline
+\end{DoxyParams}
+Apel al constructorului clasei de baza
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_bullet_af16bb3d539344754eb301ef9c7a88e58}\label{class_paoo_game_1_1_objects_1_1_bullet_af16bb3d539344754eb301ef9c7a88e58}} 
+\index{PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Bullet.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Randeaza/deseneaza fireball-\/ul in noua pozitie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie efectuata desenarea fireball-\/ului. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a988a0fcdc3b39b990cfec7bf426762fa}{Paoo\+Game.\+Objects.\+Item}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_bullet_a27ee881f166ded1870a2878af349bb55}\label{class_paoo_game_1_1_objects_1_1_bullet_a27ee881f166ded1870a2878af349bb55}} 
+\index{PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}!getDraw@{getDraw}}
+\index{getDraw@{getDraw}!PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}}
+\doxysubsubsection{\texorpdfstring{getDraw()}{getDraw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Bullet.\+get\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se returneaza 1 daca trebuie sa se realizeze desenarea fireball-\/ului, si 0 in caz contrat. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_bullet_ac8fd15b9369d9e56626e5c13ca59f99a}\label{class_paoo_game_1_1_objects_1_1_bullet_ac8fd15b9369d9e56626e5c13ca59f99a}} 
+\index{PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}!setDraw@{setDraw}}
+\index{setDraw@{setDraw}!PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}}
+\doxysubsubsection{\texorpdfstring{setDraw()}{setDraw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Bullet.\+set\+Draw (\begin{DoxyParamCaption}\item[{boolean}]{val }\end{DoxyParamCaption})}
+
+
+
+Se marcheaza daca trebuie sa se realizeze sau nu desenarea fireball-\/ului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & referinta catre valoarea curenta care indica daca trebuie sau nu desenat fireball-\/ul \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_bullet_afa6a8e5afd5b38b463bd2a038f2f4cab}\label{class_paoo_game_1_1_objects_1_1_bullet_afa6a8e5afd5b38b463bd2a038f2f4cab}} 
+\index{PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}!setHit@{setHit}}
+\index{setHit@{setHit}!PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}}
+\doxysubsubsection{\texorpdfstring{setHit()}{setHit()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Bullet.\+set\+Hit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Daca se detecteaza o coliziune intre fireball si player, se seteaza flagul lovit. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_bullet_a63432debf535981e99c4cecad2cb8101}\label{class_paoo_game_1_1_objects_1_1_bullet_a63432debf535981e99c4cecad2cb8101}} 
+\index{PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}!setX@{setX}}
+\index{setX@{setX}!PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}}
+\doxysubsubsection{\texorpdfstring{setX()}{setX()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Bullet.\+setX (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Se seteaza pozitia curenta pe axa X a fireball-\/ului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & referinta catre valoarea curenta pe axa X a fireball-\/ului \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_bullet_a2144dbb347a80e85377e05e7a5436f07}\label{class_paoo_game_1_1_objects_1_1_bullet_a2144dbb347a80e85377e05e7a5436f07}} 
+\index{PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}!setY@{setY}}
+\index{setY@{setY}!PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}}
+\doxysubsubsection{\texorpdfstring{setY()}{setY()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Bullet.\+setY (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Se seteaza pozitia curenta pe axa Y a fireball-\/ului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em y} & referinta catre valoarea curenta pe axa Y a fireball-\/ului \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_bullet_ac2931b7b2dede035c83011356f2ef58b}\label{class_paoo_game_1_1_objects_1_1_bullet_ac2931b7b2dede035c83011356f2ef58b}} 
+\index{PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}!ToBeRemoved@{ToBeRemoved}}
+\index{ToBeRemoved@{ToBeRemoved}!PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}}
+\doxysubsubsection{\texorpdfstring{ToBeRemoved()}{ToBeRemoved()}}
+{\footnotesize\ttfamily public boolean Paoo\+Game.\+Objects.\+Bullet.\+To\+Be\+Removed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se returneaza functia de remove. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_bullet_aa044b4d4de06c2065544974e8b250aaa}\label{class_paoo_game_1_1_objects_1_1_bullet_aa044b4d4de06c2065544974e8b250aaa}} 
+\index{PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Objects.Bullet@{PaooGame.Objects.Bullet}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Bullet.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se deplaseaza fireball-\/ul pe ecran de la elicopter spre stanga. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab54897014ab336bf592568b0a0879866}{Paoo\+Game.\+Objects.\+Item}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Objects/\mbox{\hyperlink{_bullet_8java}{Bullet.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,93 @@
+\hypertarget{class_paoo_game_1_1_states_1_1_game_over_state}{}\doxysection{Paoo\+Game.\+States.\+Game\+Over\+State Class Reference}
+\label{class_paoo_game_1_1_states_1_1_game_over_state}\index{PaooGame.States.GameOverState@{PaooGame.States.GameOverState}}
+
+
+Implementeaza notiunea de joc pierdut.  
+
+
+Inheritance diagram for Paoo\+Game.\+States.\+Game\+Over\+State\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_states_1_1_game_over_state}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_game_over_state_a683b256ef2fe3005b691c32322c7757f}{Game\+Over\+State}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_ac992edae02e9abb9d1cbcc231251cdae}{handler}})
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare a clasei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_game_over_state_a613f2f4de872ec11e31a647adf2585c6}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza starea curenta a starii Game\+Over. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_game_over_state_a6eef88cf24a97d3d21b6896e02fcb49c}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Deseneaza (randeaza) pe ecran starea curenta a starii de Game\+Over. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Implementeaza notiunea de joc pierdut. 
+
+Reprezinta starea care informeaza utilizatorul ca si-\/a pierdut toate vietile si prin urmare jocul a luat sfarsit. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_game_over_state_a683b256ef2fe3005b691c32322c7757f}\label{class_paoo_game_1_1_states_1_1_game_over_state_a683b256ef2fe3005b691c32322c7757f}} 
+\index{PaooGame.States.GameOverState@{PaooGame.States.GameOverState}!GameOverState@{GameOverState}}
+\index{GameOverState@{GameOverState}!PaooGame.States.GameOverState@{PaooGame.States.GameOverState}}
+\doxysubsubsection{\texorpdfstring{GameOverState()}{GameOverState()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+States.\+Game\+Over\+State.\+Game\+Over\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare a clasei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & referinta catre un obiect \char`\"{}shortcut\char`\"{}, obiect ce contine o serie de referinte utile in program. \\
+\hline
+\end{DoxyParams}
+Apel al constructorului clasei de baza.
+
+Se construieste un nou manager de obiecte UI
+
+Initializarea backgroundului starii de Game\+Over.
+
+Adaugare buton care il trimite pe utilizator inapoi catre meniu
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_game_over_state_a6eef88cf24a97d3d21b6896e02fcb49c}\label{class_paoo_game_1_1_states_1_1_game_over_state_a6eef88cf24a97d3d21b6896e02fcb49c}} 
+\index{PaooGame.States.GameOverState@{PaooGame.States.GameOverState}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.States.GameOverState@{PaooGame.States.GameOverState}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Game\+Over\+State.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Deseneaza (randeaza) pe ecran starea curenta a starii de Game\+Over. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie sa deseneze starea jocului pe ecran. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a1b7ea671618e0aaaf398e5fada65ab57}{Paoo\+Game.\+States.\+State}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_game_over_state_a613f2f4de872ec11e31a647adf2585c6}\label{class_paoo_game_1_1_states_1_1_game_over_state_a613f2f4de872ec11e31a647adf2585c6}} 
+\index{PaooGame.States.GameOverState@{PaooGame.States.GameOverState}!Update@{Update}}
+\index{Update@{Update}!PaooGame.States.GameOverState@{PaooGame.States.GameOverState}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Game\+Over\+State.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizeaza starea curenta a starii Game\+Over. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a358ce2dea3b960c707b1a7ed837e2355}{Paoo\+Game.\+States.\+State}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+States/\mbox{\hyperlink{_game_over_state_8java}{Game\+Over\+State.\+java}}\end{DoxyCompactItemize}

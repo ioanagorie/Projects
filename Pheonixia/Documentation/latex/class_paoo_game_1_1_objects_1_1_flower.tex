@@ -1,0 +1,180 @@
+\hypertarget{class_paoo_game_1_1_objects_1_1_flower}{}\doxysection{Paoo\+Game.\+Objects.\+Flower Class Reference}
+\label{class_paoo_game_1_1_objects_1_1_flower}\index{PaooGame.Objects.Flower@{PaooGame.Objects.Flower}}
+
+
+Clasa \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower}{Flower}} implementeaza notiunea de obstacol.  
+
+
+Inheritance diagram for Paoo\+Game.\+Objects.\+Flower\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_paoo_game_1_1_objects_1_1_flower}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower_a80a9aa7e445742dda794ad39bd183637}{Flower}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a2dbde2d7516cec70d9a8c11008c633f1}{handler}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab4e989f6f8d4dd8aad80fdb0a5493fe0}{width}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_aea0212934379c2e811f9d17edde0758b}{height}})
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower}{Flower}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower_a52486ff91c95f201a2467fa41f71a0d2}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Se deplaseaza obstacolul pe ecran din dreapta spre stanga. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower_a6b0d8296b9f20aa4bf566865e991f602}{set\+Hit}} ()
+\begin{DoxyCompactList}\small\item\em Daca se detecteaza o coliziune intre obstacol si player, se seteaza flagul lovit. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower_ac78b31736c248d0ce0a254bd446b1adc}{To\+Be\+Removed}} ()
+\begin{DoxyCompactList}\small\item\em Se returneaza functia de remove. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower_a0ad6f231576ea17b0fafa8ae4e329f2b}{set\+Draw}} (boolean val)
+\begin{DoxyCompactList}\small\item\em Se marcheaza daca trebuie sa se realizeze sau nu desenarea obstacolului. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower_a7e7ab0d849302a708d2a864bde7962e1}{get\+Draw}} ()
+\begin{DoxyCompactList}\small\item\em Se returneaza 1 daca trebuie sa se realizeze desenarea obstacolului, si 0 in caz contrat. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower_a3a1c6f760e1fe1bce8d3d7dde59a577a}{setX}} (int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}})
+\begin{DoxyCompactList}\small\item\em Se seteaza pozitia curenta pe axa X a obstacolului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower_a30a11c73a9fec675171ed89581080d24}{setY}} (int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}})
+\begin{DoxyCompactList}\small\item\em Se seteaza pozitia curenta pe axa Y a obstacolului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower_a165b189e2f76f29a2ceba9d40d4417c7}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Randeaza/deseneaza obstacolul in noua pozitie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Clasa \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower}{Flower}} implementeaza notiunea de obstacol. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_flower_a80a9aa7e445742dda794ad39bd183637}\label{class_paoo_game_1_1_objects_1_1_flower_a80a9aa7e445742dda794ad39bd183637}} 
+\index{PaooGame.Objects.Flower@{PaooGame.Objects.Flower}!Flower@{Flower}}
+\index{Flower@{Flower}!PaooGame.Objects.Flower@{PaooGame.Objects.Flower}}
+\doxysubsubsection{\texorpdfstring{Flower()}{Flower()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Objects.\+Flower.\+Flower (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare al clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower}{Flower}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & Referinta catre obiectul shortcut (obiect ce retine o serie de referinte din program). \\
+\hline
+{\em x} & Pozitia initiala pe axa X a obstacolului. \\
+\hline
+{\em y} & Pozitia initiala pe axa Y a obstacolului. \\
+\hline
+{\em width} & Latimea obstacolului \\
+\hline
+{\em height} & Lungimea obstacolului \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_flower_a165b189e2f76f29a2ceba9d40d4417c7}\label{class_paoo_game_1_1_objects_1_1_flower_a165b189e2f76f29a2ceba9d40d4417c7}} 
+\index{PaooGame.Objects.Flower@{PaooGame.Objects.Flower}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Objects.Flower@{PaooGame.Objects.Flower}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Flower.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Randeaza/deseneaza obstacolul in noua pozitie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie efectuata desenarea obstacolului. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a988a0fcdc3b39b990cfec7bf426762fa}{Paoo\+Game.\+Objects.\+Item}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_flower_a7e7ab0d849302a708d2a864bde7962e1}\label{class_paoo_game_1_1_objects_1_1_flower_a7e7ab0d849302a708d2a864bde7962e1}} 
+\index{PaooGame.Objects.Flower@{PaooGame.Objects.Flower}!getDraw@{getDraw}}
+\index{getDraw@{getDraw}!PaooGame.Objects.Flower@{PaooGame.Objects.Flower}}
+\doxysubsubsection{\texorpdfstring{getDraw()}{getDraw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Flower.\+get\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se returneaza 1 daca trebuie sa se realizeze desenarea obstacolului, si 0 in caz contrat. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_flower_a0ad6f231576ea17b0fafa8ae4e329f2b}\label{class_paoo_game_1_1_objects_1_1_flower_a0ad6f231576ea17b0fafa8ae4e329f2b}} 
+\index{PaooGame.Objects.Flower@{PaooGame.Objects.Flower}!setDraw@{setDraw}}
+\index{setDraw@{setDraw}!PaooGame.Objects.Flower@{PaooGame.Objects.Flower}}
+\doxysubsubsection{\texorpdfstring{setDraw()}{setDraw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Flower.\+set\+Draw (\begin{DoxyParamCaption}\item[{boolean}]{val }\end{DoxyParamCaption})}
+
+
+
+Se marcheaza daca trebuie sa se realizeze sau nu desenarea obstacolului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & referinta catre valoarea curenta care indica daca trebuie sau nu desenat obstacolul \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_flower_a6b0d8296b9f20aa4bf566865e991f602}\label{class_paoo_game_1_1_objects_1_1_flower_a6b0d8296b9f20aa4bf566865e991f602}} 
+\index{PaooGame.Objects.Flower@{PaooGame.Objects.Flower}!setHit@{setHit}}
+\index{setHit@{setHit}!PaooGame.Objects.Flower@{PaooGame.Objects.Flower}}
+\doxysubsubsection{\texorpdfstring{setHit()}{setHit()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Flower.\+set\+Hit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Daca se detecteaza o coliziune intre obstacol si player, se seteaza flagul lovit. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_flower_a3a1c6f760e1fe1bce8d3d7dde59a577a}\label{class_paoo_game_1_1_objects_1_1_flower_a3a1c6f760e1fe1bce8d3d7dde59a577a}} 
+\index{PaooGame.Objects.Flower@{PaooGame.Objects.Flower}!setX@{setX}}
+\index{setX@{setX}!PaooGame.Objects.Flower@{PaooGame.Objects.Flower}}
+\doxysubsubsection{\texorpdfstring{setX()}{setX()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Flower.\+setX (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Se seteaza pozitia curenta pe axa X a obstacolului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & referinta catre valoarea curenta pe axa X a obstacolului \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_flower_a30a11c73a9fec675171ed89581080d24}\label{class_paoo_game_1_1_objects_1_1_flower_a30a11c73a9fec675171ed89581080d24}} 
+\index{PaooGame.Objects.Flower@{PaooGame.Objects.Flower}!setY@{setY}}
+\index{setY@{setY}!PaooGame.Objects.Flower@{PaooGame.Objects.Flower}}
+\doxysubsubsection{\texorpdfstring{setY()}{setY()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Flower.\+setY (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Se seteaza pozitia curenta pe axa Y a obstacolului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em y} & referinta catre valoarea curenta pe axa Y a obstacolului \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_flower_ac78b31736c248d0ce0a254bd446b1adc}\label{class_paoo_game_1_1_objects_1_1_flower_ac78b31736c248d0ce0a254bd446b1adc}} 
+\index{PaooGame.Objects.Flower@{PaooGame.Objects.Flower}!ToBeRemoved@{ToBeRemoved}}
+\index{ToBeRemoved@{ToBeRemoved}!PaooGame.Objects.Flower@{PaooGame.Objects.Flower}}
+\doxysubsubsection{\texorpdfstring{ToBeRemoved()}{ToBeRemoved()}}
+{\footnotesize\ttfamily public boolean Paoo\+Game.\+Objects.\+Flower.\+To\+Be\+Removed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se returneaza functia de remove. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_flower_a52486ff91c95f201a2467fa41f71a0d2}\label{class_paoo_game_1_1_objects_1_1_flower_a52486ff91c95f201a2467fa41f71a0d2}} 
+\index{PaooGame.Objects.Flower@{PaooGame.Objects.Flower}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Objects.Flower@{PaooGame.Objects.Flower}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Flower.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se deplaseaza obstacolul pe ecran din dreapta spre stanga. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab54897014ab336bf592568b0a0879866}{Paoo\+Game.\+Objects.\+Item}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Objects/\mbox{\hyperlink{_flower_8java}{Flower.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,111 @@
+\hypertarget{class_paoo_game_1_1_objects_1_1_enemy}{}\doxysection{Paoo\+Game.\+Objects.\+Enemy Class Reference}
+\label{class_paoo_game_1_1_objects_1_1_enemy}\index{PaooGame.Objects.Enemy@{PaooGame.Objects.Enemy}}
+
+
+Clasa \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_enemy}{Enemy}} implementeaza notiunea de inamic al player-\/ului.  
+
+
+Inheritance diagram for Paoo\+Game.\+Objects.\+Enemy\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_paoo_game_1_1_objects_1_1_enemy}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_enemy_ad3e9bb2edb05a5405d2dff5ad84809c7}{Enemy}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a2dbde2d7516cec70d9a8c11008c633f1}{handler}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}})
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei Enemey. \end{DoxyCompactList}\item 
+Image \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_enemy_aed90e5d6213e72916e2eed78e5e223d8}{get\+Enemy\+Img}} ()
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_enemy_af50b4079ee28fff9417fa5a3bcb7a319}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_enemy_ab2f444f578d25a7da4980d846839f1ca}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Randeaza/deseneaza inamicul in noua pozitie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{enum_paoo_game_1_1_directions_1_1_current___direction}{Current\+\_\+\+Direction}} \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_enemy_ac200fa02ac8e0cb602b6d71290bc6690}{directie}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Clasa \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_enemy}{Enemy}} implementeaza notiunea de inamic al player-\/ului. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_enemy_ad3e9bb2edb05a5405d2dff5ad84809c7}\label{class_paoo_game_1_1_objects_1_1_enemy_ad3e9bb2edb05a5405d2dff5ad84809c7}} 
+\index{PaooGame.Objects.Enemy@{PaooGame.Objects.Enemy}!Enemy@{Enemy}}
+\index{Enemy@{Enemy}!PaooGame.Objects.Enemy@{PaooGame.Objects.Enemy}}
+\doxysubsubsection{\texorpdfstring{Enemy()}{Enemy()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Objects.\+Enemy.\+Enemy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare al clasei Enemey. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hanlder} & Referinta catre obiectul shortcut (obiect ce retine o serie de referinte din program). \\
+\hline
+{\em x} & Pozitia initiala pe axa X a inamicului. \\
+\hline
+{\em y} & Pozitia initiala pe axa Y a inamicului. \\
+\hline
+\end{DoxyParams}
+Apel al constructorului clasei de baza
+
+Seteaza imaginea de start a inamicului
+
+Seteaza directia inamicului
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_enemy_ab2f444f578d25a7da4980d846839f1ca}\label{class_paoo_game_1_1_objects_1_1_enemy_ab2f444f578d25a7da4980d846839f1ca}} 
+\index{PaooGame.Objects.Enemy@{PaooGame.Objects.Enemy}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Objects.Enemy@{PaooGame.Objects.Enemy}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Enemy.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Randeaza/deseneaza inamicul in noua pozitie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie efectuata desenarea inamicului. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a988a0fcdc3b39b990cfec7bf426762fa}{Paoo\+Game.\+Objects.\+Item}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_enemy_aed90e5d6213e72916e2eed78e5e223d8}\label{class_paoo_game_1_1_objects_1_1_enemy_aed90e5d6213e72916e2eed78e5e223d8}} 
+\index{PaooGame.Objects.Enemy@{PaooGame.Objects.Enemy}!getEnemyImg@{getEnemyImg}}
+\index{getEnemyImg@{getEnemyImg}!PaooGame.Objects.Enemy@{PaooGame.Objects.Enemy}}
+\doxysubsubsection{\texorpdfstring{getEnemyImg()}{getEnemyImg()}}
+{\footnotesize\ttfamily Image Paoo\+Game.\+Objects.\+Enemy.\+get\+Enemy\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_enemy_af50b4079ee28fff9417fa5a3bcb7a319}\label{class_paoo_game_1_1_objects_1_1_enemy_af50b4079ee28fff9417fa5a3bcb7a319}} 
+\index{PaooGame.Objects.Enemy@{PaooGame.Objects.Enemy}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Objects.Enemy@{PaooGame.Objects.Enemy}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Enemy.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Se incearca depistarea unor items din imprejurimi si daca se gasesc, in functie de cat timp a trecut de la ultimul atac ataca sau nu. Daca nu gaseste itemuri de distrus in jur, se plimba. 
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab54897014ab336bf592568b0a0879866}{Paoo\+Game.\+Objects.\+Item}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_enemy_ac200fa02ac8e0cb602b6d71290bc6690}\label{class_paoo_game_1_1_objects_1_1_enemy_ac200fa02ac8e0cb602b6d71290bc6690}} 
+\index{PaooGame.Objects.Enemy@{PaooGame.Objects.Enemy}!directie@{directie}}
+\index{directie@{directie}!PaooGame.Objects.Enemy@{PaooGame.Objects.Enemy}}
+\doxysubsubsection{\texorpdfstring{directie}{directie}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enum_paoo_game_1_1_directions_1_1_current___direction}{Current\+\_\+\+Direction}} Paoo\+Game.\+Objects.\+Enemy.\+directie\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Objects/\mbox{\hyperlink{_enemy_8java}{Enemy.\+java}}\end{DoxyCompactItemize}

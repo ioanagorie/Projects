@@ -1,0 +1,95 @@
+\hypertarget{class_paoo_game_1_1_states_1_1_win_state}{}\doxysection{Paoo\+Game.\+States.\+Win\+State Class Reference}
+\label{class_paoo_game_1_1_states_1_1_win_state}\index{PaooGame.States.WinState@{PaooGame.States.WinState}}
+
+
+Implementeaza notiunea de finalizare cu succes a misiunii nivelului 1 si reprezinta totodata o stare de tranzitie intre cele doua niveluri ale jocului.  
+
+
+Inheritance diagram for Paoo\+Game.\+States.\+Win\+State\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_states_1_1_win_state}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state_a64c321776b1b72a01143c55ce41b1475}{Win\+State}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_ac992edae02e9abb9d1cbcc231251cdae}{handler}})
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare a clasei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state_a12c95e9738eb2ed0f408699cd8f986f9}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza starea curenta a starii \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state}{Win\+State}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state_a6560aca9c931185f3cbb673dcb6ccb03}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Deseneaza (randeaza) pe ecran starea curenta a starii \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state}{Win\+State}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Implementeaza notiunea de finalizare cu succes a misiunii nivelului 1 si reprezinta totodata o stare de tranzitie intre cele doua niveluri ale jocului. 
+
+Reprezinta starea care informeaza utilizatorul ca a reusit sa reziste atacului inamicului in nivelul 1, ii aduce la cunostinta suma de banuti colectata pe parcursul primei etape ale jocului si ii ii deschide calea spre urmatorul nivel prin apasarea butonului PLAY regasit in subsolul ecranului. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_win_state_a64c321776b1b72a01143c55ce41b1475}\label{class_paoo_game_1_1_states_1_1_win_state_a64c321776b1b72a01143c55ce41b1475}} 
+\index{PaooGame.States.WinState@{PaooGame.States.WinState}!WinState@{WinState}}
+\index{WinState@{WinState}!PaooGame.States.WinState@{PaooGame.States.WinState}}
+\doxysubsubsection{\texorpdfstring{WinState()}{WinState()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+States.\+Win\+State.\+Win\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare a clasei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & referinta catre un obiect \char`\"{}shortcut\char`\"{}, obiect ce contine o serie de referinte utile in program. \\
+\hline
+\end{DoxyParams}
+Apel al constructorului clasei de baza.
+
+Initializarea backgroundului starii de \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state}{Win\+State}}.
+
+Se construieste un nou manager de obiecte UI
+
+Adaugare buton care il trimite pe utilizator catre urmatorul nivel al jocului (in \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_play_state2}{Play\+State2}}).
+
+Adaugare buton care il trimite pe utilizator inapoi catre meniu
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_win_state_a6560aca9c931185f3cbb673dcb6ccb03}\label{class_paoo_game_1_1_states_1_1_win_state_a6560aca9c931185f3cbb673dcb6ccb03}} 
+\index{PaooGame.States.WinState@{PaooGame.States.WinState}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.States.WinState@{PaooGame.States.WinState}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Win\+State.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Deseneaza (randeaza) pe ecran starea curenta a starii \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state}{Win\+State}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie sa deseneze starea jocului pe ecran. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a1b7ea671618e0aaaf398e5fada65ab57}{Paoo\+Game.\+States.\+State}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_win_state_a12c95e9738eb2ed0f408699cd8f986f9}\label{class_paoo_game_1_1_states_1_1_win_state_a12c95e9738eb2ed0f408699cd8f986f9}} 
+\index{PaooGame.States.WinState@{PaooGame.States.WinState}!Update@{Update}}
+\index{Update@{Update}!PaooGame.States.WinState@{PaooGame.States.WinState}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Win\+State.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizeaza starea curenta a starii \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state}{Win\+State}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a358ce2dea3b960c707b1a7ed837e2355}{Paoo\+Game.\+States.\+State}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+States/\mbox{\hyperlink{_win_state_8java}{Win\+State.\+java}}\end{DoxyCompactItemize}

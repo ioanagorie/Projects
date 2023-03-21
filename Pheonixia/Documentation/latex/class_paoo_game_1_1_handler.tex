@@ -1,0 +1,289 @@
+\hypertarget{class_paoo_game_1_1_handler}{}\doxysection{Paoo\+Game.\+Handler Class Reference}
+\label{class_paoo_game_1_1_handler}\index{PaooGame.Handler@{PaooGame.Handler}}
+
+
+Clasa ce retine o serie de referinte ale unor elemente pentru a fi usor accesibile.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_handler_a1f4838f7153f3232ba92c2ad50a6f46a}{Handler}} (\mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} game)
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_paoo_game_1_1_input_1_1_key_manager}{Key\+Manager}} \mbox{\hyperlink{class_paoo_game_1_1_handler_a895572d4c251b4c15e483850c7d84587}{Get\+Key\+Manager}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza referinta catre managerul evenimentelor de tastatura. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_paoo_game_1_1_input_1_1_mouse_manager}{Mouse\+Manager}} \mbox{\hyperlink{class_paoo_game_1_1_handler_a1b695b945c217be6837a74c701a95cbd}{Get\+Mouse\+Manager}} ()
+\item 
+int \mbox{\hyperlink{class_paoo_game_1_1_handler_a84d9c52d60442e9ec797f5ec8737ecc2}{Get\+Width}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza latimea ferestrei jocului. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_paoo_game_1_1_handler_a04348d5c7862d281b9a1b714a2be915c}{Get\+Height}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza inaltimea ferestrei jocului. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} \mbox{\hyperlink{class_paoo_game_1_1_handler_ac8fb7872e8a71bfc5b0cb9f0efc8414a}{Get\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Intoarce referinta catre obiectul \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_handler_a01292eefca1a1abdd0dfd16e1309329a}{Set\+Game}} (\mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} game)
+\begin{DoxyCompactList}\small\item\em Seteaza referinta catre un obiect \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_paoo_game_1_1_maps_1_1_map}{Map}} \mbox{\hyperlink{class_paoo_game_1_1_handler_a69fce6d37935a3b440a23e9b53cb6b10}{Get\+Map}} ()
+\begin{DoxyCompactList}\small\item\em Intoarce referinta catre harta curenta. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_handler_a47dc891b49158364dda83538a43ba5ad}{Set\+Map}} (\mbox{\hyperlink{class_paoo_game_1_1_maps_1_1_map}{Map}} map)
+\begin{DoxyCompactList}\small\item\em Seteaza referinta catre harta curenta. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_paoo_game_1_1_handler_a865b608dd0ca3a1458d87f84a87050a9}{get\+Contor\+Curent}} ()
+\begin{DoxyCompactList}\small\item\em Intoarce referinta catre contorul ce tine evidenta banutilor colectati in nivelul curent (1 sau 2). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_handler_a99e6455e32b61934b18fb7a07f753e36}{set\+Contor\+Curent}} (int contor)
+\begin{DoxyCompactList}\small\item\em Seteaza referinta catre contorul curent. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_paoo_game_1_1_handler_abd697bdbdf893120d958c57aa25284a1}{get\+Contor\+Total}} ()
+\begin{DoxyCompactList}\small\item\em Intoarce referinta catre contorul ce tine evidenta banutilor colectati in total pana in momentul curent al jocului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_handler_a5a897d3bc839d5cf02fe6f61398896b5}{set\+Contor\+Total}} (int contor)
+\begin{DoxyCompactList}\small\item\em Seteaza referinta catre contorul total. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_paoo_game_1_1_handler_af49812ea9e8eb7208572d8734b6ef768}{get\+Contor\+Games}} ()
+\begin{DoxyCompactList}\small\item\em Intoarce referinta catre contorul ce tine evidenta nivelul curent. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_paoo_game_1_1_handler_ac10edfdfb5fae3a9b3c86abd60d29452}{set\+Contor\+Games}} (int level)
+\begin{DoxyCompactList}\small\item\em Seteaza referinta catre contorul nivelului actual. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_paoo_game_1_1_handler_abc36fda730e73315fcb27d21d03650ca}{board\+Up\+Limit}}
+\item 
+static int \mbox{\hyperlink{class_paoo_game_1_1_handler_a8c26df864683d240bd5ee9c1ee066234}{board\+Down\+Limit}}
+\item 
+static Graphics \mbox{\hyperlink{class_paoo_game_1_1_handler_a3507d41b8d059d87d486cee799a4f165}{g}}
+\item 
+static int \mbox{\hyperlink{class_paoo_game_1_1_handler_a9e1f0cf2561b4202706337796237284e}{contor\+Curent}}
+\item 
+static int \mbox{\hyperlink{class_paoo_game_1_1_handler_a2747cac7c3c8f4e28e00fbf43ea96441}{contor\+Total}}
+\item 
+static int \mbox{\hyperlink{class_paoo_game_1_1_handler_a0f3d043d022f80d6f8ce6d94671b8520}{contor\+Games}} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa ce retine o serie de referinte ale unor elemente pentru a fi usor accesibile. 
+
+Altfel ar trebui ca functiile respective sa aiba o serie intreaga de parametri si ar ingreuna programarea. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a1f4838f7153f3232ba92c2ad50a6f46a}\label{class_paoo_game_1_1_handler_a1f4838f7153f3232ba92c2ad50a6f46a}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!Handler@{Handler}}
+\index{Handler@{Handler}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{Handler()}{Handler()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Handler.\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare al clasei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & Referinta catre obiectul game. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a865b608dd0ca3a1458d87f84a87050a9}\label{class_paoo_game_1_1_handler_a865b608dd0ca3a1458d87f84a87050a9}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!getContorCurent@{getContorCurent}}
+\index{getContorCurent@{getContorCurent}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{getContorCurent()}{getContorCurent()}}
+{\footnotesize\ttfamily public int Paoo\+Game.\+Handler.\+get\+Contor\+Curent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Intoarce referinta catre contorul ce tine evidenta banutilor colectati in nivelul curent (1 sau 2). 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_af49812ea9e8eb7208572d8734b6ef768}\label{class_paoo_game_1_1_handler_af49812ea9e8eb7208572d8734b6ef768}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!getContorGames@{getContorGames}}
+\index{getContorGames@{getContorGames}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{getContorGames()}{getContorGames()}}
+{\footnotesize\ttfamily public int Paoo\+Game.\+Handler.\+get\+Contor\+Games (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Intoarce referinta catre contorul ce tine evidenta nivelul curent. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_abd697bdbdf893120d958c57aa25284a1}\label{class_paoo_game_1_1_handler_abd697bdbdf893120d958c57aa25284a1}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!getContorTotal@{getContorTotal}}
+\index{getContorTotal@{getContorTotal}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{getContorTotal()}{getContorTotal()}}
+{\footnotesize\ttfamily public int Paoo\+Game.\+Handler.\+get\+Contor\+Total (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Intoarce referinta catre contorul ce tine evidenta banutilor colectati in total pana in momentul curent al jocului. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_ac8fb7872e8a71bfc5b0cb9f0efc8414a}\label{class_paoo_game_1_1_handler_ac8fb7872e8a71bfc5b0cb9f0efc8414a}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!GetGame@{GetGame}}
+\index{GetGame@{GetGame}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{GetGame()}{GetGame()}}
+{\footnotesize\ttfamily public \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}} Paoo\+Game.\+Handler.\+Get\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Intoarce referinta catre obiectul \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a04348d5c7862d281b9a1b714a2be915c}\label{class_paoo_game_1_1_handler_a04348d5c7862d281b9a1b714a2be915c}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!GetHeight@{GetHeight}}
+\index{GetHeight@{GetHeight}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{GetHeight()}{GetHeight()}}
+{\footnotesize\ttfamily public int Paoo\+Game.\+Handler.\+Get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza inaltimea ferestrei jocului. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a895572d4c251b4c15e483850c7d84587}\label{class_paoo_game_1_1_handler_a895572d4c251b4c15e483850c7d84587}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!GetKeyManager@{GetKeyManager}}
+\index{GetKeyManager@{GetKeyManager}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{GetKeyManager()}{GetKeyManager()}}
+{\footnotesize\ttfamily public \mbox{\hyperlink{class_paoo_game_1_1_input_1_1_key_manager}{Key\+Manager}} Paoo\+Game.\+Handler.\+Get\+Key\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza referinta catre managerul evenimentelor de tastatura. 
+
+Returneaza referinta catre managerul evenimentelor de mouse. \mbox{\Hypertarget{class_paoo_game_1_1_handler_a69fce6d37935a3b440a23e9b53cb6b10}\label{class_paoo_game_1_1_handler_a69fce6d37935a3b440a23e9b53cb6b10}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!GetMap@{GetMap}}
+\index{GetMap@{GetMap}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{GetMap()}{GetMap()}}
+{\footnotesize\ttfamily public \mbox{\hyperlink{class_paoo_game_1_1_maps_1_1_map}{Map}} Paoo\+Game.\+Handler.\+Get\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Intoarce referinta catre harta curenta. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a1b695b945c217be6837a74c701a95cbd}\label{class_paoo_game_1_1_handler_a1b695b945c217be6837a74c701a95cbd}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!GetMouseManager@{GetMouseManager}}
+\index{GetMouseManager@{GetMouseManager}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{GetMouseManager()}{GetMouseManager()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_input_1_1_mouse_manager}{Mouse\+Manager}} Paoo\+Game.\+Handler.\+Get\+Mouse\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a84d9c52d60442e9ec797f5ec8737ecc2}\label{class_paoo_game_1_1_handler_a84d9c52d60442e9ec797f5ec8737ecc2}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!GetWidth@{GetWidth}}
+\index{GetWidth@{GetWidth}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{GetWidth()}{GetWidth()}}
+{\footnotesize\ttfamily public int Paoo\+Game.\+Handler.\+Get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza latimea ferestrei jocului. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a99e6455e32b61934b18fb7a07f753e36}\label{class_paoo_game_1_1_handler_a99e6455e32b61934b18fb7a07f753e36}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!setContorCurent@{setContorCurent}}
+\index{setContorCurent@{setContorCurent}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{setContorCurent()}{setContorCurent()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Handler.\+set\+Contor\+Curent (\begin{DoxyParamCaption}\item[{int}]{contor }\end{DoxyParamCaption})}
+
+
+
+Seteaza referinta catre contorul curent. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em contor} & Referinta contorului curent. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_ac10edfdfb5fae3a9b3c86abd60d29452}\label{class_paoo_game_1_1_handler_ac10edfdfb5fae3a9b3c86abd60d29452}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!setContorGames@{setContorGames}}
+\index{setContorGames@{setContorGames}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{setContorGames()}{setContorGames()}}
+{\footnotesize\ttfamily public static void Paoo\+Game.\+Handler.\+set\+Contor\+Games (\begin{DoxyParamCaption}\item[{int}]{contor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Seteaza referinta catre contorul nivelului actual. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em contor} & Referinta contorului nivelului actual. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a5a897d3bc839d5cf02fe6f61398896b5}\label{class_paoo_game_1_1_handler_a5a897d3bc839d5cf02fe6f61398896b5}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!setContorTotal@{setContorTotal}}
+\index{setContorTotal@{setContorTotal}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{setContorTotal()}{setContorTotal()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Handler.\+set\+Contor\+Total (\begin{DoxyParamCaption}\item[{int}]{contor }\end{DoxyParamCaption})}
+
+
+
+Seteaza referinta catre contorul total. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em contor} & Referinta contorului total. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a01292eefca1a1abdd0dfd16e1309329a}\label{class_paoo_game_1_1_handler_a01292eefca1a1abdd0dfd16e1309329a}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!SetGame@{SetGame}}
+\index{SetGame@{SetGame}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{SetGame()}{SetGame()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Handler.\+Set\+Game (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}}]{game }\end{DoxyParamCaption})}
+
+
+
+Seteaza referinta catre un obiect \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & Referinta obiectului \mbox{\hyperlink{class_paoo_game_1_1_game}{Game}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a47dc891b49158364dda83538a43ba5ad}\label{class_paoo_game_1_1_handler_a47dc891b49158364dda83538a43ba5ad}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!SetMap@{SetMap}}
+\index{SetMap@{SetMap}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{SetMap()}{SetMap()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Handler.\+Set\+Map (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_maps_1_1_map}{Map}}}]{map }\end{DoxyParamCaption})}
+
+
+
+Seteaza referinta catre harta curenta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em map} & Referinta catre harta curenta. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a8c26df864683d240bd5ee9c1ee066234}\label{class_paoo_game_1_1_handler_a8c26df864683d240bd5ee9c1ee066234}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!boardDownLimit@{boardDownLimit}}
+\index{boardDownLimit@{boardDownLimit}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{boardDownLimit}{boardDownLimit}}
+{\footnotesize\ttfamily int Paoo\+Game.\+Handler.\+board\+Down\+Limit\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_abc36fda730e73315fcb27d21d03650ca}\label{class_paoo_game_1_1_handler_abc36fda730e73315fcb27d21d03650ca}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!boardUpLimit@{boardUpLimit}}
+\index{boardUpLimit@{boardUpLimit}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{boardUpLimit}{boardUpLimit}}
+{\footnotesize\ttfamily int Paoo\+Game.\+Handler.\+board\+Up\+Limit\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a9e1f0cf2561b4202706337796237284e}\label{class_paoo_game_1_1_handler_a9e1f0cf2561b4202706337796237284e}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!contorCurent@{contorCurent}}
+\index{contorCurent@{contorCurent}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{contorCurent}{contorCurent}}
+{\footnotesize\ttfamily int Paoo\+Game.\+Handler.\+contor\+Curent\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a0f3d043d022f80d6f8ce6d94671b8520}\label{class_paoo_game_1_1_handler_a0f3d043d022f80d6f8ce6d94671b8520}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!contorGames@{contorGames}}
+\index{contorGames@{contorGames}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{contorGames}{contorGames}}
+{\footnotesize\ttfamily int Paoo\+Game.\+Handler.\+contor\+Games = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a2747cac7c3c8f4e28e00fbf43ea96441}\label{class_paoo_game_1_1_handler_a2747cac7c3c8f4e28e00fbf43ea96441}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!contorTotal@{contorTotal}}
+\index{contorTotal@{contorTotal}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{contorTotal}{contorTotal}}
+{\footnotesize\ttfamily int Paoo\+Game.\+Handler.\+contor\+Total\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_handler_a3507d41b8d059d87d486cee799a4f165}\label{class_paoo_game_1_1_handler_a3507d41b8d059d87d486cee799a4f165}} 
+\index{PaooGame.Handler@{PaooGame.Handler}!g@{g}}
+\index{g@{g}!PaooGame.Handler@{PaooGame.Handler}}
+\doxysubsubsection{\texorpdfstring{g}{g}}
+{\footnotesize\ttfamily Graphics Paoo\+Game.\+Handler.\+g\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\mbox{\hyperlink{_handler_8java}{Handler.\+java}}\end{DoxyCompactItemize}

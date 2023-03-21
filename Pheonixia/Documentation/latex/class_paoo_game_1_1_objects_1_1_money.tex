@@ -1,0 +1,180 @@
+\hypertarget{class_paoo_game_1_1_objects_1_1_money}{}\doxysection{Paoo\+Game.\+Objects.\+Money Class Reference}
+\label{class_paoo_game_1_1_objects_1_1_money}\index{PaooGame.Objects.Money@{PaooGame.Objects.Money}}
+
+
+Clasa \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money}{Money}} implementeaza notiunea de banut.  
+
+
+Inheritance diagram for Paoo\+Game.\+Objects.\+Money\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_paoo_game_1_1_objects_1_1_money}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money_a4296f536a785d744554deca3f23cd6f1}{Money}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a2dbde2d7516cec70d9a8c11008c633f1}{handler}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab4e989f6f8d4dd8aad80fdb0a5493fe0}{width}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_aea0212934379c2e811f9d17edde0758b}{height}})
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money}{Money}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money_ab5c926852a4dbb48d4d39d8eb41d8641}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Se deplaseaza banutul pe ecran din dreapta spre stanga. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money_ad25b9c93501ef5f3e816681f1a93239d}{set\+Hit}} ()
+\begin{DoxyCompactList}\small\item\em Daca se detecteaza o coliziune intre banut si player, se seteaza flagul lovit. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money_aed07641d0c6a63fd9fdd374d01ceee3b}{To\+Be\+Removed}} ()
+\begin{DoxyCompactList}\small\item\em Se returneaza functia de remove. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money_a18b0a73a874a72e1f39a391e6a55baef}{set\+Draw}} (boolean val)
+\begin{DoxyCompactList}\small\item\em Se marcheaza daca trebuie sa se realizeze sau nu desenarea banutului. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money_a52434a3b4378c1361600c8e1e0b1f9fc}{get\+Draw}} ()
+\begin{DoxyCompactList}\small\item\em Se returneaza 1 daca trebuie sa se realizeze desenarea banutului, si 0 in caz contrat. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money_a79219f0f801167f07be7c60a8392e0f0}{setX}} (int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}})
+\begin{DoxyCompactList}\small\item\em Se seteaza pozitia curenta pe axa X a banutului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money_a94fe6bc9384f8a5b52c5fe6a9041075d}{setY}} (int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}})
+\begin{DoxyCompactList}\small\item\em Se seteaza pozitia curenta pe axa Y a banutului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money_a79e8b74b977d904ad5306faa0c5c06d2}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Randeaza/deseneaza banutul in noua pozitie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Clasa \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money}{Money}} implementeaza notiunea de banut. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_money_a4296f536a785d744554deca3f23cd6f1}\label{class_paoo_game_1_1_objects_1_1_money_a4296f536a785d744554deca3f23cd6f1}} 
+\index{PaooGame.Objects.Money@{PaooGame.Objects.Money}!Money@{Money}}
+\index{Money@{Money}!PaooGame.Objects.Money@{PaooGame.Objects.Money}}
+\doxysubsubsection{\texorpdfstring{Money()}{Money()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Objects.\+Money.\+Money (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare al clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money}{Money}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & Referinta catre obiectul shortcut (obiect ce retine o serie de referinte din program). \\
+\hline
+{\em x} & Pozitia initiala pe axa X a banutului. \\
+\hline
+{\em y} & Pozitia initiala pe axa Y a banutului. \\
+\hline
+{\em width} & Latimea banutului \\
+\hline
+{\em height} & Lungimea banutului \\
+\hline
+\end{DoxyParams}
+Apel al constructorului clasei de baza
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_money_a79e8b74b977d904ad5306faa0c5c06d2}\label{class_paoo_game_1_1_objects_1_1_money_a79e8b74b977d904ad5306faa0c5c06d2}} 
+\index{PaooGame.Objects.Money@{PaooGame.Objects.Money}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Objects.Money@{PaooGame.Objects.Money}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Money.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Randeaza/deseneaza banutul in noua pozitie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie efectuata desenarea banutului. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a988a0fcdc3b39b990cfec7bf426762fa}{Paoo\+Game.\+Objects.\+Item}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_money_a52434a3b4378c1361600c8e1e0b1f9fc}\label{class_paoo_game_1_1_objects_1_1_money_a52434a3b4378c1361600c8e1e0b1f9fc}} 
+\index{PaooGame.Objects.Money@{PaooGame.Objects.Money}!getDraw@{getDraw}}
+\index{getDraw@{getDraw}!PaooGame.Objects.Money@{PaooGame.Objects.Money}}
+\doxysubsubsection{\texorpdfstring{getDraw()}{getDraw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Money.\+get\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se returneaza 1 daca trebuie sa se realizeze desenarea banutului, si 0 in caz contrat. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_money_a18b0a73a874a72e1f39a391e6a55baef}\label{class_paoo_game_1_1_objects_1_1_money_a18b0a73a874a72e1f39a391e6a55baef}} 
+\index{PaooGame.Objects.Money@{PaooGame.Objects.Money}!setDraw@{setDraw}}
+\index{setDraw@{setDraw}!PaooGame.Objects.Money@{PaooGame.Objects.Money}}
+\doxysubsubsection{\texorpdfstring{setDraw()}{setDraw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Money.\+set\+Draw (\begin{DoxyParamCaption}\item[{boolean}]{val }\end{DoxyParamCaption})}
+
+
+
+Se marcheaza daca trebuie sa se realizeze sau nu desenarea banutului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & referinta catre valoarea curenta care indica daca trebuie sau nu desenat banutul \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_money_ad25b9c93501ef5f3e816681f1a93239d}\label{class_paoo_game_1_1_objects_1_1_money_ad25b9c93501ef5f3e816681f1a93239d}} 
+\index{PaooGame.Objects.Money@{PaooGame.Objects.Money}!setHit@{setHit}}
+\index{setHit@{setHit}!PaooGame.Objects.Money@{PaooGame.Objects.Money}}
+\doxysubsubsection{\texorpdfstring{setHit()}{setHit()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Money.\+set\+Hit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Daca se detecteaza o coliziune intre banut si player, se seteaza flagul lovit. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_money_a79219f0f801167f07be7c60a8392e0f0}\label{class_paoo_game_1_1_objects_1_1_money_a79219f0f801167f07be7c60a8392e0f0}} 
+\index{PaooGame.Objects.Money@{PaooGame.Objects.Money}!setX@{setX}}
+\index{setX@{setX}!PaooGame.Objects.Money@{PaooGame.Objects.Money}}
+\doxysubsubsection{\texorpdfstring{setX()}{setX()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Money.\+setX (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Se seteaza pozitia curenta pe axa X a banutului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & referinta catre valoarea curenta pe axa X a banutului \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_money_a94fe6bc9384f8a5b52c5fe6a9041075d}\label{class_paoo_game_1_1_objects_1_1_money_a94fe6bc9384f8a5b52c5fe6a9041075d}} 
+\index{PaooGame.Objects.Money@{PaooGame.Objects.Money}!setY@{setY}}
+\index{setY@{setY}!PaooGame.Objects.Money@{PaooGame.Objects.Money}}
+\doxysubsubsection{\texorpdfstring{setY()}{setY()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Money.\+setY (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Se seteaza pozitia curenta pe axa Y a banutului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em y} & referinta catre valoarea curenta pe axa Y a banutului \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_money_aed07641d0c6a63fd9fdd374d01ceee3b}\label{class_paoo_game_1_1_objects_1_1_money_aed07641d0c6a63fd9fdd374d01ceee3b}} 
+\index{PaooGame.Objects.Money@{PaooGame.Objects.Money}!ToBeRemoved@{ToBeRemoved}}
+\index{ToBeRemoved@{ToBeRemoved}!PaooGame.Objects.Money@{PaooGame.Objects.Money}}
+\doxysubsubsection{\texorpdfstring{ToBeRemoved()}{ToBeRemoved()}}
+{\footnotesize\ttfamily public boolean Paoo\+Game.\+Objects.\+Money.\+To\+Be\+Removed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se returneaza functia de remove. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_money_ab5c926852a4dbb48d4d39d8eb41d8641}\label{class_paoo_game_1_1_objects_1_1_money_ab5c926852a4dbb48d4d39d8eb41d8641}} 
+\index{PaooGame.Objects.Money@{PaooGame.Objects.Money}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Objects.Money@{PaooGame.Objects.Money}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Money.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se deplaseaza banutul pe ecran din dreapta spre stanga. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab54897014ab336bf592568b0a0879866}{Paoo\+Game.\+Objects.\+Item}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Objects/\mbox{\hyperlink{_money_8java}{Money.\+java}}\end{DoxyCompactItemize}

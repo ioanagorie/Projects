@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Ioa17</dc:creator>
+    <dc:title>Quiz</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>Quiz</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>&amp;#x003C;p&amp;#x003E;
+               &amp;#x003C;h3&amp;#x003E;Ce valori lipsesc din matricea distan&amp;#x0163;elor ini&amp;#x0163;iale ale grafului dat? &amp;#x003C;br/&amp;#x003E; &amp;#x003C;/h3&amp;#x003E;
+	 &amp;#x003C;img src=&quot;t1.png&quot; alt=&quot;t1.png&quot; title=&quot;t1&quot; width=&quot;200&quot; height=&quot;219&quot;/&amp;#x003E;&amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;
+
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>&amp;#x003C;p&amp;#x003E;
+               a) &amp;#x221E; &amp;#x003C;br/&amp;#x003E; 
+	 b) &amp;#x221E; &amp;#x003C;br/&amp;#x003E;
+	 c) &amp;#x221E; &amp;#x003C;br/&amp;#x003E;
+               d) &amp;#x221E; &amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x003C;p&amp;#x003E;
+               a) 0 &amp;#x003C;br/&amp;#x003E; 
+	 b) &amp;#x221E; &amp;#x003C;br/&amp;#x003E;
+	 c) 0 &amp;#x003C;br/&amp;#x003E;
+               d) &amp;#x221E; &amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x003C;p&amp;#x003E;
+               a) 0 &amp;#x003C;br/&amp;#x003E; 
+	 b) 0 &amp;#x003C;br/&amp;#x003E;
+	 c) 0 &amp;#x003C;br/&amp;#x003E;
+               d) 0 &amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x003C;p&amp;#x003E;
+               a) &amp;#x221E; &amp;#x003C;br/&amp;#x003E; 
+	 b) &amp;#x221E; &amp;#x003C;br/&amp;#x003E;
+	 c) 0 &amp;#x003C;br/&amp;#x003E;
+               d) 0 &amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;h3&amp;#x003E;Se d&amp;#x0026;#259;
+ matricea dis&amp;#x0026;#355;antelor ini&amp;#x0026;#355;iale ale unui graf:&amp;#x003C;/h3&amp;#x003E;
+&amp;#x003C;p&amp;#x003E;&amp;#x003C;img src=&quot;t2.png&quot; border=&quot;20&quot;&amp;#x003E;&amp;#x003C;/p&amp;#x003E;
+&amp;#x003C;h3&amp;#x003E; Cu ce valori trebuie completat graful conform matricei distan&amp;#x021B;elor date?&amp;#x003C;/h3&amp;#x003E;
+&amp;#x003C;img src=&quot;e2.png&quot; alt=&quot;Avatar&quot; style=&quot;width:300px;height:300px;&quot;&amp;#x003E;
+</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>&amp;#x003C;p&amp;#x003E;
+               a) &amp;#x221E; &amp;#x003C;br/&amp;#x003E; 
+	 b) &amp;#x221E; &amp;#x003C;br/&amp;#x003E;
+	 c) &amp;#x221E; &amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x003C;p&amp;#x003E;
+               a) 5 &amp;#x003C;br/&amp;#x003E; 
+	 b) 1 &amp;#x003C;br/&amp;#x003E;
+	 c) 7 &amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x003C;p&amp;#x003E;
+               a) 2 &amp;#x003C;br/&amp;#x003E; 
+	 b) 5 &amp;#x003C;br/&amp;#x003E;
+	 c) 5 &amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x003C;p&amp;#x003E;
+               a) 0 &amp;#x003C;br/&amp;#x003E; 
+	 b) 1 &amp;#x003C;br/&amp;#x003E;
+	 c) &amp;#x221E; &amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;h3&amp;#x003E;Se d&amp;#x0026;#259;
+ graful:&amp;#x003C;/h3&amp;#x003E;
+&amp;#x003C;p align=&quot;center&quot;&amp;#x003E;&amp;#x003C;img src=&quot;e3.png&quot; border=&quot;20&quot;&amp;#x003E;&amp;#x003C;/p&amp;#x003E;
+&amp;#x003C;h3&amp;#x003E;&amp;#x0026;#206;n matricea distan&amp;#x0026;#355;elor ini&amp;#x0026;#355;iale, &amp;#x00EE;n care dintre celule mai trebuie ad&amp;#x0103;ugat&amp;#x0103; valoarea &quot; &amp;#x221E; &quot;?&amp;#x003C;/h3&amp;#x003E;
+&amp;#x003C;img src=&quot;r3.png&quot; alt=&quot;Avatar&quot; style=&quot;width:300px;height:300px;&quot;&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>&amp;#x003C;p&amp;#x003E;
+               -linia 2, coloana 3   &amp;#x003C;br/&amp;#x003E; 
+	 -linia 1, coloana 3 &amp;#x003C;br/&amp;#x003E;
+	 -linia 3, coloana 5&amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x003C;p&amp;#x003E;
+               -linia 2, coloana 3   &amp;#x003C;br/&amp;#x003E; 
+	 -linia 1, coloana 3 &amp;#x003C;br/&amp;#x003E;
+	 -linia 5, coloana 3&amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x003C;p&amp;#x003E;
+               -linia 3, coloana 2   &amp;#x003C;br/&amp;#x003E; 
+	 -linia 1, coloana 3 &amp;#x003C;br/&amp;#x003E;
+	 -linia 3, coloana 5&amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;</text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>&amp;#x003C;p&amp;#x003E;
+               -linia 2, coloana 3   &amp;#x003C;br/&amp;#x003E; 
+	 -linia 3, coloana 1 &amp;#x003C;br/&amp;#x003E;
+	 -linia 5, coloana 3 &amp;#x003C;br/&amp;#x003E;
+&amp;#x003C;/p&amp;#x003E;</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle></exercise-subtitle>
+<instructions></instructions>
+<guess-correct>Corect!</guess-correct>
+<guess-incorrect>Ne pare r&amp;#x0103;u! &amp;#x00CE;ncearc&amp;#x0103; din nou.</guess-incorrect>
+<partly-incorrect>R&amp;#x0103;spunsul dumneavoastr&amp;#x0103; este par&amp;#x021B;ial incorect</partly-incorrect>
+<enter-a-guess>V&amp;#x0103; rog introduce&amp;#x021B;i o presupunere</enter-a-guess>
+<next-correct-letter>Urm&amp;#x0103;toarea liter&amp;#x0103; corect&amp;#x0103; &amp;#x00EE;n r&amp;#x0103;spuns</next-correct-letter>
+<correct-answers>R&amp;#x0103;spuns corect</correct-answers>
+<show-answer-caption>Show answer</show-answer-caption>
+<include-hint>1</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>../GORIE/ex2.html</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>0</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>2</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Scorul t&amp;#x0103;u este</your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<correct-first-time>&amp;#x00CE;ntreb&amp;#x0103;ri cu r&amp;#x0103;spunsul corect prima dat&amp;#x0103;</correct-first-time>
+<completed-so-far>&amp;#x00CE;ntreb&amp;#x0103;rile completate pana acum</completed-so-far>
+<exercise-completed>A&amp;#x021B;i completat exerci&amp;#x021B;iul</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>0</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>0</include-back>
+<contents-url>../GORIE/index .html</contents-url>
+<graphic-url>fundal.png</graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#C0C0C0</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#FFFFFF</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#000000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>&amp;#x00CE;ntreb&amp;#x0103;ri cu r&amp;#x0103;spunsul corect prima dat&amp;#x0103;</correct-first-time>
+<check-caption>Verific&amp;#x0103;</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>=&amp;#x003E;</next-q-caption>
+<last-q-caption>&amp;#x003C;=</last-q-caption>
+<hint-caption>Hint</hint-caption>
+<show-all-questions-caption>Show all questions</show-all-questions-caption>
+<show-one-by-one-caption>Show questions one by one</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

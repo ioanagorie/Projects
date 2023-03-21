@@ -1,0 +1,180 @@
+\hypertarget{class_paoo_game_1_1_objects_1_1_pine}{}\doxysection{Paoo\+Game.\+Objects.\+Pine Class Reference}
+\label{class_paoo_game_1_1_objects_1_1_pine}\index{PaooGame.Objects.Pine@{PaooGame.Objects.Pine}}
+
+
+Clasa \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine}{Pine}} implementeaza notiunea de obstacol.  
+
+
+Inheritance diagram for Paoo\+Game.\+Objects.\+Pine\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_paoo_game_1_1_objects_1_1_pine}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine_a32ee3bc7299feb1629e1e010dc5a3773}{Pine}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a2dbde2d7516cec70d9a8c11008c633f1}{handler}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab4e989f6f8d4dd8aad80fdb0a5493fe0}{width}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_aea0212934379c2e811f9d17edde0758b}{height}})
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine}{Pine}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine_a731d1eb5688ce4f4523985f5c63d2eb2}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Se deplaseaza obstacolul pe ecran din dreapta spre stanga. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine_a4fd1e429e5eae0e57dc5121f050d13a8}{set\+Hit}} ()
+\begin{DoxyCompactList}\small\item\em Daca se detecteaza o coliziune intre obstacol si player, se seteaza flagul lovit. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine_a3eb5ff93c73b2c558fad108ae0c7605e}{To\+Be\+Removed}} ()
+\begin{DoxyCompactList}\small\item\em Se returneaza functia de remove. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine_af87f14d5d61dc56d7b923ca48da28429}{set\+Draw}} (boolean val)
+\begin{DoxyCompactList}\small\item\em Se marcheaza daca trebuie sa se realizeze sau nu desenarea obstacolului. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine_af5ea87a96f93d535bc8051474cdf97e2}{get\+Draw}} ()
+\begin{DoxyCompactList}\small\item\em Se returneaza 1 daca trebuie sa se realizeze desenarea obstacolului, si 0 in caz contrat. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine_ae19de2a4906398366b7891179201255c}{setX}} (int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}})
+\begin{DoxyCompactList}\small\item\em Se seteaza pozitia curenta pe axa X a obstacolului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine_ad6d1c6f150e8d972d7c9619f606b8e9b}{setY}} (int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}})
+\begin{DoxyCompactList}\small\item\em Se seteaza pozitia curenta pe axa Y a obstacolului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine_ad6e2491cb7309b85fdb3ae6d55be26ff}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Randeaza/deseneaza obstacolul in noua pozitie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Clasa \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine}{Pine}} implementeaza notiunea de obstacol. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_pine_a32ee3bc7299feb1629e1e010dc5a3773}\label{class_paoo_game_1_1_objects_1_1_pine_a32ee3bc7299feb1629e1e010dc5a3773}} 
+\index{PaooGame.Objects.Pine@{PaooGame.Objects.Pine}!Pine@{Pine}}
+\index{Pine@{Pine}!PaooGame.Objects.Pine@{PaooGame.Objects.Pine}}
+\doxysubsubsection{\texorpdfstring{Pine()}{Pine()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Objects.\+Pine.\+Pine (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare al clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine}{Pine}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & Referinta catre obiectul shortcut (obiect ce retine o serie de referinte din program). \\
+\hline
+{\em x} & Pozitia initiala pe axa X a obstacolului. \\
+\hline
+{\em y} & Pozitia initiala pe axa Y a obstacolului. \\
+\hline
+{\em width} & Latimea obstacolului \\
+\hline
+{\em height} & Lungimea obstacolului \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_pine_ad6e2491cb7309b85fdb3ae6d55be26ff}\label{class_paoo_game_1_1_objects_1_1_pine_ad6e2491cb7309b85fdb3ae6d55be26ff}} 
+\index{PaooGame.Objects.Pine@{PaooGame.Objects.Pine}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Objects.Pine@{PaooGame.Objects.Pine}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Pine.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Randeaza/deseneaza obstacolul in noua pozitie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie efectuata desenarea obstacolului. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a988a0fcdc3b39b990cfec7bf426762fa}{Paoo\+Game.\+Objects.\+Item}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_pine_af5ea87a96f93d535bc8051474cdf97e2}\label{class_paoo_game_1_1_objects_1_1_pine_af5ea87a96f93d535bc8051474cdf97e2}} 
+\index{PaooGame.Objects.Pine@{PaooGame.Objects.Pine}!getDraw@{getDraw}}
+\index{getDraw@{getDraw}!PaooGame.Objects.Pine@{PaooGame.Objects.Pine}}
+\doxysubsubsection{\texorpdfstring{getDraw()}{getDraw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Pine.\+get\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se returneaza 1 daca trebuie sa se realizeze desenarea obstacolului, si 0 in caz contrat. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_pine_af87f14d5d61dc56d7b923ca48da28429}\label{class_paoo_game_1_1_objects_1_1_pine_af87f14d5d61dc56d7b923ca48da28429}} 
+\index{PaooGame.Objects.Pine@{PaooGame.Objects.Pine}!setDraw@{setDraw}}
+\index{setDraw@{setDraw}!PaooGame.Objects.Pine@{PaooGame.Objects.Pine}}
+\doxysubsubsection{\texorpdfstring{setDraw()}{setDraw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Pine.\+set\+Draw (\begin{DoxyParamCaption}\item[{boolean}]{val }\end{DoxyParamCaption})}
+
+
+
+Se marcheaza daca trebuie sa se realizeze sau nu desenarea obstacolului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & referinta catre valoarea curenta care indica daca trebuie sau nu desenat obstacolul \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_pine_a4fd1e429e5eae0e57dc5121f050d13a8}\label{class_paoo_game_1_1_objects_1_1_pine_a4fd1e429e5eae0e57dc5121f050d13a8}} 
+\index{PaooGame.Objects.Pine@{PaooGame.Objects.Pine}!setHit@{setHit}}
+\index{setHit@{setHit}!PaooGame.Objects.Pine@{PaooGame.Objects.Pine}}
+\doxysubsubsection{\texorpdfstring{setHit()}{setHit()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Pine.\+set\+Hit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Daca se detecteaza o coliziune intre obstacol si player, se seteaza flagul lovit. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_pine_ae19de2a4906398366b7891179201255c}\label{class_paoo_game_1_1_objects_1_1_pine_ae19de2a4906398366b7891179201255c}} 
+\index{PaooGame.Objects.Pine@{PaooGame.Objects.Pine}!setX@{setX}}
+\index{setX@{setX}!PaooGame.Objects.Pine@{PaooGame.Objects.Pine}}
+\doxysubsubsection{\texorpdfstring{setX()}{setX()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Pine.\+setX (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Se seteaza pozitia curenta pe axa X a obstacolului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & referinta catre valoarea curenta pe axa X a obstacolului \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_pine_ad6d1c6f150e8d972d7c9619f606b8e9b}\label{class_paoo_game_1_1_objects_1_1_pine_ad6d1c6f150e8d972d7c9619f606b8e9b}} 
+\index{PaooGame.Objects.Pine@{PaooGame.Objects.Pine}!setY@{setY}}
+\index{setY@{setY}!PaooGame.Objects.Pine@{PaooGame.Objects.Pine}}
+\doxysubsubsection{\texorpdfstring{setY()}{setY()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Pine.\+setY (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Se seteaza pozitia curenta pe axa Y a obstacolului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em y} & referinta catre valoarea curenta pe axa Y a obstacolului \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_pine_a3eb5ff93c73b2c558fad108ae0c7605e}\label{class_paoo_game_1_1_objects_1_1_pine_a3eb5ff93c73b2c558fad108ae0c7605e}} 
+\index{PaooGame.Objects.Pine@{PaooGame.Objects.Pine}!ToBeRemoved@{ToBeRemoved}}
+\index{ToBeRemoved@{ToBeRemoved}!PaooGame.Objects.Pine@{PaooGame.Objects.Pine}}
+\doxysubsubsection{\texorpdfstring{ToBeRemoved()}{ToBeRemoved()}}
+{\footnotesize\ttfamily public boolean Paoo\+Game.\+Objects.\+Pine.\+To\+Be\+Removed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se returneaza functia de remove. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_pine_a731d1eb5688ce4f4523985f5c63d2eb2}\label{class_paoo_game_1_1_objects_1_1_pine_a731d1eb5688ce4f4523985f5c63d2eb2}} 
+\index{PaooGame.Objects.Pine@{PaooGame.Objects.Pine}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Objects.Pine@{PaooGame.Objects.Pine}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Pine.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se deplaseaza obstacolul pe ecran din dreapta spre stanga. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab54897014ab336bf592568b0a0879866}{Paoo\+Game.\+Objects.\+Item}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Objects/\mbox{\hyperlink{_pine_8java}{Pine.\+java}}\end{DoxyCompactItemize}

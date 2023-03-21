@@ -1,0 +1,2 @@
+drop table users;
+create table if not exists users(id integer primary key, username text, score integer, level integer, nb_obst integer, nb_lives integer);

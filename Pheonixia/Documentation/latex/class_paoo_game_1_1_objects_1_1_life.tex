@@ -1,0 +1,125 @@
+\hypertarget{class_paoo_game_1_1_objects_1_1_life}{}\doxysection{Paoo\+Game.\+Objects.\+Life Class Reference}
+\label{class_paoo_game_1_1_objects_1_1_life}\index{PaooGame.Objects.Life@{PaooGame.Objects.Life}}
+
+
+Clasa \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life}{Life}} implementeaza notiunea de viata.  
+
+
+Inheritance diagram for Paoo\+Game.\+Objects.\+Life\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_objects_1_1_life}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life_a0b65c4a9d48d55cef839bf2cafe4d2fa}{Life}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a2dbde2d7516cec70d9a8c11008c633f1}{handler}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab4e989f6f8d4dd8aad80fdb0a5493fe0}{width}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_aea0212934379c2e811f9d17edde0758b}{height}})
+\begin{DoxyCompactList}\small\item\em Constructor de initializare a clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life}{Life}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life_a3371d8cc8fbd5cce6b79c50662aca8fc}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza pozitia vietii. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life_af77636dfe0316164831dd38ab3ad8edf}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Randeaza/deseneaza viata in noua pozitie. \end{DoxyCompactList}\item 
+Buffered\+Image \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life_adf5d818d2140848e8489f270fd922480}{get\+Image}} ()
+\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life_a49e3d6713a94fff192c4b01feb99e148}{is\+Hit}} ()
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life_a292647ad40d7190963574a4fd05e9d15}{set\+Hit}} (boolean hit)
+\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life_ad58099810b9f7dfb7ac4f7bbfaf59e19}{get\+Hit}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Clasa \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life}{Life}} implementeaza notiunea de viata. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_life_a0b65c4a9d48d55cef839bf2cafe4d2fa}\label{class_paoo_game_1_1_objects_1_1_life_a0b65c4a9d48d55cef839bf2cafe4d2fa}} 
+\index{PaooGame.Objects.Life@{PaooGame.Objects.Life}!Life@{Life}}
+\index{Life@{Life}!PaooGame.Objects.Life@{PaooGame.Objects.Life}}
+\doxysubsubsection{\texorpdfstring{Life()}{Life()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Objects.\+Life.\+Life (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Constructor de initializare a clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life}{Life}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & Referinta catre obiectul shortcut (care retine alte referinte utile/necesare in joc). \\
+\hline
+{\em x} & Pozitia de start pa axa X a vietii. \\
+\hline
+{\em y} & Pozitia de start pa axa Y a vietii. \\
+\hline
+{\em width} & Latimea imaginii vietii. \\
+\hline
+{\em height} & Inaltimea imaginii vietii. \\
+\hline
+\end{DoxyParams}
+Apel al constructorului clasei de baza
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_life_af77636dfe0316164831dd38ab3ad8edf}\label{class_paoo_game_1_1_objects_1_1_life_af77636dfe0316164831dd38ab3ad8edf}} 
+\index{PaooGame.Objects.Life@{PaooGame.Objects.Life}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Objects.Life@{PaooGame.Objects.Life}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Life.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Randeaza/deseneaza viata in noua pozitie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie efectuata desenarea vietii. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a988a0fcdc3b39b990cfec7bf426762fa}{Paoo\+Game.\+Objects.\+Item}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_life_ad58099810b9f7dfb7ac4f7bbfaf59e19}\label{class_paoo_game_1_1_objects_1_1_life_ad58099810b9f7dfb7ac4f7bbfaf59e19}} 
+\index{PaooGame.Objects.Life@{PaooGame.Objects.Life}!getHit@{getHit}}
+\index{getHit@{getHit}!PaooGame.Objects.Life@{PaooGame.Objects.Life}}
+\doxysubsubsection{\texorpdfstring{getHit()}{getHit()}}
+{\footnotesize\ttfamily boolean Paoo\+Game.\+Objects.\+Life.\+get\+Hit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_life_adf5d818d2140848e8489f270fd922480}\label{class_paoo_game_1_1_objects_1_1_life_adf5d818d2140848e8489f270fd922480}} 
+\index{PaooGame.Objects.Life@{PaooGame.Objects.Life}!getImage@{getImage}}
+\index{getImage@{getImage}!PaooGame.Objects.Life@{PaooGame.Objects.Life}}
+\doxysubsubsection{\texorpdfstring{getImage()}{getImage()}}
+{\footnotesize\ttfamily Buffered\+Image Paoo\+Game.\+Objects.\+Life.\+get\+Image (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_life_a49e3d6713a94fff192c4b01feb99e148}\label{class_paoo_game_1_1_objects_1_1_life_a49e3d6713a94fff192c4b01feb99e148}} 
+\index{PaooGame.Objects.Life@{PaooGame.Objects.Life}!isHit@{isHit}}
+\index{isHit@{isHit}!PaooGame.Objects.Life@{PaooGame.Objects.Life}}
+\doxysubsubsection{\texorpdfstring{isHit()}{isHit()}}
+{\footnotesize\ttfamily boolean Paoo\+Game.\+Objects.\+Life.\+is\+Hit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_life_a292647ad40d7190963574a4fd05e9d15}\label{class_paoo_game_1_1_objects_1_1_life_a292647ad40d7190963574a4fd05e9d15}} 
+\index{PaooGame.Objects.Life@{PaooGame.Objects.Life}!setHit@{setHit}}
+\index{setHit@{setHit}!PaooGame.Objects.Life@{PaooGame.Objects.Life}}
+\doxysubsubsection{\texorpdfstring{setHit()}{setHit()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Objects.\+Life.\+set\+Hit (\begin{DoxyParamCaption}\item[{boolean}]{hit }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_life_a3371d8cc8fbd5cce6b79c50662aca8fc}\label{class_paoo_game_1_1_objects_1_1_life_a3371d8cc8fbd5cce6b79c50662aca8fc}} 
+\index{PaooGame.Objects.Life@{PaooGame.Objects.Life}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Objects.Life@{PaooGame.Objects.Life}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Life.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizeaza pozitia vietii. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab54897014ab336bf592568b0a0879866}{Paoo\+Game.\+Objects.\+Item}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Objects/\mbox{\hyperlink{_life_8java}{Life.\+java}}\end{DoxyCompactItemize}

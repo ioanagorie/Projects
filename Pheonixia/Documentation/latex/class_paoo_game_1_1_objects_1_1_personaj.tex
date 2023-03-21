@@ -1,0 +1,322 @@
+\hypertarget{class_paoo_game_1_1_objects_1_1_personaj}{}\doxysection{Paoo\+Game.\+Objects.\+Personaj Class Reference}
+\label{class_paoo_game_1_1_objects_1_1_personaj}\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+
+
+Defineste notiunea abstracta de personaj/caracter din joc. Obstacolele din joc sunt considerate a fi Personaje, întrucât ele reprezintă o abstractizare a notiunii de inamic, deoarece coliziunea lor cu player-\/ul are un impact asupra acestuia.  
+
+
+Inheritance diagram for Paoo\+Game.\+Objects.\+Personaj\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=11.000000cm]{class_paoo_game_1_1_objects_1_1_personaj}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a2d27821ec47604ad816d0d1c7e468291}{Personaj}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} ref\+Link, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab4e989f6f8d4dd8aad80fdb0a5493fe0}{width}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_aea0212934379c2e811f9d17edde0758b}{height}})
+\begin{DoxyCompactList}\small\item\em Constructor de initializare al clasei Character. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_ac913c04e030e564f91d055662c908b6a}{Move}} ()
+\begin{DoxyCompactList}\small\item\em Modifica pozitia caracterului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a074e8b8ca37f01314db3d66c198ad040}{MoveX}} ()
+\begin{DoxyCompactList}\small\item\em Modifica pozitia caracterului pe axa X. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a9aa745ac362513e846d460057dc27fc7}{MoveY}} ()
+\begin{DoxyCompactList}\small\item\em Modifica pozitia caracterului pe axa Y. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a9251cab3904dc804c88bef69b0e5818b}{Get\+Life}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza viata caracterului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a618ae43b9a1dea725746ef363295f8d3}{Get\+Speed}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza viteza caracterului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a34a09f140a276d4c958ea48484db96c3}{Set\+Life}} (int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a033c952e7febb9912dd75c5cda2475c5}{life}})
+\begin{DoxyCompactList}\small\item\em Seteaza viata caracterului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_af9ce5b530d5cb3df394f023ddb78adeb}{Set\+Speed}} (float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a0b0c52bfc9b077f39ee03c7845d199ca}{speed}})
+\begin{DoxyCompactList}\small\item\em Seteaza viteza caracterului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a55242e9ea72394fd853cf44019f0b6d3}{Get\+XMove}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza distanta in pixeli pe axa X cu care este actualizata pozitia caracterului. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a8b01a24a5918281f7196e382a4155310}{Get\+YMove}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza distanta in pixeli pe axa Y cu care este actualizata pozitia caracterului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a44b892d64d53e0753fb9e3371d98c7ec}{Set\+XMove}} (float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_ac3cd13a2561fa114343c35b4e19443b0}{x\+Move}})
+\begin{DoxyCompactList}\small\item\em Seteaza distanta in pixeli pe axa X cu care va fi actualizata pozitia caracterului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a00c151a47d6b9db7b876f646a7a8895b}{Set\+YMove}} (float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_ade86756ba614680412d586555963a710}{y\+Move}})
+\begin{DoxyCompactList}\small\item\em Seteaza distanta in pixeli pe axa Y cu care va fi actualizata pozitia caracterului. \end{DoxyCompactList}\item 
+Rectangle \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_ac99773b139297a82bfda29d46d1b0fe2}{get\+Rectangle}} ()
+\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a2465cdae6a9c58a0c0cb22fe20174cc7}{get\+Remove\+Flag}} ()
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a4e890b998566b750aa340c408001e206}{set\+Remove\+Flag}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a5327ecd8662f09a47efda1e1c4a68efa}{Life\+Implicit}} = 3
+\item 
+static final float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a8e5f0330707974ba4a47fcb5f4dfd858}{Speed\+Implicit}} = 6f
+\item 
+static final int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_ae9227bfffc5a80ae8fbd059786ec01b7}{Personaj\+Width\+Implicit}} = 120
+\item 
+static final int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_ad7d99ad377c280b929afd00d7f13e91f}{Personaj\+Height\+Implicit}} = 120
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a033c952e7febb9912dd75c5cda2475c5}{life}}
+\item 
+float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a0b0c52bfc9b077f39ee03c7845d199ca}{speed}}
+\item 
+float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_ade86756ba614680412d586555963a710}{y\+Move}}
+\item 
+float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_ac3cd13a2561fa114343c35b4e19443b0}{x\+Move}}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_animation}{Animation}} \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a16288bb9ebe2ad60e292bff45ac2aef3}{animation}}
+\item 
+float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_afffede94dc181dbfc1be507466609424}{collision\+Width}} = 60f
+\item 
+float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a592fe6051dfb4ac1e57ac8852ce8f931}{collision\+Height}} = 60f
+\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_a3f90273643a87e390ba0887937608ba9}{remove}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Defineste notiunea abstracta de personaj/caracter din joc. Obstacolele din joc sunt considerate a fi Personaje, întrucât ele reprezintă o abstractizare a notiunii de inamic, deoarece coliziunea lor cu player-\/ul are un impact asupra acestuia. 
+
+Notiunea este definita de viata, viteza de deplasare si de inaltimea si larimea imaginii care il defineste. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a2d27821ec47604ad816d0d1c7e468291}\label{class_paoo_game_1_1_objects_1_1_personaj_a2d27821ec47604ad816d0d1c7e468291}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!Personaj@{Personaj}}
+\index{Personaj@{Personaj}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{Personaj()}{Personaj()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Objects.\+Personaj.\+Personaj (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{ref\+Link,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Constructor de initializare al clasei Character. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & Referinta catre obiectul shortcut (care retine alte referinte utile/necesare in joc). \\
+\hline
+{\em x} & Pozitia de start pa axa X a caracterului. \\
+\hline
+{\em y} & Pozitia de start pa axa Y a caracterului. \\
+\hline
+{\em width} & Latimea imaginii caracterului. \\
+\hline
+{\em height} & Inaltimea imaginii caracterului. \\
+\hline
+\end{DoxyParams}
+Apel constructor la clasei de baza
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a9251cab3904dc804c88bef69b0e5818b}\label{class_paoo_game_1_1_objects_1_1_personaj_a9251cab3904dc804c88bef69b0e5818b}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!GetLife@{GetLife}}
+\index{GetLife@{GetLife}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{GetLife()}{GetLife()}}
+{\footnotesize\ttfamily public int Paoo\+Game.\+Objects.\+Personaj.\+Get\+Life (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza viata caracterului. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_ac99773b139297a82bfda29d46d1b0fe2}\label{class_paoo_game_1_1_objects_1_1_personaj_ac99773b139297a82bfda29d46d1b0fe2}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!getRectangle@{getRectangle}}
+\index{getRectangle@{getRectangle}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{getRectangle()}{getRectangle()}}
+{\footnotesize\ttfamily Rectangle Paoo\+Game.\+Objects.\+Personaj.\+get\+Rectangle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a2465cdae6a9c58a0c0cb22fe20174cc7}\label{class_paoo_game_1_1_objects_1_1_personaj_a2465cdae6a9c58a0c0cb22fe20174cc7}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!getRemoveFlag@{getRemoveFlag}}
+\index{getRemoveFlag@{getRemoveFlag}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{getRemoveFlag()}{getRemoveFlag()}}
+{\footnotesize\ttfamily boolean Paoo\+Game.\+Objects.\+Personaj.\+get\+Remove\+Flag (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a618ae43b9a1dea725746ef363295f8d3}\label{class_paoo_game_1_1_objects_1_1_personaj_a618ae43b9a1dea725746ef363295f8d3}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily public int Paoo\+Game.\+Objects.\+Personaj.\+Get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza viteza caracterului. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a55242e9ea72394fd853cf44019f0b6d3}\label{class_paoo_game_1_1_objects_1_1_personaj_a55242e9ea72394fd853cf44019f0b6d3}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!GetXMove@{GetXMove}}
+\index{GetXMove@{GetXMove}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{GetXMove()}{GetXMove()}}
+{\footnotesize\ttfamily public float Paoo\+Game.\+Objects.\+Personaj.\+Get\+XMove (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza distanta in pixeli pe axa X cu care este actualizata pozitia caracterului. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a8b01a24a5918281f7196e382a4155310}\label{class_paoo_game_1_1_objects_1_1_personaj_a8b01a24a5918281f7196e382a4155310}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!GetYMove@{GetYMove}}
+\index{GetYMove@{GetYMove}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{GetYMove()}{GetYMove()}}
+{\footnotesize\ttfamily public float Paoo\+Game.\+Objects.\+Personaj.\+Get\+YMove (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza distanta in pixeli pe axa Y cu care este actualizata pozitia caracterului. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_ac913c04e030e564f91d055662c908b6a}\label{class_paoo_game_1_1_objects_1_1_personaj_ac913c04e030e564f91d055662c908b6a}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!Move@{Move}}
+\index{Move@{Move}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Personaj.\+Move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Modifica pozitia caracterului. 
+
+
+
+Reimplemented in \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_a1c4d7f592365de753a8bdf4835be5830}{Paoo\+Game.\+Objects.\+Player}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a074e8b8ca37f01314db3d66c198ad040}\label{class_paoo_game_1_1_objects_1_1_personaj_a074e8b8ca37f01314db3d66c198ad040}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!MoveX@{MoveX}}
+\index{MoveX@{MoveX}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{MoveX()}{MoveX()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Personaj.\+MoveX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Modifica pozitia caracterului pe axa X. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a9aa745ac362513e846d460057dc27fc7}\label{class_paoo_game_1_1_objects_1_1_personaj_a9aa745ac362513e846d460057dc27fc7}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!MoveY@{MoveY}}
+\index{MoveY@{MoveY}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{MoveY()}{MoveY()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Personaj.\+MoveY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Modifica pozitia caracterului pe axa Y. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a34a09f140a276d4c958ea48484db96c3}\label{class_paoo_game_1_1_objects_1_1_personaj_a34a09f140a276d4c958ea48484db96c3}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!SetLife@{SetLife}}
+\index{SetLife@{SetLife}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{SetLife()}{SetLife()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Personaj.\+Set\+Life (\begin{DoxyParamCaption}\item[{int}]{life }\end{DoxyParamCaption})}
+
+
+
+Seteaza viata caracterului. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a4e890b998566b750aa340c408001e206}\label{class_paoo_game_1_1_objects_1_1_personaj_a4e890b998566b750aa340c408001e206}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!setRemoveFlag@{setRemoveFlag}}
+\index{setRemoveFlag@{setRemoveFlag}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{setRemoveFlag()}{setRemoveFlag()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Objects.\+Personaj.\+set\+Remove\+Flag (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_af9ce5b530d5cb3df394f023ddb78adeb}\label{class_paoo_game_1_1_objects_1_1_personaj_af9ce5b530d5cb3df394f023ddb78adeb}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!SetSpeed@{SetSpeed}}
+\index{SetSpeed@{SetSpeed}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{SetSpeed()}{SetSpeed()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Personaj.\+Set\+Speed (\begin{DoxyParamCaption}\item[{float}]{speed }\end{DoxyParamCaption})}
+
+
+
+Seteaza viteza caracterului. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a44b892d64d53e0753fb9e3371d98c7ec}\label{class_paoo_game_1_1_objects_1_1_personaj_a44b892d64d53e0753fb9e3371d98c7ec}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!SetXMove@{SetXMove}}
+\index{SetXMove@{SetXMove}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{SetXMove()}{SetXMove()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Personaj.\+Set\+XMove (\begin{DoxyParamCaption}\item[{float}]{x\+Move }\end{DoxyParamCaption})}
+
+
+
+Seteaza distanta in pixeli pe axa X cu care va fi actualizata pozitia caracterului. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a00c151a47d6b9db7b876f646a7a8895b}\label{class_paoo_game_1_1_objects_1_1_personaj_a00c151a47d6b9db7b876f646a7a8895b}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!SetYMove@{SetYMove}}
+\index{SetYMove@{SetYMove}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{SetYMove()}{SetYMove()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Personaj.\+Set\+YMove (\begin{DoxyParamCaption}\item[{float}]{y\+Move }\end{DoxyParamCaption})}
+
+
+
+Seteaza distanta in pixeli pe axa Y cu care va fi actualizata pozitia caracterului. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a16288bb9ebe2ad60e292bff45ac2aef3}\label{class_paoo_game_1_1_objects_1_1_personaj_a16288bb9ebe2ad60e292bff45ac2aef3}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!animation@{animation}}
+\index{animation@{animation}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{animation}{animation}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_animation}{Animation}} Paoo\+Game.\+Objects.\+Personaj.\+animation\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a592fe6051dfb4ac1e57ac8852ce8f931}\label{class_paoo_game_1_1_objects_1_1_personaj_a592fe6051dfb4ac1e57ac8852ce8f931}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!collisionHeight@{collisionHeight}}
+\index{collisionHeight@{collisionHeight}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{collisionHeight}{collisionHeight}}
+{\footnotesize\ttfamily float Paoo\+Game.\+Objects.\+Personaj.\+collision\+Height = 60f\hspace{0.3cm}{\ttfamily [protected]}}
+
+Inaltimea implicita a coleziunii. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_afffede94dc181dbfc1be507466609424}\label{class_paoo_game_1_1_objects_1_1_personaj_afffede94dc181dbfc1be507466609424}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!collisionWidth@{collisionWidth}}
+\index{collisionWidth@{collisionWidth}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{collisionWidth}{collisionWidth}}
+{\footnotesize\ttfamily float Paoo\+Game.\+Objects.\+Personaj.\+collision\+Width = 60f\hspace{0.3cm}{\ttfamily [protected]}}
+
+Latimea implicita a coleziunii. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a033c952e7febb9912dd75c5cda2475c5}\label{class_paoo_game_1_1_objects_1_1_personaj_a033c952e7febb9912dd75c5cda2475c5}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!life@{life}}
+\index{life@{life}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{life}{life}}
+{\footnotesize\ttfamily int Paoo\+Game.\+Objects.\+Personaj.\+life\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a5327ecd8662f09a47efda1e1c4a68efa}\label{class_paoo_game_1_1_objects_1_1_personaj_a5327ecd8662f09a47efda1e1c4a68efa}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!LifeImplicit@{LifeImplicit}}
+\index{LifeImplicit@{LifeImplicit}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{LifeImplicit}{LifeImplicit}}
+{\footnotesize\ttfamily final int Paoo\+Game.\+Objects.\+Personaj.\+Life\+Implicit = 3\hspace{0.3cm}{\ttfamily [static]}}
+
+Valoarea implicita a vietii unui personaj. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_ad7d99ad377c280b929afd00d7f13e91f}\label{class_paoo_game_1_1_objects_1_1_personaj_ad7d99ad377c280b929afd00d7f13e91f}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!PersonajHeightImplicit@{PersonajHeightImplicit}}
+\index{PersonajHeightImplicit@{PersonajHeightImplicit}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{PersonajHeightImplicit}{PersonajHeightImplicit}}
+{\footnotesize\ttfamily final int Paoo\+Game.\+Objects.\+Personaj.\+Personaj\+Height\+Implicit = 120\hspace{0.3cm}{\ttfamily [static]}}
+
+Inaltimea implicita a imaginii caracterului. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_ae9227bfffc5a80ae8fbd059786ec01b7}\label{class_paoo_game_1_1_objects_1_1_personaj_ae9227bfffc5a80ae8fbd059786ec01b7}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!PersonajWidthImplicit@{PersonajWidthImplicit}}
+\index{PersonajWidthImplicit@{PersonajWidthImplicit}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{PersonajWidthImplicit}{PersonajWidthImplicit}}
+{\footnotesize\ttfamily final int Paoo\+Game.\+Objects.\+Personaj.\+Personaj\+Width\+Implicit = 120\hspace{0.3cm}{\ttfamily [static]}}
+
+Latimea implicita a imaginii caracterului. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a3f90273643a87e390ba0887937608ba9}\label{class_paoo_game_1_1_objects_1_1_personaj_a3f90273643a87e390ba0887937608ba9}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!remove@{remove}}
+\index{remove@{remove}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{remove}{remove}}
+{\footnotesize\ttfamily boolean Paoo\+Game.\+Objects.\+Personaj.\+remove = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a0b0c52bfc9b077f39ee03c7845d199ca}\label{class_paoo_game_1_1_objects_1_1_personaj_a0b0c52bfc9b077f39ee03c7845d199ca}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!speed@{speed}}
+\index{speed@{speed}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{speed}{speed}}
+{\footnotesize\ttfamily float Paoo\+Game.\+Objects.\+Personaj.\+speed\hspace{0.3cm}{\ttfamily [protected]}}
+
+Retine viteza de deplasare caracterului. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_a8e5f0330707974ba4a47fcb5f4dfd858}\label{class_paoo_game_1_1_objects_1_1_personaj_a8e5f0330707974ba4a47fcb5f4dfd858}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!SpeedImplicit@{SpeedImplicit}}
+\index{SpeedImplicit@{SpeedImplicit}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{SpeedImplicit}{SpeedImplicit}}
+{\footnotesize\ttfamily final float Paoo\+Game.\+Objects.\+Personaj.\+Speed\+Implicit = 6f\hspace{0.3cm}{\ttfamily [static]}}
+
+Viteza implicita a unui personaj. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_ac3cd13a2561fa114343c35b4e19443b0}\label{class_paoo_game_1_1_objects_1_1_personaj_ac3cd13a2561fa114343c35b4e19443b0}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!xMove@{xMove}}
+\index{xMove@{xMove}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{xMove}{xMove}}
+{\footnotesize\ttfamily float Paoo\+Game.\+Objects.\+Personaj.\+x\+Move\hspace{0.3cm}{\ttfamily [protected]}}
+
+Retine noua pozitie a caracterului pe axa X. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_personaj_ade86756ba614680412d586555963a710}\label{class_paoo_game_1_1_objects_1_1_personaj_ade86756ba614680412d586555963a710}} 
+\index{PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}!yMove@{yMove}}
+\index{yMove@{yMove}!PaooGame.Objects.Personaj@{PaooGame.Objects.Personaj}}
+\doxysubsubsection{\texorpdfstring{yMove}{yMove}}
+{\footnotesize\ttfamily float Paoo\+Game.\+Objects.\+Personaj.\+y\+Move\hspace{0.3cm}{\ttfamily [protected]}}
+
+Retine noua pozitie a caracterului pe axa Y. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Objects/\mbox{\hyperlink{_personaj_8java}{Personaj.\+java}}\end{DoxyCompactItemize}

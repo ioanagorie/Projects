@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #00987e;
+  color: white;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <style>
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+</head>
+<body>
+
+<h1>Algoritmul Floyd-Warshall</h1>
+
+
+
+</body>
+  <p>Software realizat de Gorie Ioana</p>
+</div>
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 150%;
+}
+
+#Introducere {background-color: #55eaa7;}
+#Pasii {background-color: #66b3ff;}
+#Algoritmul {background-color: #b366ff;}
+#Exercitii {background-color: #ff66d9;}
+</style>
+<button class="tablink" onclick="openPage('Introducere', this, '#55eaa7')">Introducere</button>
+<button class="tablink" onclick="openPage('Pasii', this, '#66b3ff')" id="defaultOpen">Pa&#351;ii</button>
+<button class="tablink" onclick="openPage('Algoritmul', this, '#b366ff')">Algoritmul</button>
+<button class="tablink" onclick="openPage('Exercitii', this, '#ff66d9')">Exerci&#355;ii</button>
+
+<div id="Introducere" class="tabcontent">
+  <h1>Introducere</h1>
+  <font size="5">
+  <p>&#206;n informatic&#259;, algoritmul lui Floyd-Warshall este un algoritm destinat grafurilor care are ca scop descoperirea drumurilor minime &#238;ntr-un graf orientat. O singur&#259; execu&#355;ie a algoritmului va g&#259;si drumurile minime &#238;ntre toate perechile de noduri ale unui graf.
+</p>
+  <p>Algoritmul compar&#259; toate drumurile posibile din graf &#238;ntre fiecare pereche de noduri. Este capabil de a face acest lucru cu doar |V|<sup>3</sup> compara&#355;ii. Acest lucru este remarcabil, consider&#226;nd faptul c&#259; pot fi pan&#259; la |V|<sup>2</sup> arce in graf &#351;i fiecare combina&#355;ie de arce este testat&#259;.</p> 
+</font>
+<table align="center" width="80%">
+<th>
+<img id="myImg" src="./imagini/3.png" alt="Snow" style="width:65%">
+</th>
+</table>
+</div>
+
+<div id="Pasii" class="tabcontent">
+  <h1>Pa&#351;ii</h1>
+   <font size="5">
+  <p> Estimarea drumului optim poate fi re&#355;inut &#238;ntr-o structur&#259; tridimensional&#259; d[v1, v2, k], cu semnifica&#355;ia : costul minim al drumului de la v1 la v2, folosind ca noduri intermediare doar noduri p&#226;n&#259; la nodul k. Dac&#259; nodurile sunt numerotate de la 1, atunci d[v1, v2, 0] reprezint&#259; costul muchiei directe de la v1 la v2, consider&#226;nd &#8734; dac&#259; aceasta nu exist&#259;.</p>
+</font>
+  <style>
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+  <img src="./imagini/p0.png" alt="Snow" style="width:100%">
+<a href="pasi.html">
+  <button class="btn">Start</button>
+</a>
+</div>
+
+</body>
+</div>
+
+<div id="Algoritmul" class="tabcontent">
+  <h1>Algoritmul</h1>
+  <style>
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+
+  <img src="./imagini/algo.png" alt="Snow" style="width:100%">
+<a href="pseudocod.html">
+  <button class="btn">Pseudocod</button>
+</a>
+</div>
+
+</body>
+
+
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <img src="./imagini/algoritmul.png" alt="Snow" style="width:100%">
+<a href="c++.html">
+  <button class="btn">C++</button>
+</a>
+</div>
+
+</body>
+
+
+</div>
+
+<div id="Exercitii" class="tabcontent">
+<h1>Exerci&#355;ii</h1>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: #2196F3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.btn:hover, .dropdown:hover .btn {
+  background-color: #0b7dda;
+}
+</style>
+</head>
+<body>
+
+<font size="5">
+<p>C&#226;t de bine cuno&#351;ti algoritmul Floyd-Warshall? Evalueaz&#259;-&#355;i cunostin&#355;ele!</p>
+</font>
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+
+  <img src="./imagini/qz.png" alt="Snow" style="width:100%">
+<a href="quiz.htm">
+  <button class="btn">Quiz</button>
+</a>
+</div>
+
+</body>
+
+
+
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+\hypertarget{class_paoo_game_1_1_input_1_1_mouse_manager}{}\doxysection{Paoo\+Game.\+Input.\+Mouse\+Manager Class Reference}
+\label{class_paoo_game_1_1_input_1_1_mouse_manager}\index{PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}}
+
+
+Gestioneaza intrarea (input-\/ul) de la mouse.  
+
+
+Inheritance diagram for Paoo\+Game.\+Input.\+Mouse\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_input_1_1_mouse_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_input_1_1_mouse_manager_a4980a8117c4a499220d04144e79967ed}{Mouse\+Manager}} ()
+\begin{DoxyCompactList}\small\item\em constructor nefolosit in stagiul curent al proiectului. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager}{UIManager}} \mbox{\hyperlink{class_paoo_game_1_1_input_1_1_mouse_manager_aff5439003cd5ba67fb8846fbc9a4eea9}{get\+Ui\+Manager}} ()
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_input_1_1_mouse_manager_a94d85deecfd08b61a26b3155458ed4cb}{set\+Ui\+Manager}} (\mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager}{UIManager}} ui\+Manager)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_input_1_1_mouse_manager_a31b9c1385f8614b18fe355a09f29fef7}{mouse\+Pressed}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Functie ce va fi apelata atunci cand este apasat un click pe mouse. (Nu conteaza ce click) De aceea gestionam apasarea click-\/ului stang sau drept in interiorul functiei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_input_1_1_mouse_manager_a6cf46babce807e63fbd1af8992125354}{mouse\+Released}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Functie ce va fi apelata atunci cand click-\/ul nu mai este apasat. (Nu conteaza ce click) De aceea gestionam oprirea apasarii click-\/ului stang sau drept in interiorul functiei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_input_1_1_mouse_manager_a728ae86ed433c11fc118c7d0362a80a1}{mouse\+Moved}} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Functie ce memoreza locatia efectiva a cursorului pe ecran. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_input_1_1_mouse_manager_a90164ac903e97ca7701865471a8e6468}{mouse\+Dragged}} (Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_input_1_1_mouse_manager_a0d62e51a481e83c1a87eba8e0beaf433}{mouse\+Clicked}} (Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_input_1_1_mouse_manager_aab5f9d81ad296f5b3ff91e77297e7507}{mouse\+Entered}} (Mouse\+Event e)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_input_1_1_mouse_manager_a9b770f8d6c97728439b6375eaa05b77e}{mouse\+Exited}} (Mouse\+Event e)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Gestioneaza intrarea (input-\/ul) de la mouse. 
+
+Clasa citeste daca au fost apasat un click si seteaza corespunzator un flag. In program trebuie sa se tina cont de flagul aferent click-\/ului de interes. Daca flagul respectiv este true inseamna ca click-\/ul respectiv a fost apasat, iar daca este false, nu a fost apasat. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_input_1_1_mouse_manager_a4980a8117c4a499220d04144e79967ed}\label{class_paoo_game_1_1_input_1_1_mouse_manager_a4980a8117c4a499220d04144e79967ed}} 
+\index{PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}!MouseManager@{MouseManager}}
+\index{MouseManager@{MouseManager}!PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}}
+\doxysubsubsection{\texorpdfstring{MouseManager()}{MouseManager()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Input.\+Mouse\+Manager.\+Mouse\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+constructor nefolosit in stagiul curent al proiectului. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_input_1_1_mouse_manager_aff5439003cd5ba67fb8846fbc9a4eea9}\label{class_paoo_game_1_1_input_1_1_mouse_manager_aff5439003cd5ba67fb8846fbc9a4eea9}} 
+\index{PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}!getUiManager@{getUiManager}}
+\index{getUiManager@{getUiManager}!PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}}
+\doxysubsubsection{\texorpdfstring{getUiManager()}{getUiManager()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager}{UIManager}} Paoo\+Game.\+Input.\+Mouse\+Manager.\+get\+Ui\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_input_1_1_mouse_manager_a0d62e51a481e83c1a87eba8e0beaf433}\label{class_paoo_game_1_1_input_1_1_mouse_manager_a0d62e51a481e83c1a87eba8e0beaf433}} 
+\index{PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}!mouseClicked@{mouseClicked}}
+\index{mouseClicked@{mouseClicked}!PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}}
+\doxysubsubsection{\texorpdfstring{mouseClicked()}{mouseClicked()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Input.\+Mouse\+Manager.\+mouse\+Clicked (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_input_1_1_mouse_manager_a90164ac903e97ca7701865471a8e6468}\label{class_paoo_game_1_1_input_1_1_mouse_manager_a90164ac903e97ca7701865471a8e6468}} 
+\index{PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}!mouseDragged@{mouseDragged}}
+\index{mouseDragged@{mouseDragged}!PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}}
+\doxysubsubsection{\texorpdfstring{mouseDragged()}{mouseDragged()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Input.\+Mouse\+Manager.\+mouse\+Dragged (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_input_1_1_mouse_manager_aab5f9d81ad296f5b3ff91e77297e7507}\label{class_paoo_game_1_1_input_1_1_mouse_manager_aab5f9d81ad296f5b3ff91e77297e7507}} 
+\index{PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}!mouseEntered@{mouseEntered}}
+\index{mouseEntered@{mouseEntered}!PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}}
+\doxysubsubsection{\texorpdfstring{mouseEntered()}{mouseEntered()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Input.\+Mouse\+Manager.\+mouse\+Entered (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_input_1_1_mouse_manager_a9b770f8d6c97728439b6375eaa05b77e}\label{class_paoo_game_1_1_input_1_1_mouse_manager_a9b770f8d6c97728439b6375eaa05b77e}} 
+\index{PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}!mouseExited@{mouseExited}}
+\index{mouseExited@{mouseExited}!PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}}
+\doxysubsubsection{\texorpdfstring{mouseExited()}{mouseExited()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Input.\+Mouse\+Manager.\+mouse\+Exited (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_input_1_1_mouse_manager_a728ae86ed433c11fc118c7d0362a80a1}\label{class_paoo_game_1_1_input_1_1_mouse_manager_a728ae86ed433c11fc118c7d0362a80a1}} 
+\index{PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}!mouseMoved@{mouseMoved}}
+\index{mouseMoved@{mouseMoved}!PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}}
+\doxysubsubsection{\texorpdfstring{mouseMoved()}{mouseMoved()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Input.\+Mouse\+Manager.\+mouse\+Moved (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Functie ce memoreza locatia efectiva a cursorului pe ecran. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_input_1_1_mouse_manager_a31b9c1385f8614b18fe355a09f29fef7}\label{class_paoo_game_1_1_input_1_1_mouse_manager_a31b9c1385f8614b18fe355a09f29fef7}} 
+\index{PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}!mousePressed@{mousePressed}}
+\index{mousePressed@{mousePressed}!PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}}
+\doxysubsubsection{\texorpdfstring{mousePressed()}{mousePressed()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Input.\+Mouse\+Manager.\+mouse\+Pressed (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Functie ce va fi apelata atunci cand este apasat un click pe mouse. (Nu conteaza ce click) De aceea gestionam apasarea click-\/ului stang sau drept in interiorul functiei. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_input_1_1_mouse_manager_a6cf46babce807e63fbd1af8992125354}\label{class_paoo_game_1_1_input_1_1_mouse_manager_a6cf46babce807e63fbd1af8992125354}} 
+\index{PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}!mouseReleased@{mouseReleased}}
+\index{mouseReleased@{mouseReleased}!PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}}
+\doxysubsubsection{\texorpdfstring{mouseReleased()}{mouseReleased()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Input.\+Mouse\+Manager.\+mouse\+Released (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{e }\end{DoxyParamCaption})}
+
+
+
+Functie ce va fi apelata atunci cand click-\/ul nu mai este apasat. (Nu conteaza ce click) De aceea gestionam oprirea apasarii click-\/ului stang sau drept in interiorul functiei. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_input_1_1_mouse_manager_a94d85deecfd08b61a26b3155458ed4cb}\label{class_paoo_game_1_1_input_1_1_mouse_manager_a94d85deecfd08b61a26b3155458ed4cb}} 
+\index{PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}!setUiManager@{setUiManager}}
+\index{setUiManager@{setUiManager}!PaooGame.Input.MouseManager@{PaooGame.Input.MouseManager}}
+\doxysubsubsection{\texorpdfstring{setUiManager()}{setUiManager()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Input.\+Mouse\+Manager.\+set\+Ui\+Manager (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_u_i___objects_1_1_u_i_manager}{UIManager}}}]{ui\+Manager }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Input/\mbox{\hyperlink{_mouse_manager_8java}{Mouse\+Manager.\+java}}\end{DoxyCompactItemize}

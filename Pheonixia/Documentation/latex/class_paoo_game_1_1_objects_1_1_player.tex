@@ -1,0 +1,186 @@
+\hypertarget{class_paoo_game_1_1_objects_1_1_player}{}\doxysection{Paoo\+Game.\+Objects.\+Player Class Reference}
+\label{class_paoo_game_1_1_objects_1_1_player}\index{PaooGame.Objects.Player@{PaooGame.Objects.Player}}
+
+
+Implementeaza notiunea de player/jucator (personajul controlat de jucator).  
+
+
+Inheritance diagram for Paoo\+Game.\+Objects.\+Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_paoo_game_1_1_objects_1_1_player}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_a459ff0889536ac05b07bd6f995d8b57e}{Player}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a2dbde2d7516cec70d9a8c11008c633f1}{handler}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}})
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player}{Player}}. \end{DoxyCompactList}\item 
+Image \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_a22fd167161777ffa081f2aa7c6403021}{get\+Player\+Img}} ()
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life}{Life}} \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_a640c192acb96e1723f61b8eb74d2ec27}{get\+Heart}} ()
+\item 
+Array\+List$<$ \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life}{Life}} $>$ \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_a0113bcb0beb15d18fcef92fa953eeae5}{get\+Hearts}} ()
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_a6ebd67393f99e4d8ffeb294031a6843e}{set\+Heart1}} (\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life}{Life}} heart1)
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_ada5d949d534d2b57edf1a1cbc7878066}{disable\+Enemy\+Collision}} ()
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_a1c4d7f592365de753a8bdf4835be5830}{Move}} ()
+\begin{DoxyCompactList}\small\item\em Implementeaza metoda Move din clasa de baza \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj}{Personaj}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_ae278fc18fb775855b1c718d0dd2e3921}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza pozitia si imaginea eroului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_abe8a0cc524691b98e2394222585875fe}{set\+Graphics}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Seteaza referinta catre grafica curenta. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_a185f626ad2fce766efacb8333d49747a}{destroy}} ()
+\begin{DoxyCompactList}\small\item\em Randeaza/deseneaza eroul in noua pozitie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_a6f493a3a62fdbe72c690aae237b24f2c}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Randeaza/deseneaza eroul in noua pozitie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Implementeaza notiunea de player/jucator (personajul controlat de jucator). 
+
+Elementele suplimentare pe care le aduce fata de clasa de baza sunt\+: imaginea (acest atribut poate fi ridicat si in clasa de baza) grafica vietile dreptunghiul de coliziune 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_player_a459ff0889536ac05b07bd6f995d8b57e}\label{class_paoo_game_1_1_objects_1_1_player_a459ff0889536ac05b07bd6f995d8b57e}} 
+\index{PaooGame.Objects.Player@{PaooGame.Objects.Player}!Player@{Player}}
+\index{Player@{Player}!PaooGame.Objects.Player@{PaooGame.Objects.Player}}
+\doxysubsubsection{\texorpdfstring{Player()}{Player()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Objects.\+Player.\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare al clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player}{Player}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hanlder} & Referinta catre obiectul shortcut (obiect ce retine o serie de referinte din program). \\
+\hline
+{\em x} & Pozitia initiala pe axa X a eroului. \\
+\hline
+{\em y} & Pozitia initiala pe axa Y a eroului. \\
+\hline
+\end{DoxyParams}
+Apel al constructorului clasei de baza
+
+Seteaza imaginea de start a eroului
+
+Stabilieste pozitia relativa si dimensiunea dreptunghiului de coliziune, starea implicita(normala)
+
+Instantiaza cele trei inimi care vor aparea pe ecran permanent, dand de stire
+
+utilizatorului cate vieti i-\/au mai ramas in nivelul curent
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_player_a185f626ad2fce766efacb8333d49747a}\label{class_paoo_game_1_1_objects_1_1_player_a185f626ad2fce766efacb8333d49747a}} 
+\index{PaooGame.Objects.Player@{PaooGame.Objects.Player}!destroy@{destroy}}
+\index{destroy@{destroy}!PaooGame.Objects.Player@{PaooGame.Objects.Player}}
+\doxysubsubsection{\texorpdfstring{destroy()}{destroy()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Player.\+destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Randeaza/deseneaza eroul in noua pozitie. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_player_ada5d949d534d2b57edf1a1cbc7878066}\label{class_paoo_game_1_1_objects_1_1_player_ada5d949d534d2b57edf1a1cbc7878066}} 
+\index{PaooGame.Objects.Player@{PaooGame.Objects.Player}!disableEnemyCollision@{disableEnemyCollision}}
+\index{disableEnemyCollision@{disableEnemyCollision}!PaooGame.Objects.Player@{PaooGame.Objects.Player}}
+\doxysubsubsection{\texorpdfstring{disableEnemyCollision()}{disableEnemyCollision()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Objects.\+Player.\+disable\+Enemy\+Collision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_player_a6f493a3a62fdbe72c690aae237b24f2c}\label{class_paoo_game_1_1_objects_1_1_player_a6f493a3a62fdbe72c690aae237b24f2c}} 
+\index{PaooGame.Objects.Player@{PaooGame.Objects.Player}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Objects.Player@{PaooGame.Objects.Player}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Player.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Randeaza/deseneaza eroul in noua pozitie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie efectuata desenarea eroului. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a988a0fcdc3b39b990cfec7bf426762fa}{Paoo\+Game.\+Objects.\+Item}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_player_a640c192acb96e1723f61b8eb74d2ec27}\label{class_paoo_game_1_1_objects_1_1_player_a640c192acb96e1723f61b8eb74d2ec27}} 
+\index{PaooGame.Objects.Player@{PaooGame.Objects.Player}!getHeart@{getHeart}}
+\index{getHeart@{getHeart}!PaooGame.Objects.Player@{PaooGame.Objects.Player}}
+\doxysubsubsection{\texorpdfstring{getHeart()}{getHeart()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life}{Life}} Paoo\+Game.\+Objects.\+Player.\+get\+Heart (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_player_a0113bcb0beb15d18fcef92fa953eeae5}\label{class_paoo_game_1_1_objects_1_1_player_a0113bcb0beb15d18fcef92fa953eeae5}} 
+\index{PaooGame.Objects.Player@{PaooGame.Objects.Player}!getHearts@{getHearts}}
+\index{getHearts@{getHearts}!PaooGame.Objects.Player@{PaooGame.Objects.Player}}
+\doxysubsubsection{\texorpdfstring{getHearts()}{getHearts()}}
+{\footnotesize\ttfamily Array\+List$<$ \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life}{Life}} $>$ Paoo\+Game.\+Objects.\+Player.\+get\+Hearts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_player_a22fd167161777ffa081f2aa7c6403021}\label{class_paoo_game_1_1_objects_1_1_player_a22fd167161777ffa081f2aa7c6403021}} 
+\index{PaooGame.Objects.Player@{PaooGame.Objects.Player}!getPlayerImg@{getPlayerImg}}
+\index{getPlayerImg@{getPlayerImg}!PaooGame.Objects.Player@{PaooGame.Objects.Player}}
+\doxysubsubsection{\texorpdfstring{getPlayerImg()}{getPlayerImg()}}
+{\footnotesize\ttfamily Image Paoo\+Game.\+Objects.\+Player.\+get\+Player\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_player_a1c4d7f592365de753a8bdf4835be5830}\label{class_paoo_game_1_1_objects_1_1_player_a1c4d7f592365de753a8bdf4835be5830}} 
+\index{PaooGame.Objects.Player@{PaooGame.Objects.Player}!Move@{Move}}
+\index{Move@{Move}!PaooGame.Objects.Player@{PaooGame.Objects.Player}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Player.\+Move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implementeaza metoda Move din clasa de baza \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj}{Personaj}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_personaj_ac913c04e030e564f91d055662c908b6a}{Paoo\+Game.\+Objects.\+Personaj}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_player_abe8a0cc524691b98e2394222585875fe}\label{class_paoo_game_1_1_objects_1_1_player_abe8a0cc524691b98e2394222585875fe}} 
+\index{PaooGame.Objects.Player@{PaooGame.Objects.Player}!setGraphics@{setGraphics}}
+\index{setGraphics@{setGraphics}!PaooGame.Objects.Player@{PaooGame.Objects.Player}}
+\doxysubsubsection{\texorpdfstring{setGraphics()}{setGraphics()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Player.\+set\+Graphics (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Seteaza referinta catre grafica curenta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Referinta catre grafica cuenta. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_player_a6ebd67393f99e4d8ffeb294031a6843e}\label{class_paoo_game_1_1_objects_1_1_player_a6ebd67393f99e4d8ffeb294031a6843e}} 
+\index{PaooGame.Objects.Player@{PaooGame.Objects.Player}!setHeart1@{setHeart1}}
+\index{setHeart1@{setHeart1}!PaooGame.Objects.Player@{PaooGame.Objects.Player}}
+\doxysubsubsection{\texorpdfstring{setHeart1()}{setHeart1()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Objects.\+Player.\+set\+Heart1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life}{Life}}}]{heart1 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_player_ae278fc18fb775855b1c718d0dd2e3921}\label{class_paoo_game_1_1_objects_1_1_player_ae278fc18fb775855b1c718d0dd2e3921}} 
+\index{PaooGame.Objects.Player@{PaooGame.Objects.Player}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Objects.Player@{PaooGame.Objects.Player}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Player.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizeaza pozitia si imaginea eroului. 
+
+Verifica daca a fost apasata o tasta
+
+Actualizeaza pozitia
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab54897014ab336bf592568b0a0879866}{Paoo\+Game.\+Objects.\+Item}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Objects/\mbox{\hyperlink{_player_8java}{Player.\+java}}\end{DoxyCompactItemize}

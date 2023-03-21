@@ -1,0 +1,157 @@
+\hypertarget{class_paoo_game_1_1_tiles_1_1_tile}{}\doxysection{Paoo\+Game.\+Tiles.\+Tile Class Reference}
+\label{class_paoo_game_1_1_tiles_1_1_tile}\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+
+
+Implementeaza notiunea abstracta de dala din joc.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a64e498287a6e1ff5215824e07add5434}{Tile}} (Buffered\+Image image, int idd)
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare a clasei \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a8970b5b84cd888d663904a78f9ffeebf}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actalizarea dalei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a3bb3be3b9c108d55675f0942285db7db}{Draw}} (Graphics g, int x, int y)
+\begin{DoxyCompactList}\small\item\em Desenarea dalei. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a27d767a6722e30d496ff08c72f6b8164}{Is\+Solid}} ()
+\item 
+int \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_aad7b41d3a6180f1b7c833092107874f1}{Get\+Id}} ()
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_adff0518f43423f27723e654c47376f64}{render}} (Graphics g, int x, int y)
+\item 
+boolean \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a81bcc0baec66b7bc4b188aba3f4c3aaa}{is\+Not\+Traverseble}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a90aa545a0cfeb77a6769dc37fbe8e81b}{tiles}} = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}}\mbox{[}NO\+\_\+\+TILES\mbox{]}
+\item 
+static final int \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a3a97c400b60d12e82f0b8acb3b0f719c}{TILE\+\_\+\+WIDTH}} = 100
+\item 
+static final int \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a3cd5fb65254649f466a2c9f76cad5ecb}{TILE\+\_\+\+HEIGHT}} = 100
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Buffered\+Image \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_aafa5ca1883d367c2dd57aee0e19ec10d}{img}}
+\item 
+final int \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile_a511d6f89665f0df009de4705004eef4a}{id}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementeaza notiunea abstracta de dala din joc. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a64e498287a6e1ff5215824e07add5434}\label{class_paoo_game_1_1_tiles_1_1_tile_a64e498287a6e1ff5215824e07add5434}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!Tile@{Tile}}
+\index{Tile@{Tile}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{Tile()}{Tile()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Tiles.\+Tile.\+Tile (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{image,  }\item[{int}]{idd }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare a clasei \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em image} & Referinta catre obiect de tipul Buffered\+Image \\
+\hline
+{\em idd} & numarul de identificare al dalei \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a3bb3be3b9c108d55675f0942285db7db}\label{class_paoo_game_1_1_tiles_1_1_tile_a3bb3be3b9c108d55675f0942285db7db}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Tiles.\+Tile.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Desenarea dalei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & referinta catre obiect de tipul graphics \\
+\hline
+{\em x} & coordonata pe axa Ox a inceputului desenarii dalei \\
+\hline
+{\em y} & coordonata pe axa Oy a inceputului desenarii dalei \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_aad7b41d3a6180f1b7c833092107874f1}\label{class_paoo_game_1_1_tiles_1_1_tile_aad7b41d3a6180f1b7c833092107874f1}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!GetId@{GetId}}
+\index{GetId@{GetId}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{GetId()}{GetId()}}
+{\footnotesize\ttfamily int Paoo\+Game.\+Tiles.\+Tile.\+Get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a81bcc0baec66b7bc4b188aba3f4c3aaa}\label{class_paoo_game_1_1_tiles_1_1_tile_a81bcc0baec66b7bc4b188aba3f4c3aaa}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!isNotTraverseble@{isNotTraverseble}}
+\index{isNotTraverseble@{isNotTraverseble}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{isNotTraverseble()}{isNotTraverseble()}}
+{\footnotesize\ttfamily boolean Paoo\+Game.\+Tiles.\+Tile.\+is\+Not\+Traverseble (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a27d767a6722e30d496ff08c72f6b8164}\label{class_paoo_game_1_1_tiles_1_1_tile_a27d767a6722e30d496ff08c72f6b8164}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!IsSolid@{IsSolid}}
+\index{IsSolid@{IsSolid}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{IsSolid()}{IsSolid()}}
+{\footnotesize\ttfamily boolean Paoo\+Game.\+Tiles.\+Tile.\+Is\+Solid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_adff0518f43423f27723e654c47376f64}\label{class_paoo_game_1_1_tiles_1_1_tile_adff0518f43423f27723e654c47376f64}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!render@{render}}
+\index{render@{render}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Paoo\+Game.\+Tiles.\+Tile.\+render (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a8970b5b84cd888d663904a78f9ffeebf}\label{class_paoo_game_1_1_tiles_1_1_tile_a8970b5b84cd888d663904a78f9ffeebf}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Tiles.\+Tile.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actalizarea dalei. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a511d6f89665f0df009de4705004eef4a}\label{class_paoo_game_1_1_tiles_1_1_tile_a511d6f89665f0df009de4705004eef4a}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!id@{id}}
+\index{id@{id}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily final int Paoo\+Game.\+Tiles.\+Tile.\+id\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_aafa5ca1883d367c2dd57aee0e19ec10d}\label{class_paoo_game_1_1_tiles_1_1_tile_aafa5ca1883d367c2dd57aee0e19ec10d}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!img@{img}}
+\index{img@{img}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{img}{img}}
+{\footnotesize\ttfamily Buffered\+Image Paoo\+Game.\+Tiles.\+Tile.\+img\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a3cd5fb65254649f466a2c9f76cad5ecb}\label{class_paoo_game_1_1_tiles_1_1_tile_a3cd5fb65254649f466a2c9f76cad5ecb}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!TILE\_HEIGHT@{TILE\_HEIGHT}}
+\index{TILE\_HEIGHT@{TILE\_HEIGHT}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{TILE\_HEIGHT}{TILE\_HEIGHT}}
+{\footnotesize\ttfamily final int Paoo\+Game.\+Tiles.\+Tile.\+TILE\+\_\+\+HEIGHT = 100\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a3a97c400b60d12e82f0b8acb3b0f719c}\label{class_paoo_game_1_1_tiles_1_1_tile_a3a97c400b60d12e82f0b8acb3b0f719c}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!TILE\_WIDTH@{TILE\_WIDTH}}
+\index{TILE\_WIDTH@{TILE\_WIDTH}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{TILE\_WIDTH}{TILE\_WIDTH}}
+{\footnotesize\ttfamily final int Paoo\+Game.\+Tiles.\+Tile.\+TILE\+\_\+\+WIDTH = 100\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_tiles_1_1_tile_a90aa545a0cfeb77a6769dc37fbe8e81b}\label{class_paoo_game_1_1_tiles_1_1_tile_a90aa545a0cfeb77a6769dc37fbe8e81b}} 
+\index{PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}!tiles@{tiles}}
+\index{tiles@{tiles}!PaooGame.Tiles.Tile@{PaooGame.Tiles.Tile}}
+\doxysubsubsection{\texorpdfstring{tiles}{tiles}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}} \mbox{[}$\,$\mbox{]} Paoo\+Game.\+Tiles.\+Tile.\+tiles = new \mbox{\hyperlink{class_paoo_game_1_1_tiles_1_1_tile}{Tile}}\mbox{[}NO\+\_\+\+TILES\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Tiles/\mbox{\hyperlink{_tile_8java}{Tile.\+java}}\end{DoxyCompactItemize}

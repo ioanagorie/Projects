@@ -1,0 +1,47 @@
+\hypertarget{class_paoo_game_1_1_database_1_1_database}{}\doxysection{Paoo\+Game.\+Database.\+Database Class Reference}
+\label{class_paoo_game_1_1_database_1_1_database}\index{PaooGame.Database.Database@{PaooGame.Database.Database}}
+
+
+Clasa ce implementeaza notiunea de baza de date a jocului.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Connection \mbox{\hyperlink{class_paoo_game_1_1_database_1_1_database_a4d1b60fa433ec874ddf2679e63649373}{get\+Connection}} ()
+\begin{DoxyCompactList}\small\item\em Daca exista o conexiune, functia realizeaza returnarea ei, iar in caz contrat creeaza o conexiune prin intermediul functiei \mbox{\hyperlink{class_paoo_game_1_1_database_1_1_database_a4d1b60fa433ec874ddf2679e63649373}{get\+Connection()}}. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_paoo_game_1_1_database_1_1_database_aa0031260051a6dcbb9c1b182df965275}{close\+Connection}} ()
+\begin{DoxyCompactList}\small\item\em Incheie o conexiune. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa ce implementeaza notiunea de baza de date a jocului. 
+
+Prin intermediul bazei de date care se va conecta la program, userul va avea posibilitatea sa isi reia progresul in joc de la momentul in care l-\/a salvat. Design patternul folosit pentru implementarea conexiunii programului cu baza de date este Singleton. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_database_1_1_database_aa0031260051a6dcbb9c1b182df965275}\label{class_paoo_game_1_1_database_1_1_database_aa0031260051a6dcbb9c1b182df965275}} 
+\index{PaooGame.Database.Database@{PaooGame.Database.Database}!closeConnection@{closeConnection}}
+\index{closeConnection@{closeConnection}!PaooGame.Database.Database@{PaooGame.Database.Database}}
+\doxysubsubsection{\texorpdfstring{closeConnection()}{closeConnection()}}
+{\footnotesize\ttfamily public static void Paoo\+Game.\+Database.\+Database.\+close\+Connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Incheie o conexiune. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_database_1_1_database_a4d1b60fa433ec874ddf2679e63649373}\label{class_paoo_game_1_1_database_1_1_database_a4d1b60fa433ec874ddf2679e63649373}} 
+\index{PaooGame.Database.Database@{PaooGame.Database.Database}!getConnection@{getConnection}}
+\index{getConnection@{getConnection}!PaooGame.Database.Database@{PaooGame.Database.Database}}
+\doxysubsubsection{\texorpdfstring{getConnection()}{getConnection()}}
+{\footnotesize\ttfamily public static Connection Paoo\+Game.\+Database.\+Database.\+get\+Connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Daca exista o conexiune, functia realizeaza returnarea ei, iar in caz contrat creeaza o conexiune prin intermediul functiei \mbox{\hyperlink{class_paoo_game_1_1_database_1_1_database_a4d1b60fa433ec874ddf2679e63649373}{get\+Connection()}}. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Database/\mbox{\hyperlink{_database_8java}{Database.\+java}}\end{DoxyCompactItemize}

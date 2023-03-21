@@ -1,0 +1,72 @@
+\hypertarget{class_paoo_game_1_1_graphics_1_1_sprite_sheet}{}\doxysection{Paoo\+Game.\+Graphics.\+Sprite\+Sheet Class Reference}
+\label{class_paoo_game_1_1_graphics_1_1_sprite_sheet}\index{PaooGame.Graphics.SpriteSheet@{PaooGame.Graphics.SpriteSheet}}
+
+
+Clasa retine o referinta catre o imagine formata din dale (sprite sheet)  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_graphics_1_1_sprite_sheet_a6e20e1bc3f27413353e6533fd66fa022}{Sprite\+Sheet}} (Buffered\+Image buff\+Img)
+\begin{DoxyCompactList}\small\item\em Constructor, initializeaza sprite\+Sheet. \end{DoxyCompactList}\item 
+Buffered\+Image \mbox{\hyperlink{class_paoo_game_1_1_graphics_1_1_sprite_sheet_ae66a20778ffad04d5fef9ef671b32514}{crop}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Returneaza un obiect Buffered\+Image ce contine o subimage (dala). \end{DoxyCompactList}\item 
+Buffered\+Image \mbox{\hyperlink{class_paoo_game_1_1_graphics_1_1_sprite_sheet_a56bb67c5e95426456a4140113cd0e074}{crop2}} (int x, int y)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clasa retine o referinta catre o imagine formata din dale (sprite sheet) 
+
+Metoda \mbox{\hyperlink{class_paoo_game_1_1_graphics_1_1_sprite_sheet_ae66a20778ffad04d5fef9ef671b32514}{crop()}} returneaza o dala de dimensiuni fixe (o subimagine) din sprite sheet de la adresa (x $\ast$ latime\+Dala, y $\ast$ inaltime\+Dala) 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_graphics_1_1_sprite_sheet_a6e20e1bc3f27413353e6533fd66fa022}\label{class_paoo_game_1_1_graphics_1_1_sprite_sheet_a6e20e1bc3f27413353e6533fd66fa022}} 
+\index{PaooGame.Graphics.SpriteSheet@{PaooGame.Graphics.SpriteSheet}!SpriteSheet@{SpriteSheet}}
+\index{SpriteSheet@{SpriteSheet}!PaooGame.Graphics.SpriteSheet@{PaooGame.Graphics.SpriteSheet}}
+\doxysubsubsection{\texorpdfstring{SpriteSheet()}{SpriteSheet()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Graphics.\+Sprite\+Sheet.\+Sprite\+Sheet (\begin{DoxyParamCaption}\item[{Buffered\+Image}]{sheet }\end{DoxyParamCaption})}
+
+
+
+Constructor, initializeaza sprite\+Sheet. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em buff\+Img} & Un obiect Buffered\+Image valid. \\
+\hline
+\end{DoxyParams}
+Retine referinta catre Buffered\+Image object.
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_graphics_1_1_sprite_sheet_ae66a20778ffad04d5fef9ef671b32514}\label{class_paoo_game_1_1_graphics_1_1_sprite_sheet_ae66a20778ffad04d5fef9ef671b32514}} 
+\index{PaooGame.Graphics.SpriteSheet@{PaooGame.Graphics.SpriteSheet}!crop@{crop}}
+\index{crop@{crop}!PaooGame.Graphics.SpriteSheet@{PaooGame.Graphics.SpriteSheet}}
+\doxysubsubsection{\texorpdfstring{crop()}{crop()}}
+{\footnotesize\ttfamily public Buffered\+Image Paoo\+Game.\+Graphics.\+Sprite\+Sheet.\+crop (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Returneaza un obiect Buffered\+Image ce contine o subimage (dala). 
+
+Subimaginea este localizata avand ca referinta punctul din stanga sus.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & numarul dalei din sprite sheet pe axa x. \\
+\hline
+{\em y} & numarul dalei din sprite sheet pe axa y. \\
+\hline
+\end{DoxyParams}
+Subimaginea (dala) este regasita in sprite sheet specificad coltul stanga sus al imaginii si apoi latimea si inaltimea (totul in pixeli). Coltul din stanga sus al imaginii se obtine inmultind numarul de ordine al dalei cu dimensiunea in pixeli a unei dale.\mbox{\Hypertarget{class_paoo_game_1_1_graphics_1_1_sprite_sheet_a56bb67c5e95426456a4140113cd0e074}\label{class_paoo_game_1_1_graphics_1_1_sprite_sheet_a56bb67c5e95426456a4140113cd0e074}} 
+\index{PaooGame.Graphics.SpriteSheet@{PaooGame.Graphics.SpriteSheet}!crop2@{crop2}}
+\index{crop2@{crop2}!PaooGame.Graphics.SpriteSheet@{PaooGame.Graphics.SpriteSheet}}
+\doxysubsubsection{\texorpdfstring{crop2()}{crop2()}}
+{\footnotesize\ttfamily Buffered\+Image Paoo\+Game.\+Graphics.\+Sprite\+Sheet.\+crop2 (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Subimaginea (dala) este regasita in sprite sheet specificad coltul stanga sus al imaginii si apoi latimea si inaltimea (totul in pixeli). Coltul din stanga sus al imaginii se obtine inmultind numarul de ordine al dalei cu dimensiunea in pixeli a unei dale.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Graphics/\mbox{\hyperlink{_sprite_sheet_8java}{Sprite\+Sheet.\+java}}\end{DoxyCompactItemize}

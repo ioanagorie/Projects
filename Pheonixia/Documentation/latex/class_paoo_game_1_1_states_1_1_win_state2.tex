@@ -1,0 +1,118 @@
+\hypertarget{class_paoo_game_1_1_states_1_1_win_state2}{}\doxysection{Paoo\+Game.\+States.\+Win\+State2 Class Reference}
+\label{class_paoo_game_1_1_states_1_1_win_state2}\index{PaooGame.States.WinState2@{PaooGame.States.WinState2}}
+
+
+Implementeaza notiunea de finalizare cu succes a nivelului final, 2, si implicit a intregului joc.  
+
+
+Inheritance diagram for Paoo\+Game.\+States.\+Win\+State2\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_states_1_1_win_state2}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state2_a9a1ff6a145c2405a5df8e79e23e6868b}{Win\+State2}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_ac992edae02e9abb9d1cbcc231251cdae}{handler}})
+\item 
+Image \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state2_ad4931be0cb5025ed70c4a68874a4e0a1}{get\+Player\+Img}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza imaginea player-\/ului care da din aripi. \end{DoxyCompactList}\item 
+Image \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state2_a7500fdd880f9d1f8de7644e59a54204d}{get\+Waterfall\+Img}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza imaginea cascadei curgatoare. \end{DoxyCompactList}\item 
+Image \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state2_afeb0325ad4adc669f41f5517e59ac440}{get\+Trunk\+Img}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza imaginea cufarului care se deschide/inchide. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state2_abe9ea85e4f40b1352d09e5f3af72c4b8}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza starea curenta a lui \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state2}{Win\+State2}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state2_a78d1b52d7ec6afd93dd8fc12a8660fbe}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Deseneaza (randeaza) pe ecran starea curenta a starii \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state2}{Win\+State2}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Implementeaza notiunea de finalizare cu succes a nivelului final, 2, si implicit a intregului joc. 
+
+Reprezinta starea care informeaza utilizatorul ca a reusit sa reziste atacului inamicului in nivelul 2, ii aduce la cunostinta suma de banuti colectata pe parcursul cele de a 2-\/a etape ale jocului , iar in final, in functie de valoarea stransa de player in cufarul sau pe parcursul celor doua nivele, este stabilit statusul de castigator sau de supercastigator. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_win_state2_a9a1ff6a145c2405a5df8e79e23e6868b}\label{class_paoo_game_1_1_states_1_1_win_state2_a9a1ff6a145c2405a5df8e79e23e6868b}} 
+\index{PaooGame.States.WinState2@{PaooGame.States.WinState2}!WinState2@{WinState2}}
+\index{WinState2@{WinState2}!PaooGame.States.WinState2@{PaooGame.States.WinState2}}
+\doxysubsubsection{\texorpdfstring{WinState2()}{WinState2()}}
+{\footnotesize\ttfamily Paoo\+Game.\+States.\+Win\+State2.\+Win\+State2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler }\end{DoxyParamCaption})}
+
+Apel al constructorului clasei de baza.
+
+Initializarea backgroundului starii de \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state2}{Win\+State2}}.
+
+Se construieste un nou manager de obiecte UI
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_win_state2_a78d1b52d7ec6afd93dd8fc12a8660fbe}\label{class_paoo_game_1_1_states_1_1_win_state2_a78d1b52d7ec6afd93dd8fc12a8660fbe}} 
+\index{PaooGame.States.WinState2@{PaooGame.States.WinState2}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.States.WinState2@{PaooGame.States.WinState2}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Win\+State2.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Deseneaza (randeaza) pe ecran starea curenta a starii \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state2}{Win\+State2}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie sa deseneze starea jocului pe ecran. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a1b7ea671618e0aaaf398e5fada65ab57}{Paoo\+Game.\+States.\+State}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_win_state2_ad4931be0cb5025ed70c4a68874a4e0a1}\label{class_paoo_game_1_1_states_1_1_win_state2_ad4931be0cb5025ed70c4a68874a4e0a1}} 
+\index{PaooGame.States.WinState2@{PaooGame.States.WinState2}!getPlayerImg@{getPlayerImg}}
+\index{getPlayerImg@{getPlayerImg}!PaooGame.States.WinState2@{PaooGame.States.WinState2}}
+\doxysubsubsection{\texorpdfstring{getPlayerImg()}{getPlayerImg()}}
+{\footnotesize\ttfamily public Image Paoo\+Game.\+States.\+Win\+State2.\+get\+Player\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza imaginea player-\/ului care da din aripi. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_win_state2_afeb0325ad4adc669f41f5517e59ac440}\label{class_paoo_game_1_1_states_1_1_win_state2_afeb0325ad4adc669f41f5517e59ac440}} 
+\index{PaooGame.States.WinState2@{PaooGame.States.WinState2}!getTrunkImg@{getTrunkImg}}
+\index{getTrunkImg@{getTrunkImg}!PaooGame.States.WinState2@{PaooGame.States.WinState2}}
+\doxysubsubsection{\texorpdfstring{getTrunkImg()}{getTrunkImg()}}
+{\footnotesize\ttfamily public Image Paoo\+Game.\+States.\+Win\+State2.\+get\+Trunk\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza imaginea cufarului care se deschide/inchide. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_win_state2_a7500fdd880f9d1f8de7644e59a54204d}\label{class_paoo_game_1_1_states_1_1_win_state2_a7500fdd880f9d1f8de7644e59a54204d}} 
+\index{PaooGame.States.WinState2@{PaooGame.States.WinState2}!getWaterfallImg@{getWaterfallImg}}
+\index{getWaterfallImg@{getWaterfallImg}!PaooGame.States.WinState2@{PaooGame.States.WinState2}}
+\doxysubsubsection{\texorpdfstring{getWaterfallImg()}{getWaterfallImg()}}
+{\footnotesize\ttfamily public Image Paoo\+Game.\+States.\+Win\+State2.\+get\+Waterfall\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza imaginea cascadei curgatoare. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_win_state2_abe9ea85e4f40b1352d09e5f3af72c4b8}\label{class_paoo_game_1_1_states_1_1_win_state2_abe9ea85e4f40b1352d09e5f3af72c4b8}} 
+\index{PaooGame.States.WinState2@{PaooGame.States.WinState2}!Update@{Update}}
+\index{Update@{Update}!PaooGame.States.WinState2@{PaooGame.States.WinState2}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+Win\+State2.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizeaza starea curenta a lui \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_win_state2}{Win\+State2}}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a358ce2dea3b960c707b1a7ed837e2355}{Paoo\+Game.\+States.\+State}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+States/\mbox{\hyperlink{_win_state2_8java}{Win\+State2.\+java}}\end{DoxyCompactItemize}

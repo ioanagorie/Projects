@@ -1,0 +1,290 @@
+\hypertarget{class_paoo_game_1_1_objects_1_1_item}{}\doxysection{Paoo\+Game.\+Objects.\+Item Class Reference}
+\label{class_paoo_game_1_1_objects_1_1_item}\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+
+
+. Implementeaza notiunea abstracta de entitate activa din joc, element cu care se poate interactiona\+: personaje, obstacole etc."{}.  
+
+
+Inheritance diagram for Paoo\+Game.\+Objects.\+Item\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=11.000000cm]{class_paoo_game_1_1_objects_1_1_item}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ae475b1e2bfc7f0e0cbe8d743addf3cc6}{Item}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a2dbde2d7516cec70d9a8c11008c633f1}{handler}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}}, float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab4e989f6f8d4dd8aad80fdb0a5493fe0}{width}}, int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_aea0212934379c2e811f9d17edde0758b}{height}})
+\begin{DoxyCompactList}\small\item\em Constructor de initializare a clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item}{Item}}. \end{DoxyCompactList}\item 
+Rectangle \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_af96064bdf248adc9009c9888da8173cb}{get\+Collision\+Bounds}} (float x\+Offset, float y\+Offset)
+\item 
+abstract void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab54897014ab336bf592568b0a0879866}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza pozitia item-\/ului. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a988a0fcdc3b39b990cfec7bf426762fa}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Randeaza/deseneaza item-\/ul in noua pozitie. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a9f333e768d34625aba4e75f409018bb8}{GetX}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza coordonata pe axa X. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a8220798ca1a00c54a36958a215563ec9}{GetY}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza coordonata pe axa Y. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a38d77aa5cbaaaf9f267598087246dd97}{Get\+Width}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza latimea entitatii. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_aec4abd062159b29479c5ea49c64fec48}{Get\+Height}} ()
+\begin{DoxyCompactList}\small\item\em Returneaza inaltimea entitatii. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a7089b7dc899c1450d3f2587e47e5c844}{SetX}} (float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}})
+\begin{DoxyCompactList}\small\item\em Seteaza coordonata pe axa X. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a16669ef80274e020716f97dd0e975093}{SetY}} (float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}})
+\begin{DoxyCompactList}\small\item\em Seteaza coordonata pe axa Y. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a1753c87e983211cff3739c909a32a6b9}{Set\+Width}} (int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab4e989f6f8d4dd8aad80fdb0a5493fe0}{width}})
+\begin{DoxyCompactList}\small\item\em Seteaza latimea imaginii entitatii. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a1eb12fa110ebdba7ee1c75656a6148ff}{Set\+Height}} (int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_aea0212934379c2e811f9d17edde0758b}{height}})
+\begin{DoxyCompactList}\small\item\em Seteaza inaltimea imaginii entitatii. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a25296c19a08e1d01398066075a0686f5}{Set\+Normal\+Mode}} ()
+\begin{DoxyCompactList}\small\item\em Seteaza modul normal de interactiune. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}{x}}
+\item 
+float \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}{y}}
+\item 
+int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ab4e989f6f8d4dd8aad80fdb0a5493fe0}{width}}
+\item 
+int \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_aea0212934379c2e811f9d17edde0758b}{height}}
+\item 
+Rectangle \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a28f84c3674b9075cf559fc70de3a3309}{bounds}}
+\item 
+Rectangle \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_adf06fc20a159e55263e5bcb96bb7ed56}{normal\+Bounds}}
+\item 
+Rectangle \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_ac02dcd1a119cbb00379b9f3331171622}{attack\+Bounds}}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item_a2dbde2d7516cec70d9a8c11008c633f1}{handler}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+. Implementeaza notiunea abstracta de entitate activa din joc, element cu care se poate interactiona\+: personaje, obstacole etc."{}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_ae475b1e2bfc7f0e0cbe8d743addf3cc6}\label{class_paoo_game_1_1_objects_1_1_item_ae475b1e2bfc7f0e0cbe8d743addf3cc6}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!Item@{Item}}
+\index{Item@{Item}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{Item()}{Item()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+Objects.\+Item.\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler,  }\item[{float}]{x,  }\item[{float}]{y,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Constructor de initializare a clasei \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_item}{Item}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & Referinta catre obiectul shortcut (care retine alte referinte utile/necesare in joc). \\
+\hline
+{\em x} & Pozitia de start pa axa X a caracterului. \\
+\hline
+{\em y} & Pozitia de start pa axa Y a caracterului. \\
+\hline
+{\em width} & Latimea imaginii caracterului. \\
+\hline
+{\em height} & Inaltimea imaginii caracterului. \\
+\hline
+\end{DoxyParams}
+\texorpdfstring{$<$}{<} Retine coordonata pe axa X.
+
+\texorpdfstring{$<$}{<} Retine coordonata pe axa X.
+
+\texorpdfstring{$<$}{<} Retine latimea imaginii.
+
+\texorpdfstring{$<$}{<} Retine inaltimea imaginii.
+
+\texorpdfstring{$<$}{<} Retine the \char`\"{}shortcut\char`\"{}.
+
+dreptunghi de coliziune pentru modul normal
+
+implicit
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_a988a0fcdc3b39b990cfec7bf426762fa}\label{class_paoo_game_1_1_objects_1_1_item_a988a0fcdc3b39b990cfec7bf426762fa}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Item.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Randeaza/deseneaza item-\/ul in noua pozitie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie efectuata desenarea item-\/ului. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet_af16bb3d539344754eb301ef9c7a88e58}{Paoo\+Game.\+Objects.\+Bullet}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_enemy_ab2f444f578d25a7da4980d846839f1ca}{Paoo\+Game.\+Objects.\+Enemy}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_enemy2_a07a4d8d58f61af78ad0fb474f2e0a95e}{Paoo\+Game.\+Objects.\+Enemy2}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower_a165b189e2f76f29a2ceba9d40d4417c7}{Paoo\+Game.\+Objects.\+Flower}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_land_a38a05d7ff4ff609a3077135c3afc0a6c}{Paoo\+Game.\+Objects.\+Land}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life_af77636dfe0316164831dd38ab3ad8edf}{Paoo\+Game.\+Objects.\+Life}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money_a79e8b74b977d904ad5306faa0c5c06d2}{Paoo\+Game.\+Objects.\+Money}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine_ad6e2491cb7309b85fdb3ae6d55be26ff}{Paoo\+Game.\+Objects.\+Pine}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_a6f493a3a62fdbe72c690aae237b24f2c}{Paoo\+Game.\+Objects.\+Player}}, and \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_tree_a0e97ef3808f0c280f277204fbfca4564}{Paoo\+Game.\+Objects.\+Tree}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_af96064bdf248adc9009c9888da8173cb}\label{class_paoo_game_1_1_objects_1_1_item_af96064bdf248adc9009c9888da8173cb}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!getCollisionBounds@{getCollisionBounds}}
+\index{getCollisionBounds@{getCollisionBounds}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{getCollisionBounds()}{getCollisionBounds()}}
+{\footnotesize\ttfamily Rectangle Paoo\+Game.\+Objects.\+Item.\+get\+Collision\+Bounds (\begin{DoxyParamCaption}\item[{float}]{x\+Offset,  }\item[{float}]{y\+Offset }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_aec4abd062159b29479c5ea49c64fec48}\label{class_paoo_game_1_1_objects_1_1_item_aec4abd062159b29479c5ea49c64fec48}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!GetHeight@{GetHeight}}
+\index{GetHeight@{GetHeight}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{GetHeight()}{GetHeight()}}
+{\footnotesize\ttfamily public float Paoo\+Game.\+Objects.\+Item.\+Get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza inaltimea entitatii. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_a38d77aa5cbaaaf9f267598087246dd97}\label{class_paoo_game_1_1_objects_1_1_item_a38d77aa5cbaaaf9f267598087246dd97}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!GetWidth@{GetWidth}}
+\index{GetWidth@{GetWidth}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{GetWidth()}{GetWidth()}}
+{\footnotesize\ttfamily public float Paoo\+Game.\+Objects.\+Item.\+Get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza latimea entitatii. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_a9f333e768d34625aba4e75f409018bb8}\label{class_paoo_game_1_1_objects_1_1_item_a9f333e768d34625aba4e75f409018bb8}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!GetX@{GetX}}
+\index{GetX@{GetX}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{GetX()}{GetX()}}
+{\footnotesize\ttfamily public float Paoo\+Game.\+Objects.\+Item.\+GetX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza coordonata pe axa X. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_a8220798ca1a00c54a36958a215563ec9}\label{class_paoo_game_1_1_objects_1_1_item_a8220798ca1a00c54a36958a215563ec9}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!GetY@{GetY}}
+\index{GetY@{GetY}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{GetY()}{GetY()}}
+{\footnotesize\ttfamily public float Paoo\+Game.\+Objects.\+Item.\+GetY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returneaza coordonata pe axa Y. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_a1eb12fa110ebdba7ee1c75656a6148ff}\label{class_paoo_game_1_1_objects_1_1_item_a1eb12fa110ebdba7ee1c75656a6148ff}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!SetHeight@{SetHeight}}
+\index{SetHeight@{SetHeight}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{SetHeight()}{SetHeight()}}
+{\footnotesize\ttfamily public float Paoo\+Game.\+Objects.\+Item.\+Set\+Height (\begin{DoxyParamCaption}\item[{int}]{height }\end{DoxyParamCaption})}
+
+
+
+Seteaza inaltimea imaginii entitatii. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_a25296c19a08e1d01398066075a0686f5}\label{class_paoo_game_1_1_objects_1_1_item_a25296c19a08e1d01398066075a0686f5}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!SetNormalMode@{SetNormalMode}}
+\index{SetNormalMode@{SetNormalMode}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{SetNormalMode()}{SetNormalMode()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Item.\+Set\+Normal\+Mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Seteaza modul normal de interactiune. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_a1753c87e983211cff3739c909a32a6b9}\label{class_paoo_game_1_1_objects_1_1_item_a1753c87e983211cff3739c909a32a6b9}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!SetWidth@{SetWidth}}
+\index{SetWidth@{SetWidth}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{SetWidth()}{SetWidth()}}
+{\footnotesize\ttfamily public float Paoo\+Game.\+Objects.\+Item.\+Set\+Width (\begin{DoxyParamCaption}\item[{int}]{width }\end{DoxyParamCaption})}
+
+
+
+Seteaza latimea imaginii entitatii. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_a7089b7dc899c1450d3f2587e47e5c844}\label{class_paoo_game_1_1_objects_1_1_item_a7089b7dc899c1450d3f2587e47e5c844}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!SetX@{SetX}}
+\index{SetX@{SetX}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{SetX()}{SetX()}}
+{\footnotesize\ttfamily public float Paoo\+Game.\+Objects.\+Item.\+SetX (\begin{DoxyParamCaption}\item[{float}]{x }\end{DoxyParamCaption})}
+
+
+
+Seteaza coordonata pe axa X. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_a16669ef80274e020716f97dd0e975093}\label{class_paoo_game_1_1_objects_1_1_item_a16669ef80274e020716f97dd0e975093}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!SetY@{SetY}}
+\index{SetY@{SetY}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{SetY()}{SetY()}}
+{\footnotesize\ttfamily public float Paoo\+Game.\+Objects.\+Item.\+SetY (\begin{DoxyParamCaption}\item[{float}]{y }\end{DoxyParamCaption})}
+
+
+
+Seteaza coordonata pe axa Y. 
+
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_ab54897014ab336bf592568b0a0879866}\label{class_paoo_game_1_1_objects_1_1_item_ab54897014ab336bf592568b0a0879866}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!Update@{Update}}
+\index{Update@{Update}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+Objects.\+Item.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Actualizeaza pozitia item-\/ului. 
+
+
+
+Reimplemented in \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_bullet_aa044b4d4de06c2065544974e8b250aaa}{Paoo\+Game.\+Objects.\+Bullet}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_enemy_af50b4079ee28fff9417fa5a3bcb7a319}{Paoo\+Game.\+Objects.\+Enemy}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_enemy2_aa4da5428ec86e3906eafcf788ba33e03}{Paoo\+Game.\+Objects.\+Enemy2}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_flower_a52486ff91c95f201a2467fa41f71a0d2}{Paoo\+Game.\+Objects.\+Flower}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_land_a574ed2c62562cebf858a36765fd2dc70}{Paoo\+Game.\+Objects.\+Land}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_life_a3371d8cc8fbd5cce6b79c50662aca8fc}{Paoo\+Game.\+Objects.\+Life}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_money_ab5c926852a4dbb48d4d39d8eb41d8641}{Paoo\+Game.\+Objects.\+Money}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_pine_a731d1eb5688ce4f4523985f5c63d2eb2}{Paoo\+Game.\+Objects.\+Pine}}, \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_player_ae278fc18fb775855b1c718d0dd2e3921}{Paoo\+Game.\+Objects.\+Player}}, and \mbox{\hyperlink{class_paoo_game_1_1_objects_1_1_tree_a66a563c0b8aed60b094cf5128a83a082}{Paoo\+Game.\+Objects.\+Tree}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_ac02dcd1a119cbb00379b9f3331171622}\label{class_paoo_game_1_1_objects_1_1_item_ac02dcd1a119cbb00379b9f3331171622}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!attackBounds@{attackBounds}}
+\index{attackBounds@{attackBounds}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{attackBounds}{attackBounds}}
+{\footnotesize\ttfamily Rectangle Paoo\+Game.\+Objects.\+Item.\+attack\+Bounds\hspace{0.3cm}{\ttfamily [protected]}}
+
+Dreptunghiul de coliziune aferent starii de atac. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_a28f84c3674b9075cf559fc70de3a3309}\label{class_paoo_game_1_1_objects_1_1_item_a28f84c3674b9075cf559fc70de3a3309}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!bounds@{bounds}}
+\index{bounds@{bounds}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{bounds}{bounds}}
+{\footnotesize\ttfamily Rectangle Paoo\+Game.\+Objects.\+Item.\+bounds\hspace{0.3cm}{\ttfamily [protected]}}
+
+Dreptunghiul curent de coliziune. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_a2dbde2d7516cec70d9a8c11008c633f1}\label{class_paoo_game_1_1_objects_1_1_item_a2dbde2d7516cec70d9a8c11008c633f1}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!handler@{handler}}
+\index{handler@{handler}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{handler}{handler}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} Paoo\+Game.\+Objects.\+Item.\+handler\hspace{0.3cm}{\ttfamily [protected]}}
+
+O referinte catre un obiect \char`\"{}shortcut\char`\"{}, obiect ce contine o serie de referinte utile in program. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_aea0212934379c2e811f9d17edde0758b}\label{class_paoo_game_1_1_objects_1_1_item_aea0212934379c2e811f9d17edde0758b}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!height@{height}}
+\index{height@{height}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{height}{height}}
+{\footnotesize\ttfamily int Paoo\+Game.\+Objects.\+Item.\+height\hspace{0.3cm}{\ttfamily [protected]}}
+
+Inaltimea imaginii entitatii. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_adf06fc20a159e55263e5bcb96bb7ed56}\label{class_paoo_game_1_1_objects_1_1_item_adf06fc20a159e55263e5bcb96bb7ed56}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!normalBounds@{normalBounds}}
+\index{normalBounds@{normalBounds}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{normalBounds}{normalBounds}}
+{\footnotesize\ttfamily Rectangle Paoo\+Game.\+Objects.\+Item.\+normal\+Bounds\hspace{0.3cm}{\ttfamily [protected]}}
+
+Dreptunghiul de coliziune aferent starii obisnuite(spatiul ocupat de entitate in mod normal), poate fi mai mic sau mai mare decat dimensiunea imaginii sale. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_ab4e989f6f8d4dd8aad80fdb0a5493fe0}\label{class_paoo_game_1_1_objects_1_1_item_ab4e989f6f8d4dd8aad80fdb0a5493fe0}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!width@{width}}
+\index{width@{width}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{width}{width}}
+{\footnotesize\ttfamily int Paoo\+Game.\+Objects.\+Item.\+width\hspace{0.3cm}{\ttfamily [protected]}}
+
+Latimea imaginii entitatii. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}\label{class_paoo_game_1_1_objects_1_1_item_afb520b33572d56686a646d59f8568a0a}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!x@{x}}
+\index{x@{x}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily float Paoo\+Game.\+Objects.\+Item.\+x\hspace{0.3cm}{\ttfamily [protected]}}
+
+Pozitia pe axa X de joc a imaginii entitatii. \mbox{\Hypertarget{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}\label{class_paoo_game_1_1_objects_1_1_item_a249927db64afa8eb5f5d7c98e67cfa3c}} 
+\index{PaooGame.Objects.Item@{PaooGame.Objects.Item}!y@{y}}
+\index{y@{y}!PaooGame.Objects.Item@{PaooGame.Objects.Item}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily float Paoo\+Game.\+Objects.\+Item.\+y\hspace{0.3cm}{\ttfamily [protected]}}
+
+Pozitia pe axa Y de joc a imaginii entitatii. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+Objects/\mbox{\hyperlink{_item_8java}{Item.\+java}}\end{DoxyCompactItemize}

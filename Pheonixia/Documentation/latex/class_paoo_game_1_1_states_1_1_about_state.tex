@@ -1,0 +1,111 @@
+\hypertarget{class_paoo_game_1_1_states_1_1_about_state}{}\doxysection{Paoo\+Game.\+States.\+About\+State Class Reference}
+\label{class_paoo_game_1_1_states_1_1_about_state}\index{PaooGame.States.AboutState@{PaooGame.States.AboutState}}
+
+
+Implementeaza notiunea de manual de instructiuni/despre joc.  
+
+
+Inheritance diagram for Paoo\+Game.\+States.\+About\+State\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paoo_game_1_1_states_1_1_about_state}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paoo_game_1_1_states_1_1_about_state_ad265ce337a614c8f9635815c59584041}{About\+State}} (\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}} \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_ac992edae02e9abb9d1cbcc231251cdae}{handler}})
+\begin{DoxyCompactList}\small\item\em Constructorul de initializare al clasei. \end{DoxyCompactList}\item 
+Image \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_about_state_a1d73b964d37439ddb6b5b84e59797810}{get\+Player\+Img}} ()
+\item 
+Image \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_about_state_a707a650ac3612a63d33456f3cb4b49e3}{get\+Waterfall\+Img}} ()
+\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_about_state_a5b67af5b2f5019dc7f0bddb1e61d11da}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Actualizeaza starea curenta a meniului. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_about_state_ae0999d4560599fde7359296bd438a808}{Draw}} (Graphics g)
+\begin{DoxyCompactList}\small\item\em Deseneaza (randeaza) pe ecran starea curenta a meniului. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Implementeaza notiunea de manual de instructiuni/despre joc. 
+
+Contine informatii despre controllers, povestea jocului pentru intelegerea contextului jocului si informatii despre regulament. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_about_state_ad265ce337a614c8f9635815c59584041}\label{class_paoo_game_1_1_states_1_1_about_state_ad265ce337a614c8f9635815c59584041}} 
+\index{PaooGame.States.AboutState@{PaooGame.States.AboutState}!AboutState@{AboutState}}
+\index{AboutState@{AboutState}!PaooGame.States.AboutState@{PaooGame.States.AboutState}}
+\doxysubsubsection{\texorpdfstring{AboutState()}{AboutState()}}
+{\footnotesize\ttfamily public Paoo\+Game.\+States.\+About\+State.\+About\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_paoo_game_1_1_handler}{Handler}}}]{handler }\end{DoxyParamCaption})}
+
+
+
+Constructorul de initializare al clasei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & referinta catre un obiect \char`\"{}shortcut\char`\"{}, obiect ce contine o serie de referinte utile in program. \\
+\hline
+\end{DoxyParams}
+Apel al constructorului clasei de baza.
+
+Se construieste un nou manager de obiecte UI
+
+Adaugare buton care il trimite pe utilizator inapoi catre meniu
+
+Adaugare buton care ii permite utilizatorului sa acceseze urmatorul \char`\"{}slide\char`\"{} cu informatii ce ii sunt puse la dispozitie de catre dezvoltatorul plicatiei
+
+Adaugare buton care ii permite utilizatorului sa acceseze \char`\"{}slide-\/ul\char`\"{} anterior cu informatii ce ii sunt puse la dispozitie de catre dezvoltatorul plicatiei
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_about_state_ae0999d4560599fde7359296bd438a808}\label{class_paoo_game_1_1_states_1_1_about_state_ae0999d4560599fde7359296bd438a808}} 
+\index{PaooGame.States.AboutState@{PaooGame.States.AboutState}!Draw@{Draw}}
+\index{Draw@{Draw}!PaooGame.States.AboutState@{PaooGame.States.AboutState}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+About\+State.\+Draw (\begin{DoxyParamCaption}\item[{Graphics}]{g }\end{DoxyParamCaption})}
+
+
+
+Deseneaza (randeaza) pe ecran starea curenta a meniului. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Contextul grafic in care trebuie sa deseneze starea jocului pe ecran. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a1b7ea671618e0aaaf398e5fada65ab57}{Paoo\+Game.\+States.\+State}}.
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_about_state_a1d73b964d37439ddb6b5b84e59797810}\label{class_paoo_game_1_1_states_1_1_about_state_a1d73b964d37439ddb6b5b84e59797810}} 
+\index{PaooGame.States.AboutState@{PaooGame.States.AboutState}!getPlayerImg@{getPlayerImg}}
+\index{getPlayerImg@{getPlayerImg}!PaooGame.States.AboutState@{PaooGame.States.AboutState}}
+\doxysubsubsection{\texorpdfstring{getPlayerImg()}{getPlayerImg()}}
+{\footnotesize\ttfamily Image Paoo\+Game.\+States.\+About\+State.\+get\+Player\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_about_state_a707a650ac3612a63d33456f3cb4b49e3}\label{class_paoo_game_1_1_states_1_1_about_state_a707a650ac3612a63d33456f3cb4b49e3}} 
+\index{PaooGame.States.AboutState@{PaooGame.States.AboutState}!getWaterfallImg@{getWaterfallImg}}
+\index{getWaterfallImg@{getWaterfallImg}!PaooGame.States.AboutState@{PaooGame.States.AboutState}}
+\doxysubsubsection{\texorpdfstring{getWaterfallImg()}{getWaterfallImg()}}
+{\footnotesize\ttfamily Image Paoo\+Game.\+States.\+About\+State.\+get\+Waterfall\+Img (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_paoo_game_1_1_states_1_1_about_state_a5b67af5b2f5019dc7f0bddb1e61d11da}\label{class_paoo_game_1_1_states_1_1_about_state_a5b67af5b2f5019dc7f0bddb1e61d11da}} 
+\index{PaooGame.States.AboutState@{PaooGame.States.AboutState}!Update@{Update}}
+\index{Update@{Update}!PaooGame.States.AboutState@{PaooGame.States.AboutState}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily public void Paoo\+Game.\+States.\+About\+State.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Actualizeaza starea curenta a meniului. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_paoo_game_1_1_states_1_1_state_a358ce2dea3b960c707b1a7ed837e2355}{Paoo\+Game.\+States.\+State}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Paoo\+Game/\+States/\mbox{\hyperlink{_about_state_8java}{About\+State.\+java}}\end{DoxyCompactItemize}
