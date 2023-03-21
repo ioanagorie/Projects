@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59AF7907-C198-3A52-A05A-1EAE1A7F9A6B" name="Cabina">
+<createdBy>student</createdBy>
+<createdTime>2022-11-11 12:19:17 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cabina" id="8C75D60B-11C2-2C6C-FED4-905D668D1EA4">
+<createdBy>student</createdBy>
+<createdTime>2022-11-11 12:19:29 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="etaj" id="C63CA9FB-992D-6DCE-901D-35C64E1532F1">
+<createdBy>student</createdBy>
+<createdTime>2022-11-11 12:25:22 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>cabina_etaj_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>3</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="057149A7-19B0-EF16-B7FD-B92AEC33B023" name="Cabina_PK">
+<createdBy>student</createdBy>
+<createdTime>2022-11-11 12:23:19 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>8C75D60B-11C2-2C6C-FED4-905D668D1EA4</newElementsIDs>
+<usedAttributes>
+<attributeRef>8C75D60B-11C2-2C6C-FED4-905D668D1EA4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

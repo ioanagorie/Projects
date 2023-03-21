@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cabina_Actor_fk" directorySegmentName="seg_0" id="86E5CB1D-9DD7-608E-B0AF-7D92097D6D5A">
+<createdBy>student</createdBy>
+<createdTime>2022-11-25 12:36:47 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<sourcePk>057149A7-19B0-EF16-B7FD-B92AEC33B023</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>este a</nameOnSource>
+<nameOnTarget>detine</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>59AF7907-C198-3A52-A05A-1EAE1A7F9A6B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C5E8B281-9FEF-92F6-13C2-A4E18DD6E530</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

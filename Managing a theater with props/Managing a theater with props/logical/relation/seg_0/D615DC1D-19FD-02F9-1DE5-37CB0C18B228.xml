@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sala_Reprezentatie_fk" directorySegmentName="seg_0" id="D615DC1D-19FD-02F9-1DE5-37CB0C18B228">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:13:37 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<sourcePk>79DFD69A-5BAD-5E57-DBFF-08BB6EC611FA</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>gazduieste</nameOnSource>
+<nameOnTarget>se tine in</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B2763E0B-7AAA-5253-D765-A4F7C7613AB1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37DA3A42-EB66-F760-4A4C-4020C0ACDC3D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

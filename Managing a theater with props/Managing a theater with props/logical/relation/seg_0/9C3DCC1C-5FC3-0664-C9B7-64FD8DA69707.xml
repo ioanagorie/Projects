@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Decor_Recuzita" directorySegmentName="seg_0" id="9C3DCC1C-5FC3-0664-C9B7-64FD8DA69707">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:12:29 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3BF79684-5E9F-8A15-2E55-A3BD21EAAACC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FDE31028-5530-426A-EB7E-92B758557A78</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="cantitate" id="1737CEDB-1F30-0FD9-2F7B-D1C8ACE6FFF0">
+<createdBy>student</createdBy>
+<createdTime>2022-11-11 13:16:49 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</attribute>
+<attribute name="id_Decor_Recuzita" id="957BFEC6-7380-5C0C-91E1-90BB496F6B4E">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-19 16:18:56 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,13,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

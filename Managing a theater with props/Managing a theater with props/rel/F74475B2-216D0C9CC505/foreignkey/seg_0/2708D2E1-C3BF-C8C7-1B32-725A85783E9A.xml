@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2708D2E1-C3BF-C8C7-1B32-725A85783E9A" containerWithKeyObject="FDE0F4D5-2414-9F33-4953-766DE58B430E" localFKIndex="AE49730C-433E-6E1B-4486-8C4037E1DE64" name="Contract_Actor_FK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>71063DBA-0EF7-4A54-94C6-735DC4C74817</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<referredTableLongName>Actor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F482FDA2-817F-351D-DE92-5DFB0AC35DEC</referredTableID>
+<keyObject>9C597830-E9B9-37AB-77CF-C06D984E2E32</keyObject>
+<referredKeyID>9C597830-E9B9-37AB-77CF-C06D984E2E32</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_actor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C90DC169-FE65-2D09-AFBA-A09A84E1607C" containerWithKeyObject="F482FDA2-817F-351D-DE92-5DFB0AC35DEC" localFKIndex="50494652-5958-D961-01BD-FD0409140A55" name="Cabina_Actor_fk">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>86E5CB1D-9DD7-608E-B0AF-7D92097D6D5A</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<referredTableLongName>Cabina</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5A3A6484-B053-5A20-858A-471CB6748DF7</referredTableID>
+<keyObject>C1C11382-FF61-3DBE-4951-F0EB628E5837</keyObject>
+<referredKeyID>C1C11382-FF61-3DBE-4951-F0EB628E5837</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cabina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

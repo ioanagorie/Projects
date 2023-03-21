@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="363E8C7E-9132-FF7A-C419-51A386115806" name="Sala">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>B2763E0B-7AAA-5253-D765-A4F7C7613AB1</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sala" id="94C5BE60-7753-5DAD-60B6-4E402A019A69">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>0169BB00-3A30-9C9B-113F-310B7B5900BF</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume" id="7137B06B-5000-C607-0CA1-5A0A223436C8">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>BFB50DF1-D9E9-D35D-7BEA-4B36FD38612B</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>sala_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="George Bacovia" description=""/>
+<valueDef value="Ion Creanga" description=""/>
+<valueDef value="Ion Luca Caragiale" description=""/>
+<valueDef value="Lucian Blaga" description=""/>
+<valueDef value="Marin Preda" description=""/>
+<valueDef value="Marin Sorescu" description=""/>
+<valueDef value="Mihai Eminescu" description=""/>
+<valueDef value="Teodor Mazilu" description=""/>
+<valueDef value="Vasile Alecsandri" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="etaj" id="0F786649-3320-72F7-7932-F81E92A0AAF2">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>7FC1AEAF-8CA8-1DBB-7209-22B2116E71D0</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>sala_etaj_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>4</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="capacitate" id="1B694935-4CB7-D72B-3DB0-11A77F44213F">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>28CEF05D-E824-5E04-1274-754AE900425C</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>sala_capacitate_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>10</beginValue>
+<endValue>500</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDB437D9-ADB3-A104-9AA7-2E7631A8F152" name="Sala_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>79DFD69A-5BAD-5E57-DBFF-08BB6EC611FA</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94C5BE60-7753-5DAD-60B6-4E402A019A69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

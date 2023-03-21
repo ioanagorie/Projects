@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DCAF73B-84B1-B8C2-C91F-424B5EDC03D3" name="Reprezentatie">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>37DA3A42-EB66-F760-4A4C-4020C0ACDC3D</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_reprezentatie" id="F76C38EE-A8BB-B695-2160-72ECC2147315">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>F53D17DB-F4D0-338B-3C1B-23031B4247B9</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zi" id="4BEEAB91-928E-982C-DE17-41E74653EE4B">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>BFD451A9-9895-DB5E-8C03-0C27FA150215</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ora_inceput" id="D193DED9-CA59-66D8-5221-B369004FEC57">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>391F14B3-8560-F8F1-6D3E-D866F417878D</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>Reprezentatie_ora_inceput_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>8</beginValue>
+<endValue>21</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="ora_sfarsit" id="0E8752BB-CA6D-9EA3-1AE5-FE250065C431">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>46D3F8DE-679D-F015-0BC1-D45827F015A5</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>Reprezentatie_ora_sfarsit_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>9</beginValue>
+<endValue>22</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="id_sala" id="531CF06A-CCF7-0250-0C5B-AEA9A0D8EAFA">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>31BE4AEF-78CA-DA6B-E198-F9509B970A18</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C70F9394-1C23-5019-F062-65D51CB153CA" referredColumn="94C5BE60-7753-5DAD-60B6-4E402A019A69"/>
+</associations>
+</Column>
+<Column name="id_piesa" id="AB6520CD-94C9-6CBC-A221-CDFC49185AEF">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>4250E6B9-C94F-AD54-C21B-C9AD703BBFA3</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15D6A448-F91C-5072-F73D-B90EA2788B55" referredColumn="BB54A527-4B94-D4CF-6B9D-ADB2177A543E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6CE1614-D6B5-7C01-1B0D-4DDF4A29F608" name="Reprezentatie_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>3A6ACDD9-D8D3-DF90-2F3A-CFEAB588EFDE</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F76C38EE-A8BB-B695-2160-72ECC2147315"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5515A24A-050F-74F3-E841-3CFDAD0411B4" name="Piesa_Reprezentatie_Fk">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>205ABE94-9B1B-0059-587F-81F042170F77</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB6520CD-94C9-6CBC-A221-CDFC49185AEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AFBB8F5-70EA-19A7-123B-1C91F4A90112" name="Sala_Reprezentatie_fk">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>D615DC1D-19FD-02F9-1DE5-37CB0C18B228</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="531CF06A-CCF7-0250-0C5B-AEA9A0D8EAFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

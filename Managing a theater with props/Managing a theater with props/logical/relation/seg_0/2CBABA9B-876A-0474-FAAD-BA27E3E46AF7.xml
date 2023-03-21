@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Decor_Piesa_Fk" directorySegmentName="seg_0" id="2CBABA9B-876A-0474-FAAD-BA27E3E46AF7">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:14:56 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<sourcePk>D00FFDBE-8FE2-036B-60D9-1B13D49C9761</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>apartine</nameOnSource>
+<nameOnTarget>contine</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3BF79684-5E9F-8A15-2E55-A3BD21EAAACC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A59FA609-13B9-4B0F-7BA8-726DEF1505D0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

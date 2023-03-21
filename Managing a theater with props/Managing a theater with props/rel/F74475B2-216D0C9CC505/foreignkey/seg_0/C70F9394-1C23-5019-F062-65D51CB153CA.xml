@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C70F9394-1C23-5019-F062-65D51CB153CA" containerWithKeyObject="3DCAF73B-84B1-B8C2-C91F-424B5EDC03D3" localFKIndex="1AFBB8F5-70EA-19A7-123B-1C91F4A90112" name="Sala_Reprezentatie_fk">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>D615DC1D-19FD-02F9-1DE5-37CB0C18B228</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<referredTableLongName>Sala</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>363E8C7E-9132-FF7A-C419-51A386115806</referredTableID>
+<keyObject>FDB437D9-ADB3-A104-9AA7-2E7631A8F152</keyObject>
+<referredKeyID>FDB437D9-ADB3-A104-9AA7-2E7631A8F152</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_sala</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="281E7E33-C619-69F6-3201-328D01F8F205" name="Piesa">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>A59FA609-13B9-4B0F-7BA8-726DEF1505D0</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_piesa" id="BB54A527-4B94-D4CF-6B9D-ADB2177A543E">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>3B9E9D7E-BBD8-5278-7BC4-259218286EC6</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume" id="6468C1C2-41A4-12B6-3BF1-5FE9913D1F31">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>1CC10CC3-42B0-7058-1D50-CA600A752CBD</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>piesa_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(nume)&gt;2"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autor" id="06E33679-15B0-EA08-50AC-0F79A04E9637">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>F3302074-6458-5796-B0E4-7CB018914C37</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>piesa_autor_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(autor)&gt;4"/>
+</checkConstraint>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gen" id="A0BB2110-B6D0-EDCF-49AD-B3C5D86C00F5">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>F92B465F-6B1E-69D1-201B-82C29B0CAF09</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>piesa_gen_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="comedie" description=""/>
+<valueDef value="drama" description=""/>
+<valueDef value="horror" description=""/>
+<valueDef value="improvizatie" description=""/>
+<valueDef value="melodrama" description=""/>
+<valueDef value="mima" description=""/>
+<valueDef value="mister" description=""/>
+<valueDef value="musical" description=""/>
+<valueDef value="pantomima" description=""/>
+<valueDef value="romantic" description=""/>
+<valueDef value="satira" description=""/>
+<valueDef value="tragedie" description=""/>
+<valueDef value="tragicomedie" description=""/>
+<valueDef value="varieteu" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="durata" id="EC0CEF4F-D899-0A12-6EC2-A8E5EF6EC0EA">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>235C3D26-BA4A-9DFA-7BEF-2DEA34332C35</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>Piesa_durata_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="varsta_minima" id="3136510E-8F79-4193-0DC6-F8CC63EF9783">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>8103EF41-008F-CA42-B726-99BE78914C2A</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>piesa_varsta_minima_ck</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="12" description=""/>
+<valueDef value="13" description=""/>
+<valueDef value="15" description=""/>
+<valueDef value="18" description=""/>
+</listOfValues>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_decor" id="1521CECB-9FC6-8881-E01C-B98635C40ADD">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>6E044763-1CE3-4C6C-54A0-4038CFA999F9</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAB6FA31-7FEE-4E94-46D2-305897179CD9" referredColumn="87054287-31E1-B318-0E40-3CE06F946298"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CE7F165-3A01-CE56-019E-433B185F4EFE" name="Piesa_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>55CFDF69-FC28-4319-3CE1-8FDFD7AE8FE9</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB54A527-4B94-D4CF-6B9D-ADB2177A543E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBC53B70-DCC2-074A-731E-7D95644C76C5" name="Decor_Piesa_Fk">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>2CBABA9B-876A-0474-FAAD-BA27E3E46AF7</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1521CECB-9FC6-8881-E01C-B98635C40ADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

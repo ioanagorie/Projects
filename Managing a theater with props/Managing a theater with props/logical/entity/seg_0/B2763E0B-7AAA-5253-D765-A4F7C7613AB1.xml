@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2763E0B-7AAA-5253-D765-A4F7C7613AB1" name="Sala">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:37:14 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sala" id="0169BB00-3A30-9C9B-113F-310B7B5900BF">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:37:21 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume" id="BFB50DF1-D9E9-D35D-7BEA-4B36FD38612B">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:37:34 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>sala_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="George Bacovia" description=""/>
+<valueDef value="Ion Creanga" description=""/>
+<valueDef value="Ion Luca Caragiale" description=""/>
+<valueDef value="Lucian Blaga" description=""/>
+<valueDef value="Marin Preda" description=""/>
+<valueDef value="Marin Sorescu" description=""/>
+<valueDef value="Mihai Eminescu" description=""/>
+<valueDef value="Teodor Mazilu" description=""/>
+<valueDef value="Vasile Alecsandri" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="etaj" id="7FC1AEAF-8CA8-1DBB-7209-22B2116E71D0">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:02:31 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>sala_etaj_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>4</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="capacitate" id="28CEF05D-E824-5E04-1274-754AE900425C">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:03:11 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>sala_capacitate_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>10</beginValue>
+<endValue>500</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79DFD69A-5BAD-5E57-DBFF-08BB6EC611FA" name="Sala_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:39:49 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0169BB00-3A30-9C9B-113F-310B7B5900BF</newElementsIDs>
+<usedAttributes>
+<attributeRef>0169BB00-3A30-9C9B-113F-310B7B5900BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

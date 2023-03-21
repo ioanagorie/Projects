@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="25C04DDC-9844-6FA5-E611-9DC2553917D4" containerWithKeyObject="4D0ACF13-61E6-1F4F-E535-D0D1DCDD9A02" localFKIndex="F8000D6D-FE72-E807-905F-37C4B3644D85" name="Decor_Recuzita_Decor_FK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>9C3DCC1C-5FC3-0664-C9B7-64FD8DA69707</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<referredTableLongName>Decor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1BAE8CEE-78B6-86A2-3465-11894EEB3D46</referredTableID>
+<keyObject>122A98B3-C43D-A802-4EEC-3152DA23B8EA</keyObject>
+<referredKeyID>122A98B3-C43D-A802-4EEC-3152DA23B8EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_decor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

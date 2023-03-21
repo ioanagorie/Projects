@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A59FA609-13B9-4B0F-7BA8-726DEF1505D0" name="Piesa">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:14:57 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_piesa" id="3B9E9D7E-BBD8-5278-7BC4-259218286EC6">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:15:03 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume" id="1CC10CC3-42B0-7058-1D50-CA600A752CBD">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:15:17 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>piesa_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(nume)&gt;2"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="autor" id="F3302074-6458-5796-B0E4-7CB018914C37">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-24 15:39:05 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>piesa_autor_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(autor)&gt;4"/>
+</checkConstraint>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gen" id="F92B465F-6B1E-69D1-201B-82C29B0CAF09">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:03:47 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>piesa_gen_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="comedie" description=""/>
+<valueDef value="drama" description=""/>
+<valueDef value="horror" description=""/>
+<valueDef value="improvizatie" description=""/>
+<valueDef value="melodrama" description=""/>
+<valueDef value="mima" description=""/>
+<valueDef value="mister" description=""/>
+<valueDef value="musical" description=""/>
+<valueDef value="pantomima" description=""/>
+<valueDef value="romantic" description=""/>
+<valueDef value="satira" description=""/>
+<valueDef value="tragedie" description=""/>
+<valueDef value="tragicomedie" description=""/>
+<valueDef value="varieteu" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="durata" id="235C3D26-BA4A-9DFA-7BEF-2DEA34332C35">
+<createdBy>student</createdBy>
+<createdTime>2022-11-25 13:14:43 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>Piesa_durata_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="varsta_minima" id="8103EF41-008F-CA42-B726-99BE78914C2A">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:04:07 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>piesa_varsta_minima_ck</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="12" description=""/>
+<valueDef value="13" description=""/>
+<valueDef value="15" description=""/>
+<valueDef value="18" description=""/>
+</listOfValues>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_decor" id="6E044763-1CE3-4C6C-54A0-4038CFA999F9">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:14:56 UTC</createdTime>
+<generatorID>2CBABA9B-876A-0474-FAAD-BA27E3E46AF7</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<referedAttribute>B1B41624-5FED-6A67-700E-EF862DB32F68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55CFDF69-FC28-4319-3CE1-8FDFD7AE8FE9" name="Piesa_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:16:18 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3B9E9D7E-BBD8-5278-7BC4-259218286EC6</newElementsIDs>
+<usedAttributes>
+<attributeRef>3B9E9D7E-BBD8-5278-7BC4-259218286EC6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A3A6484-B053-5A20-858A-471CB6748DF7" name="Cabina">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>59AF7907-C198-3A52-A05A-1EAE1A7F9A6B</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cabina" id="9065ADB5-542B-4916-06CC-B51128954496">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>8C75D60B-11C2-2C6C-FED4-905D668D1EA4</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="etaj" id="D1FADCB2-5E4D-77C5-B55B-9128F108CD33">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>C63CA9FB-992D-6DCE-901D-35C64E1532F1</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>cabina_etaj_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>3</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1C11382-FF61-3DBE-4951-F0EB628E5837" name="Cabina_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>057149A7-19B0-EF16-B7FD-B92AEC33B023</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9065ADB5-542B-4916-06CC-B51128954496"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

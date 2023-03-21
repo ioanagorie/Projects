@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D0ACF13-61E6-1F4F-E535-D0D1DCDD9A02" name="Decor_Recuzita">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Decor_id_decor" id="BD76F248-3BC6-0B34-F06A-18A1B664E4CC">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25C04DDC-9844-6FA5-E611-9DC2553917D4" referredColumn="87054287-31E1-B318-0E40-3CE06F946298"/>
+</associations>
+</Column>
+<Column name="Recuzita_id_recuzita" id="DC615CCF-648B-F445-5E33-5828316C32C1">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72719FB7-D733-372C-43CC-6D1F40AD10B1" referredColumn="C827386B-3A48-68B6-EBCC-16DBD13B1076"/>
+</associations>
+</Column>
+<Column name="cantitate" id="D021DFA2-1A8C-D056-DAE8-CFA712CD85F2">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>1737CEDB-1F30-0FD9-2F7B-D1C8ACE6FFF0</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="id_Decor_Recuzita" id="3469B011-EC97-A04E-AB81-CF79747EA516">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>957BFEC6-7380-5C0C-91E1-90BB496F6B4E</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27669691-5DDE-2FEE-7C5F-002597CC1E34" name="Decor_Recuzita_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD76F248-3BC6-0B34-F06A-18A1B664E4CC"/>
+<colUsage columnID="DC615CCF-648B-F445-5E33-5828316C32C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8000D6D-FE72-E807-905F-37C4B3644D85" name="Decor_Recuzita_Decor_FK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>9C3DCC1C-5FC3-0664-C9B7-64FD8DA69707</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD76F248-3BC6-0B34-F06A-18A1B664E4CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2118807-F4AA-0E9A-8540-1AD9208DA0AC" name="Decor_Recuzita_Recuzita_FK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>9C3DCC1C-5FC3-0664-C9B7-64FD8DA69707</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC615CCF-648B-F445-5E33-5828316C32C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BF79684-5E9F-8A15-2E55-A3BD21EAAACC" name="Decor">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:40:28 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_decor" id="B1B41624-5FED-6A67-700E-EF862DB32F68">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:40:51 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume" id="8AEC15CE-3E00-7231-2A35-02591BE42D35">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:41:28 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>decor_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<listOfValues>
+<valueDef value="bâlci" description=""/>
+<valueDef value="centru oras medieval" description=""/>
+<valueDef value="gara" description=""/>
+<valueDef value="livada" description=""/>
+<valueDef value="padure" description=""/>
+<valueDef value="parc" description=""/>
+<valueDef value="picnic" description=""/>
+<valueDef value="plaja" description=""/>
+<valueDef value="port" description=""/>
+<valueDef value="restaurant" description=""/>
+<valueDef value="sala de bal" description=""/>
+<valueDef value="sala de sport" description=""/>
+<valueDef value="scoala" description=""/>
+<valueDef value="strada" description=""/>
+<valueDef value="sufragerie" description=""/>
+</listOfValues>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D00FFDBE-8FE2-036B-60D9-1B13D49C9761" name="Decor_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:42:05 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B1B41624-5FED-6A67-700E-EF862DB32F68</newElementsIDs>
+<usedAttributes>
+<attributeRef>B1B41624-5FED-6A67-700E-EF862DB32F68</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,221 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5E8B281-9FEF-92F6-13C2-A4E18DD6E530" name="Actor">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:35:40 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_actor" id="7E81144D-D666-2761-BD30-33A406F5CAAA">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:35:49 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume" id="649B413D-5C2A-CDD2-E0A3-D4823F1F56E5">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:36:05 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>actor_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(nume)&gt;2"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prenume" id="5C3A0413-9491-F542-8773-2BC39D603316">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-19 16:39:28 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>actor_prenume_ck</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(prenume)&gt;2"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nastere" id="85113A6D-081A-F0D5-D340-7FAE74F2FD4E">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:10:49 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefon" id="DB595089-EEF5-5486-1507-995D284B840C">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:04:28 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>actor_telefon_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(telefon,&apos;^0\d{9}|\d{10}$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="21A683B8-690A-6DA0-FF27-1335E0CBC946">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:05:11 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>actor_email_ck</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(email, &apos;[a-z0-9._%-]+@[a-z0-9._%-]+\.[a-z]{2,4}&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_angajare" id="22F12291-7ABE-AD76-326A-A5B5C4120921">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:05:24 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salariu" id="2786A3E7-4E08-3E8A-81C4-81B1154E6572">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:06:03 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<constraintName>actor_salariu_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marime_haine" id="5B5945AC-7600-B9EE-C190-B29B447AE1B4">
+<createdBy>student</createdBy>
+<createdTime>2022-11-11 12:46:25 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<listOfValues>
+<valueDef value="L" description=""/>
+<valueDef value="M" description=""/>
+<valueDef value="S" description=""/>
+<valueDef value="XL" description=""/>
+<valueDef value="XS" description=""/>
+<valueDef value="XXL" description=""/>
+<valueDef value="XXS" description=""/>
+<valueDef value="XXXL" description=""/>
+<valueDef value="XXXXL" description=""/>
+<valueDef value="XXXXXL" description=""/>
+</listOfValues>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cabina" id="9C991E8E-5BFC-A602-3918-E3F0DD4550D2">
+<createdBy>student</createdBy>
+<createdTime>2022-11-25 12:36:47 UTC</createdTime>
+<generatorID>86E5CB1D-9DD7-608E-B0AF-7D92097D6D5A</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<referedAttribute>8C75D60B-11C2-2C6C-FED4-905D668D1EA4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD8A2D5E-9806-069C-E086-5098EE63E2DB" name="Actor_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 14:36:41 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7E81144D-D666-2761-BD30-33A406F5CAAA</newElementsIDs>
+<usedAttributes>
+<attributeRef>7E81144D-D666-2761-BD30-33A406F5CAAA</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B3013856-0242-278A-A8F8-81C946805CAA" name="telefon">
+<createdBy>student</createdBy>
+<createdTime>2022-11-25 12:13:40 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<newElementsIDs>DB595089-EEF5-5486-1507-995D284B840C</newElementsIDs>
+<usedAttributes>
+<attributeRef>DB595089-EEF5-5486-1507-995D284B840C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="913FF931-EEB0-51A1-FEBB-3373AC632E26" name="email">
+<createdBy>student</createdBy>
+<createdTime>2022-11-25 12:15:18 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<newElementsIDs>21A683B8-690A-6DA0-FF27-1335E0CBC946</newElementsIDs>
+<usedAttributes>
+<attributeRef>21A683B8-690A-6DA0-FF27-1335E0CBC946</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

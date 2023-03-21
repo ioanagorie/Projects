@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Piesa_Reprezentatie_Fk" directorySegmentName="seg_0" id="205ABE94-9B1B-0059-587F-81F042170F77">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:14:10 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<sourcePk>55CFDF69-FC28-4319-3CE1-8FDFD7AE8FE9</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>este in</nameOnSource>
+<nameOnTarget>contine</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A59FA609-13B9-4B0F-7BA8-726DEF1505D0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37DA3A42-EB66-F760-4A4C-4020C0ACDC3D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

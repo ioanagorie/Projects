@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EBE7678-1383-7DFE-E7C9-E1F8672F4497" name="Recuzita">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>FDE31028-5530-426A-EB7E-92B758557A78</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_recuzita" id="C827386B-3A48-68B6-EBCC-16DBD13B1076">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>6F389265-7878-E26D-295F-BAB0A4797438</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume" id="068503DF-925C-DA3F-C0EF-E9F38519ECED">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>CC3F9F00-5A3C-BB1F-5B3A-FF0E356E3740</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>recuzita_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="armura cavaler" description=""/>
+<valueDef value="banca" description=""/>
+<valueDef value="barca" description=""/>
+<valueDef value="camasa de noapte barbati" description=""/>
+<valueDef value="camasa de noapte femei" description=""/>
+<valueDef value="canapea" description=""/>
+<valueDef value="coloana" description=""/>
+<valueDef value="copac" description=""/>
+<valueDef value="cos de baschet" description=""/>
+<valueDef value="costum cersetoare" description=""/>
+<valueDef value="costum cersetor" description=""/>
+<valueDef value="costum gospodina" description=""/>
+<valueDef value="costum mim" description=""/>
+<valueDef value="costum nobil" description=""/>
+<valueDef value="costum nobila" description=""/>
+<valueDef value="costum print" description=""/>
+<valueDef value="costum printesa" description=""/>
+<valueDef value="costum rege" description=""/>
+<valueDef value="costum regina" description=""/>
+<valueDef value="costum taran" description=""/>
+<valueDef value="costum taranca" description=""/>
+<valueDef value="costum vrajitoare" description=""/>
+<valueDef value="costum vrajitor" description=""/>
+<valueDef value="costum zana" description=""/>
+<valueDef value="covor" description=""/>
+<valueDef value="cuptor" description=""/>
+<valueDef value="divan" description=""/>
+<valueDef value="dulap" description=""/>
+<valueDef value="evantai" description=""/>
+<valueDef value="fantana" description=""/>
+<valueDef value="fereastra" description=""/>
+<valueDef value="gard" description=""/>
+<valueDef value="lampa" description=""/>
+<valueDef value="masa" description=""/>
+<valueDef value="masina epoca" description=""/>
+<valueDef value="masuta cafea" description=""/>
+<valueDef value="noptiera" description=""/>
+<valueDef value="pat" description=""/>
+<valueDef value="poarta de fotbal" description=""/>
+<valueDef value="scaun" description=""/>
+<valueDef value="servieta" description=""/>
+<valueDef value="set tacamuri" description=""/>
+<valueDef value="soba" description=""/>
+<valueDef value="tablou" description=""/>
+<valueDef value="trasura" description=""/>
+<valueDef value="trepte" description=""/>
+<valueDef value="tribuna" description=""/>
+<valueDef value="tron" description=""/>
+<valueDef value="tufis" description=""/>
+<valueDef value="usa" description=""/>
+<valueDef value="valiza" description=""/>
+<valueDef value="vaza flori" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="material" id="C4B066A8-B7B1-FF28-BE42-76D17931C84B">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>C640A02B-1470-BA67-F239-6D2D445AEC22</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>decor_material_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="caramida" description=""/>
+<valueDef value="carton" description=""/>
+<valueDef value="combinatie" description=""/>
+<valueDef value="hartie" description=""/>
+<valueDef value="ipsos" description=""/>
+<valueDef value="lemn" description=""/>
+<valueDef value="metal" description=""/>
+<valueDef value="plastic" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C187151-3009-1C1C-EB3A-71C57AC546CA" name="Recuzita_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>848D7E61-7150-AE69-922B-9A7D93AB9470</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C827386B-3A48-68B6-EBCC-16DBD13B1076"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

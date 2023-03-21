@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BAE8CEE-78B6-86A2-3465-11894EEB3D46" name="Decor">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>3BF79684-5E9F-8A15-2E55-A3BD21EAAACC</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_decor" id="87054287-31E1-B318-0E40-3CE06F946298">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>B1B41624-5FED-6A67-700E-EF862DB32F68</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume" id="0573FBA4-D370-F705-4062-4760AB344DF1">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>8AEC15CE-3E00-7231-2A35-02591BE42D35</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>decor_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<listOfValues>
+<valueDef value="bâlci" description=""/>
+<valueDef value="centru oras medieval" description=""/>
+<valueDef value="gara" description=""/>
+<valueDef value="livada" description=""/>
+<valueDef value="padure" description=""/>
+<valueDef value="parc" description=""/>
+<valueDef value="picnic" description=""/>
+<valueDef value="plaja" description=""/>
+<valueDef value="port" description=""/>
+<valueDef value="restaurant" description=""/>
+<valueDef value="sala de bal" description=""/>
+<valueDef value="sala de sport" description=""/>
+<valueDef value="scoala" description=""/>
+<valueDef value="strada" description=""/>
+<valueDef value="sufragerie" description=""/>
+</listOfValues>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="122A98B3-C43D-A802-4EEC-3152DA23B8EA" name="Decor_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>D00FFDBE-8FE2-036B-60D9-1B13D49C9761</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87054287-31E1-B318-0E40-3CE06F946298"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contract" directorySegmentName="seg_0" id="71063DBA-0EF7-4A54-94C6-735DC4C74817">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-10 15:12:53 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<engineerTo>
+<item key="F74475B2-447F-A68F-C7A3-216D0C9CC505" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A59FA609-13B9-4B0F-7BA8-726DEF1505D0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C5E8B281-9FEF-92F6-13C2-A4E18DD6E530</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

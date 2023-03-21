@@ -1,0 +1,226 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F482FDA2-817F-351D-DE92-5DFB0AC35DEC" name="Actor">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>C5E8B281-9FEF-92F6-13C2-A4E18DD6E530</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_actor" id="C198BB09-7AF2-76CC-5DFF-A13CE4011438">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>7E81144D-D666-2761-BD30-33A406F5CAAA</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume" id="47E259F6-4F33-AAE6-5358-DCCA328ED15A">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>649B413D-5C2A-CDD2-E0A3-D4823F1F56E5</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>actor_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(nume)&gt;2"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenume" id="05EBD882-092C-C761-0DCF-19B502CCE43E">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>5C3A0413-9491-F542-8773-2BC39D603316</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>actor_prenume_ck</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(prenume)&gt;2"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nastere" id="D1F2804A-B87E-BF4E-6D61-D9748FB92EE4">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>85113A6D-081A-F0D5-D340-7FAE74F2FD4E</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="469B9BF9-6E1D-A09B-54FC-9FF8C6760460">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>DB595089-EEF5-5486-1507-995D284B840C</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>actor_telefon_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(telefon,&apos;^0\d{9}|\d{10}$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="AF9F0C46-07D7-13E7-D66B-E9DC149E1580">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>21A683B8-690A-6DA0-FF27-1335E0CBC946</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>actor_email_ck</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(email, &apos;[a-z0-9._%-]+@[a-z0-9._%-]+\.[a-z]{2,4}&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_angajare" id="33A69687-71D2-82CF-0116-8A304D5A2B71">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>22F12291-7ABE-AD76-326A-A5B5C4120921</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salariu" id="AF27230C-B848-F4A8-E07D-4D40FFA1A15A">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>2786A3E7-4E08-3E8A-81C4-81B1154E6572</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<constraintName>actor_salariu_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marime_haine" id="82FBAB97-F059-7A65-5B51-47ED98BB0BE5">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>5B5945AC-7600-B9EE-C190-B29B447AE1B4</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<listOfValues>
+<valueDef value="L" description=""/>
+<valueDef value="M" description=""/>
+<valueDef value="S" description=""/>
+<valueDef value="XL" description=""/>
+<valueDef value="XS" description=""/>
+<valueDef value="XXL" description=""/>
+<valueDef value="XXS" description=""/>
+<valueDef value="XXXL" description=""/>
+<valueDef value="XXXXL" description=""/>
+<valueDef value="XXXXXL" description=""/>
+</listOfValues>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cabina" id="176381A3-40D0-FFD2-030B-73C14F01EC0E">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>9C991E8E-5BFC-A602-3918-E3F0DD4550D2</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C90DC169-FE65-2D09-AFBA-A09A84E1607C" referredColumn="9065ADB5-542B-4916-06CC-B51128954496"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C597830-E9B9-37AB-77CF-C06D984E2E32" name="Actor_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>DD8A2D5E-9806-069C-E086-5098EE63E2DB</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C198BB09-7AF2-76CC-5DFF-A13CE4011438"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F00701D-9A7E-A81D-9F1E-57A92934C857" name="telefon">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>B3013856-0242-278A-A8F8-81C946805CAA</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="469B9BF9-6E1D-A09B-54FC-9FF8C6760460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81F61B92-09EE-9B5F-1374-8A67FDACC780" name="email">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>913FF931-EEB0-51A1-FEBB-3373AC632E26</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF9F0C46-07D7-13E7-D66B-E9DC149E1580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A34208E-92FD-60D5-9DDF-9614FA9EF0F8" name="Actor__IDX">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>86E5CB1D-9DD7-608E-B0AF-7D92097D6D5A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="176381A3-40D0-FFD2-030B-73C14F01EC0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50494652-5958-D961-01BD-FD0409140A55" name="Cabina_Actor_fk">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>86E5CB1D-9DD7-608E-B0AF-7D92097D6D5A</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="176381A3-40D0-FFD2-030B-73C14F01EC0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

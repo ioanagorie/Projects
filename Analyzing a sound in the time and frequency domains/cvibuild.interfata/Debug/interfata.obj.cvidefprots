@@ -1,0 +1,56 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[onPanel]
+Class="Function"
+Prototype="int onPanel(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnLoad]
+Class="Function"
+Prototype="int OnLoad(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ordin1_filtration]
+Class="Function"
+Prototype="double *ordin1_filtration(double alpha);"
+
+[median_filtration]
+Class="Function"
+Prototype="double *median_filtration(int n);"
+
+[onFiltru]
+Class="Function"
+Prototype="int onFiltru(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnAplica]
+Class="Function"
+Prototype="int OnAplica(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[onOtherSecond]
+Class="Function"
+Prototype="int onOtherSecond(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[onAnvelopa]
+Class="Function"
+Prototype="int onAnvelopa(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[onSwitchPanel]
+Class="Function"
+Prototype="int onSwitchPanel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnFrequencyPanel]
+Class="Function"
+Prototype="int OnFrequencyPanel(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[onFiltrare]
+Class="Function"
+Prototype="int onFiltrare(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnOtherSecond2]
+Class="Function"
+Prototype="int OnOtherSecond2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnGenerateImagine]
+Class="Function"
+Prototype="int OnGenerateImagine(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

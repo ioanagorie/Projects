@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Teatru_cu_recuzita" id="84C29C27-2DFC-68AB-41D1-4208D6244321" version="3.5">
+<createdBy>ioana</createdBy>
+<createdTime>2022-11-09 19:25:56 UTC</createdTime>
+<ownerDesignName>bd-p</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>84C29C27-2DFC-68AB-41D1-4208D6244321</designId>
+</OSDM_Design>

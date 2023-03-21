@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDE0F4D5-2414-9F33-4953-766DE58B430E" name="Contract">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Piesa_id_piesa" id="1B61FC87-5D9B-E123-3DD6-7656274B828A">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13DC63E9-6FCF-1244-4AC3-E798CF6CD3E2" referredColumn="BB54A527-4B94-D4CF-6B9D-ADB2177A543E"/>
+</associations>
+</Column>
+<Column name="Actor_id_actor" id="6CB27C2F-75A5-AAC6-93E8-47C6023CE6D9">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2708D2E1-C3BF-C8C7-1B32-725A85783E9A" referredColumn="C198BB09-7AF2-76CC-5DFF-A13CE4011438"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B385FA89-5F1A-E08E-358E-336F9141B4D0" name="Contract_PK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B61FC87-5D9B-E123-3DD6-7656274B828A"/>
+<colUsage columnID="6CB27C2F-75A5-AAC6-93E8-47C6023CE6D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B644607-19AD-3B07-3D3A-763DD15BACD4" name="Contract_Piesa_FK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>71063DBA-0EF7-4A54-94C6-735DC4C74817</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B61FC87-5D9B-E123-3DD6-7656274B828A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE49730C-433E-6E1B-4486-8C4037E1DE64" name="Contract_Actor_FK">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>71063DBA-0EF7-4A54-94C6-735DC4C74817</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CB27C2F-75A5-AAC6-93E8-47C6023CE6D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

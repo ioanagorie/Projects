@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15D6A448-F91C-5072-F73D-B90EA2788B55" containerWithKeyObject="3DCAF73B-84B1-B8C2-C91F-424B5EDC03D3" localFKIndex="5515A24A-050F-74F3-E841-3CFDAD0411B4" name="Piesa_Reprezentatie_Fk">
+<createdBy>ioana</createdBy>
+<createdTime>2022-12-08 20:57:24 UTC</createdTime>
+<generatorID>205ABE94-9B1B-0059-587F-81F042170F77</generatorID>
+<ownerDesignName>Teatru_cu_recuzita</ownerDesignName>
+<referredTableLongName>Piesa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>281E7E33-C619-69F6-3201-328D01F8F205</referredTableID>
+<keyObject>1CE7F165-3A01-CE56-019E-433B185F4EFE</keyObject>
+<referredKeyID>1CE7F165-3A01-CE56-019E-433B185F4EFE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_piesa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
