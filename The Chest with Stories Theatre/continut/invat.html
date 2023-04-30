@@ -1,0 +1,86 @@
+
+</br>
+  </br>
+    <aside>
+        <div>
+            <a href="#s1"><h3>Secțiunea 1</h3></a>
+            <a href="#s2"><h3>Secțiunea 2</h3></a>
+            <a href="#s3"><h3>Secțiunea 3</h3></a>
+        </div>
+    </aside>
+    
+  <section "id="s1" >
+    <h2>Secțiunea 1</h2>
+    <p>
+        <b>Data:</b>
+    </p>
+    <p id="data">
+        <button onclick="data()">Data</button>
+    </p>
+    <p>
+        <b>URL: </b>
+    </p>
+    <p id="url">
+        <button onclick="url()">URL-ul</button>
+    </p>
+    <p>
+        <b>Locatia: </b>
+    </p>
+    <p id="location">
+            <button onclick="getLocation()">Locația</button>
+    </p>
+    <p>
+        <b>Versiune: </b>
+    </p>
+    <p id="version">
+        <button onclick="versiuneBrowser()">Versiunea</button>
+    </p>
+
+    <p>
+        <b>Sistem de operare: </b>
+    </p>
+    <p id="sistem">
+        <button onclick="SistemdeOperare()">Sistemul de operare</button>
+    </p>
+        
+
+  </section>
+
+  <section id="s2">
+    <h2>Secțiunea 2     
+    </h2>
+    <label for="contur">Culoare contur</label>
+    <input type="color" id="contur" name="contur" value="#426465">
+    <br>
+    <label for="umplere">Culoarea umplere</label>
+    <input type="color" id="umplere" name="umplere" value="#f78962">
+    <br>
+    <canvas onclick="draw(event);" id="Canvas" height="300" width="500" style="border:2px solid #521380;"></canvas>
+    <br>
+    </section><br>
+
+<section id="s3">
+        <h2>Secțiunea 3</h2>
+        <table id="tabelSectiunea3">
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <br/>
+        <label >Index</label>
+        <input type="text" size="1" id="index" value="1">
+        <label>Culoare</label>
+        <input type="color" size="1" id="culoare-linie" value="#4EAFC0"><br/><br/>
+
+        <button type="button" onclick="inserareLinie()">Inserați rând</button>
+        <button type="button" onclick="inserareColoana()">Inserați coloană</button><br/>
+</section>

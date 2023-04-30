@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE persoane SYSTEM "persoana.dtd">
+<persoane>
+ <persoana id="id1">
+    <nume>Popescu</nume>
+    <prenume>Ion</prenume>
+    <varsta>23</varsta>
+     <adresa> 
+        <strada> Salciilor</strada>
+        <numar>21</numar>
+        <localitate>Iasi</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+    </adresa>
+    <ocupatie> inginer </ocupatie>
+    <statut> casatorit </statut>
+    <telefon> 0777432123</telefon>
+ </persoana>
+
+  <persoana id="id2">
+    <nume>Romanescu</nume>
+    <prenume>Irina</prenume>
+    <varsta>21</varsta>
+    <adresa> 
+        <strada> Petre Tutea</strada>
+        <numar>25</numar>
+        <localitate>Iasi</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+    </adresa>
+    <ocupatie> student </ocupatie>
+    <statut> necasatorit </statut>
+    <telefon> 0766785433 </telefon>
+  </persoana>
+
+  <persoana id="id3">
+    <nume>Pintilie</nume>
+    <prenume>Ioana</prenume>
+    <varsta>20</varsta>
+    <adresa> 
+        <strada> Petre Tutea</strada>
+        <numar>28</numar>
+        <localitate>Pascani</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+    </adresa>
+    <ocupatie> student </ocupatie>
+    <statut> necasatorit </statut>
+    <telefon> 0756789123 </telefon>
+  </persoana>
+</persoane>

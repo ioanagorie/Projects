@@ -1,0 +1,83 @@
+
+<section>
+    <h3>Vreți să vă abonați la site-ul nostru?</h3>
+        <p>Completați cu datele dumneavostră:</p>
+        <h4>Formularul de înregistrare</h4>
+        <form  >
+            <fieldset>              
+                <p>Informații generale: </p>
+                <br>
+                <label>Nume utilizator:</label>
+                <br>
+                <input type="text" value="" id="user"><br>
+                <label >Parola:</label>
+                <br>
+                <input type="text" value="" id="pass"><br>                   
+                <label >Nume:</label>
+                <br>
+                <input type="text" value="" id="nume" >
+                <br>
+                <label >Prenume:</label>
+                <br>
+                <input type="text" value="" id="prenume">
+                <br>
+                <br>
+                
+                <label >Email:</label>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label >Telefon:</label>
+                <input type="tel" id="telefon">
+                <br>
+                <br>
+                <p>Informații personale despre copil: </p>
+                <br>
+                <label >Sexul:</label>
+                <select id="sex">
+                    <option>F</option>
+                    <option>M</option>
+                </select>
+                <br>
+                <br>
+                <label>Piesa de teatru preferată:</label>
+                <input list="piesa" id="piesa2">
+                <datalist id="piesa">
+                    <option value="Cenușăreasa">
+                    <option value="Albă-ca-Zăpada">
+                    <option value="Capra cu Trei Iezi">
+                    <option value="Ursul păcălit de Vulpe">
+                    <option value="Cei trei purceluși">
+                    <option value="Robin Wood">
+                    <option value="Nică la scăldat">
+                    <option value="Scufița Roșie">
+                </datalist>
+                <br>
+                <br>
+                <label >Culoarea preferată:</label>
+                <input type="color" id="culoare" >
+                <br><br>              
+                <label >Data nașterii:</label>
+                <input type="date" id=data_nastere"" >
+                <br><br>                 
+                <label >Ora nașterii:</label>
+                <input type="time" id="ora_nasterii" >
+                <br><br>             
+                <label >Vârsta:</label><br>
+                <input type="range" step="1" min="1" max="99">
+                <br>
+                <label >Adresa paginii personale a părintelui:</label>
+                <br>
+                <input type="url" value="" id="adresa_url">
+                <br>
+                <label >Descriere:</label>
+                <br>
+                <input type="text" value="" id="descriere">
+                <br>
+                <br>   
+            
+                <button type="submit" onclick="adaugaInJson()">Inregistrează</button>
+                <br><br>
+            </fieldset>
+        </form>
+    </section>
